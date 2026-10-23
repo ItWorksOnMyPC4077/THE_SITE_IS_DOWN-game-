@@ -1,5 +1,7 @@
 # Core system architecture
 
+> Historical Godot design, not the current HTML/JavaScript implementation. See [README](../README.md) and [current version notes](SHIFT_UPDATE.md).
+
 ## Runtime choice
 
 Use **Godot 4.4+ with GDScript** for the game frontend. The supplied project targets the 4.4 API surface rather than depending on a newly introduced feature. Python 3.10+ is a separate balancing/reference tool. The runtime does not call Python, install plugins or access the network.

@@ -1,10 +1,12 @@
 # Room build validation — 14 October 2026
 
+> Historical room-only build. Its browser checks do not validate the current customer UI. See [README](../README.md) and [current version notes](SHIFT_UPDATE.md).
+
 ## Scope
 
 The latest requested deliverable is an HTML room foundation using the user's supplied image. Starting the game reveals the same behind-the-counter view. Customer generation and the earlier three-shift experiment are deliberately absent from this build. The retained earlier engine is for future development.
 
-The single file `بازی.html` embeds the original 1088 × 736 PNG, Vazirmatn font and license, both translation catalogs, CSS and JavaScript. No external requests are used; the Content Security Policy disables network connections. The browser address displayed inside the game is fictional and never navigates anywhere.
+The single file `offline.html` embeds the original 1088 × 736 PNG, Vazirmatn font and license, both translation catalogs, CSS and JavaScript. No external requests are used; the Content Security Policy disables network connections. The browser address displayed inside the game is fictional and never navigates anywhere.
 
 ## Automated checks executed
 

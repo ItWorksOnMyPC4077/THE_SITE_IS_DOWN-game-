@@ -1,5 +1,7 @@
 # Five-customer campaign — 2026-10-15
 
+> Historical fifteen-mission build. The current build has ten orders across separate visits. See [README](../README.md) and [current version notes](SHIFT_UPDATE.md).
+
 Current build: `web/build.py`, `web/campaign-engine.js`, `web/missions.json`, `web/room.js`, `web/room.html`, `web/room.css`, `web/customer.css`, and bilingual string catalogs. `web/create_campaign.py` is the editable content authoring script that generates `missions.json`. `room-engine.js` and `customer.test.cjs` preserve the previous two-customer engine and its legacy checks.
 
 ## Mission catalog

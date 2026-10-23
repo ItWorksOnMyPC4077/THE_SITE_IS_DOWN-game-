@@ -1,0 +1,5118 @@
+{
+  "customers": [
+    {
+      "id": "man",
+      "file": "moshtari/pir_mard.png",
+      "name": {
+        "fa": "آقای رحیمی",
+        "en": "Mr. Rahimi"
+      },
+      "missions": [
+        {
+          "title": {
+            "fa": "دو کپی که بشود خواند",
+            "en": "Two readable copies"
+          },
+          "reward": 30000,
+          "tasks": [
+            "pension",
+            "contrast",
+            "print2"
+          ],
+          "lines": {
+            "fa": [
+              "پسرم، از حکم بازنشستگی دو تا کپی خوانا می‌خوام.",
+              "گفتن این یکی کمرنگه. چشم خودشون هم البته تعریفی نداره!",
+              "قبض برق هم بین برگه‌هاست؛ اونو نفرستی برای حقوقم."
+            ],
+            "en": [
+              "Son, I need two readable copies of my pension certificate.",
+              "They said this one was faint. Their eyesight is not great either!",
+              "My power bill is in there too. Do not send that to the pension office."
+            ]
+          }
+        },
+        {
+          "title": {
+            "fa": "یک عمر کاغذ، یک فایل",
+            "en": "A lifetime of papers, one file"
+          },
+          "reward": 25000,
+          "tasks": [
+            "scan",
+            "pdf",
+            "archive"
+          ],
+          "lines": {
+            "fa": [
+              "حالا گفتن همین مدارک رو فایل کن.",
+              "من پوشه آوردم، گفتن پوشه نه، پی‌دی‌اف!",
+              "همه رو مرتب توی یک فایل بذار، گم نشه."
+            ],
+            "en": [
+              "Now they want these documents as a file.",
+              "I brought a folder. They said no, a PDF!",
+              "Put everything in one organized file so it does not get lost."
+            ]
+          }
+        },
+        {
+          "title": {
+            "fa": "نوبت، نه صف",
+            "en": "An appointment, not a queue"
+          },
+          "reward": 55000,
+          "tasks": [
+            "rahimi-appointment",
+            "portal",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "امیرعلیجان، دیروز فایلش کردی، امروز نوبتش را هم بگیر. شعبهٔ غرب، نه آن سر شهر!",
+              "ساعت نه‌ونیم می‌رسم. نوبت تعویض پلاک برای زانوی من درمان نیست پسرم.",
+              "اگر درست پیش برود، همکارهای بازنشسته‌ام را می‌فرستم همین‌جا."
+            ],
+            "en": [
+              "Amirali, yesterday you made the file. Today book the west branch, not across town!",
+              "I can make 09:30. A vehicle registration appointment will not fix my knees.",
+              "Do this properly and I will send my retired colleagues here."
+            ]
+          },
+          "description": {
+            "fa": "مشخصات نوبت را در مرورگر وارد کن، پاسخ سامانه را بگیر و رسید چاپ کن.",
+            "en": "Enter the appointment in the browser, obtain the portal response and print the receipt."
+          }
+        }
+      ],
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "group": "neighbours"
+    },
+    {
+      "id": "woman",
+      "file": "moshtari/pir_zan.png",
+      "name": {
+        "fa": "خانم نادری",
+        "en": "Mrs. Naderi"
+      },
+      "missions": [
+        {
+          "title": {
+            "fa": "کالابرگ در نودونه درصد",
+            "en": "Subsidy at ninety-nine percent"
+          },
+          "reward": 45000,
+          "tasks": [
+            "recover",
+            "portal",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "عزیزم ببین کالابرگم چی شده. رمز هم یادم نیست.",
+              "خودم اینجام؛ حساب آزمایشی رو بازیابی کن.",
+              "آخرش رسید بده. دفعهٔ قبل سایت تا نودونه رفت و پرید!"
+            ],
+            "en": [
+              "Dear, check my food subsidy. I forgot the password.",
+              "I am here; please recover the demo account.",
+              "Print a receipt. Last time it reached ninety-nine percent and vanished!"
+            ]
+          }
+        },
+        {
+          "title": {
+            "fa": "بسته‌ای که در راه است",
+            "en": "The parcel that is always on its way"
+          },
+          "reward": 20000,
+          "tasks": [
+            "tracking",
+            "portal",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "این بستهٔ نوه‌م هنوز نرسیده.",
+              "کدش روی برگه DEMO-024 است، نه اون یکی که خودم نوشتم.",
+              "پیگیری کن و یه رسید بده؛ تلفنی که کسی جواب نمی‌ده."
+            ],
+            "en": [
+              "My grandchild’s parcel still has not arrived.",
+              "The paper says DEMO-024, not the code I wrote myself.",
+              "Track it and print a receipt. Nobody answers the phone."
+            ]
+          }
+        },
+        {
+          "title": {
+            "fa": "آلبوم بدون رمز کارت",
+            "en": "An album without a bank card"
+          },
+          "reward": 60000,
+          "tasks": [
+            "naderi-album",
+            "naderi-print-order",
+            "print2"
+          ],
+          "lines": {
+            "fa": [
+              "امروز کار دولتی ندارم؛ سه تا عکس خانوادگی برای آلبوم می‌خواهم.",
+              "عکس کارت بانکی قاطی فایل‌هاست؛ آن را برای تمام فامیل تکثیر نکن مهندس!",
+              "عکس‌ها خوب بشود، سفارش‌های همسایه‌ها را هم می‌آورم."
+            ],
+            "en": [
+              "No government portal today; I need three family photos for an album.",
+              "My bank-card photo is mixed in. Please do not publish it for the whole family!",
+              "Get these right and I will bring the neighbours’ orders too."
+            ]
+          },
+          "description": {
+            "fa": "سه عکس را در فایل‌ها انتخاب کن؛ سفارش ۱۰×۱۵ مات با کادر کامل بساز و دو برگه چاپ کن.",
+            "en": "Select three photos in Files, prepare a 10×15 matte order preserving the frame, and print two sheets."
+          }
+        }
+      ],
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "group": "neighbours"
+    },
+    {
+      "id": "gamer",
+      "file": "moshtari/bache_tokhos.png",
+      "name": {
+        "fa": "آرین، گیمر محله",
+        "en": "Arin, neighborhood gamer"
+      },
+      "missions": [
+        {
+          "title": {
+            "fa": "چانه‌زنی با دستهٔ PS4",
+            "en": "Bargaining with a PS4 controller"
+          },
+          "reward": 20000,
+          "tasks": [
+            "model",
+            "deal",
+            "console"
+          ],
+          "lines": {
+            "fa": [
+              "داداش این PS4 رو کپی‌خور می‌کنی؟ تخفیف دانش‌آموزی هم داری؟",
+              "بودجه‌م کمه؛ فعلاً ببین همین دیسک خودم اجرا می‌شه یا نه.",
+              "بیست تومن واسه بررسی؟ قبوله، فقط قول الکی نده!"
+            ],
+            "en": [
+              "Can you mod this PS4? Any student discount?",
+              "I am short on cash. For now, check whether my own disc runs.",
+              "Twenty thousand for the check? Deal. No impossible promises!"
+            ]
+          }
+        },
+        {
+          "title": {
+            "fa": "دسته‌ای که خودش بازی می‌کند",
+            "en": "The controller that plays itself"
+          },
+          "reward": 25000,
+          "tasks": [
+            "controller",
+            "deadzone",
+            "console"
+          ],
+          "lines": {
+            "fa": [
+              "تو بازی دست نمی‌زنم، بازیکنم خودش می‌ره چپ!",
+              "رفیقم می‌گه تقصیر منه. این بار واقعاً دسته‌ست.",
+              "دکمه‌ها رو تست کن، لرزش آنالوگ رو هم تنظیم کن."
+            ],
+            "en": [
+              "My player walks left even when I do not touch anything!",
+              "My friend blames me. This time it really is the controller.",
+              "Test the buttons and adjust the stick drift."
+            ]
+          }
+        },
+        {
+          "title": {
+            "fa": "سیو مرحلهٔ آخر",
+            "en": "The final-level save"
+          },
+          "reward": 65000,
+          "tasks": [
+            "gamer-backup",
+            "space",
+            "install"
+          ],
+          "lines": {
+            "fa": [
+              "امیرعلی! کنسول جا ندارد، ولی به سیو مرحلهٔ آخرم دست نزنی‌ها!",
+              "از سیو و پروفایلم بکاپ بگیر؛ آن فایل نصب موقت را پاک کن، نه دویست ساعت زندگی‌ام را.",
+              "اگر سالم بالا بیاید، کل بچه‌های گیم‌نت را مشتریت می‌کنم."
+            ],
+            "en": [
+              "Amirali! The console is full, but leave my final-level save alone!",
+              "Back up my save and profile. Delete the temporary installer, not two hundred hours of my life.",
+              "If this boots safely, I will bring everyone from the gaming club."
+            ]
+          },
+          "description": {
+            "fa": "بکاپ را در فایل‌ها بساز، فایل موقت را حذف کن و نصب از دیسک مشتری را در قفسه آزمایش کن.",
+            "en": "Create a backup in Files, clear the temporary installer, and test the customer’s disc at the console shelf."
+          }
+        }
+      ],
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "group": "gaming"
+    },
+    {
+      "id": "suspicious",
+      "file": "moshtari/mard_mashkok.png",
+      "name": {
+        "fa": "مرد فلش‌به‌دست",
+        "en": "The man with the USB"
+      },
+      "missions": [
+        {
+          "title": {
+            "fa": "فقط یک فلش معمولی",
+            "en": "Just an ordinary USB"
+          },
+          "reward": 30000,
+          "tasks": [
+            "usbcheck",
+            "usbscan",
+            "quarantine"
+          ],
+          "lines": {
+            "fa": [
+              "فقط یه فلشه، کار خاصی نداره.",
+              "اون START.exe رو باز کن، خودش بقیه‌ش رو انجام می‌ده…",
+              "خب، اگه اصرار داری اول بررسیش کن. من عجله ندارم."
+            ],
+            "en": [
+              "It is just a USB. Nothing special.",
+              "Open START.exe. It will handle the rest itself…",
+              "Fine, inspect it first if you insist. I am in no hurry."
+            ]
+          }
+        },
+        {
+          "title": {
+            "fa": "این عدد را کسی نمی‌فهمد",
+            "en": "Nobody will notice this number"
+          },
+          "reward": 15000,
+          "tasks": [
+            "refuse",
+            "original",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "این رسید رو چاپ کن، فقط مبلغش رو یه کم عوض کن.",
+              "یعنی نمی‌کنی؟ حتی اگه کسی نفهمه؟",
+              "باشه، همون نسخهٔ اصلی رو بده. زیاد سؤال می‌پرسی!"
+            ],
+            "en": [
+              "Print this receipt. Just change the amount a little.",
+              "You will not? Even if nobody notices?",
+              "Fine, give me the original. You ask too many questions!"
+            ]
+          }
+        },
+        {
+          "title": {
+            "fa": "بازیابی با اجازه",
+            "en": "Recovery with permission"
+          },
+          "reward": 70000,
+          "tasks": [
+            "ownership",
+            "recover-docs",
+            "archive"
+          ],
+          "lines": {
+            "fa": [
+              "این بار چیزی را تغییر نمی‌خواهم؛ قرارداد و فاکتور خودم پاک شده.",
+              "اجازهٔ بازیابی را امضا می‌کنم. از نسخهٔ کپی کار کن که اصل فلش سالم بماند.",
+              "شاید آن روز زیادی بدبین شدم؛ اگر کار درست باشد، رسید هم می‌گیرم."
+            ],
+            "en": [
+              "No alterations this time. My own contract and invoice were deleted.",
+              "I will sign the recovery consent. Work on a copy so the original stays intact.",
+              "Maybe I was too suspicious before. If the service is proper, I want a receipt too."
+            ]
+          },
+          "description": {
+            "fa": "مالکیت را روی برگه تأیید کن؛ فقط دو سند خواسته‌شده را بازیابی و بایگانی کن.",
+            "en": "Confirm ownership on paper, recover only the two requested documents and archive them."
+          }
+        }
+      ],
+      "legacyMissions": [
+        0,
+        2
+      ],
+      "group": "sensitive"
+    },
+    {
+      "id": "student",
+      "file": "moshtari/dokhotar_konkori.png",
+      "name": {
+        "fa": "سارا، داوطلب کنکور",
+        "en": "Sara, exhausted exam applicant"
+      },
+      "missions": [
+        {
+          "title": {
+            "fa": "ثبت‌نام دمِ آخر",
+            "en": "Registration at the last minute"
+          },
+          "reward": 50000,
+          "tasks": [
+            "examdocs",
+            "examphoto",
+            "portal"
+          ],
+          "lines": {
+            "fa": [
+              "مهلت ثبت‌نام داره تموم می‌شه؛ از دیشب نخوابیدم.",
+              "مدرک و عکس آوردم، فقط نمی‌دونم فرم چه اندازه‌ای می‌خواد.",
+              "اول مدارک رو چک کن، بعد بفرست. اگه خطا داد دوباره بزن!"
+            ],
+            "en": [
+              "Registration is about to close. I have not slept all night.",
+              "I brought my documents and photo, but do not know the format.",
+              "Check them before submitting. Retry if the portal fails!"
+            ]
+          }
+        },
+        {
+          "title": {
+            "fa": "یک رقم تا رشتهٔ اشتباه",
+            "en": "One digit from the wrong program"
+          },
+          "reward": 25000,
+          "tasks": [
+            "examcode",
+            "review",
+            "portal"
+          ],
+          "lines": {
+            "fa": [
+              "فکر کنم کد رشته رو جابه‌جا زدم.",
+              "روی برگه ۲۴۰۱ نوشته؛ الان هر عددی می‌بینم شبیه همه.",
+              "درستش کن، پیش‌نمایش رو با هم ببینیم و تأیید بزن."
+            ],
+            "en": [
+              "I think I swapped the program-code digits.",
+              "The paper says 2401. Every number looks the same right now.",
+              "Fix it, review the preview with me, then confirm."
+            ]
+          }
+        },
+        {
+          "title": {
+            "fa": "حوزهٔ اشتباهی، آیندهٔ اشتباهی",
+            "en": "Wrong centre, wrong future"
+          },
+          "reward": 60000,
+          "tasks": [
+            "exam-admit",
+            "portal",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "ثبت‌نام و اصلاح رشته انجام شد؛ امروز فقط کارت ورود به جلسه مانده.",
+              "رشتهٔ ۲۴۰۱، حوزهٔ ۱۰۲، نوبت صبح. این سه عدد از ساعت خوابم مهم‌ترند!",
+              "مدرسه‌مان دنبال یک کافینت مطمئن است. کارت درست بده تا معرفیت کنم."
+            ],
+            "en": [
+              "Registration and course correction are done. Today I need my admission card.",
+              "Course 2401, centre 102, morning. Those details matter more than my sleep!",
+              "Our school needs a reliable service shop. Get this right and I will recommend you."
+            ]
+          },
+          "description": {
+            "fa": "فرم کارت ورود را با برگه تطبیق بده، کارت را از سامانه بگیر و چاپ کن.",
+            "en": "Match the admission-card form to the note, fetch the card and print it."
+          }
+        }
+      ],
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "group": "education"
+    },
+    {
+      "id": "taxi",
+      "file": "moshtari/rannde-taxi.png",
+      "name": {
+        "fa": "رانندهٔ تاکسی عجول",
+        "en": "Hasty taxi driver"
+      },
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "missions": [
+        {
+          "title": {
+            "fa": "جنون پیش‌فروش",
+            "en": "Presale madness"
+          },
+          "reward": 60000,
+          "tasks": [
+            "taxi-refresh",
+            "taxi-color",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "داداش مهندس! قربون دستت، تو ترافیک زدم کنار دوبله پارک کردم، جرثقیل نبره… باز شد اون لامصب؟!",
+              "ای بابا! من شصت تومن ریختم تو حساب وکالتی، الان اگه رنگ سفیدش نپره، خاک تو سر این اینترنتِ ذغالی‌تون!",
+              "چی چی رو سایت بسته‌ست؟! اون دفعه کافینت سر چهارراه با یه کلیک ثبت کرد… نکنه داری با خط من کالاف بازی می‌کنی؟!"
+            ],
+            "en": [
+              "Engineer, please! I double-parked in traffic. The tow truck will get me! Is that cursed site open yet?",
+              "I put sixty million into the proxy account! If white sells out, curse your coal-powered internet!",
+              "The site is down? The shop at the crossroads did it in one click! Are you playing Call of Duty on my connection?"
+            ]
+          },
+          "deadline": 45,
+          "description": {
+            "fa": "ساعت ۸:۰۱؛ در ۴۵ ثانیه سامانه را با F5 بالا بیاور و فرم پژو پارس سفید / نمایندگی ۱۲۴ را ثبت کن.",
+            "en": "08:01. Restore the portal with F5 and complete white Peugeot Pars / dealership 124 in 45 seconds."
+          }
+        },
+        {
+          "title": {
+            "fa": "کارت سوخت گمشده",
+            "en": "Missing fuel card"
+          },
+          "reward": 35000,
+          "tasks": [
+            "fuel-owner",
+            "fuel-check",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "داداش مهندس! قربون دستت، تو ترافیک زدم کنار دوبله پارک کردم، جرثقیل نبره… باز شد اون لامصب؟!",
+              "ای بابا! من شصت تومن ریختم تو حساب وکالتی، الان اگه رنگ سفیدش نپره، خاک تو سر این اینترنتِ ذغالی‌تون!",
+              "چی چی رو سایت بسته‌ست؟! اون دفعه کافینت سر چهارراه با یه کلیک ثبت کرد… نکنه داری با خط من کالاف بازی می‌کنی؟!"
+            ],
+            "en": [
+              "Engineer, please! I double-parked in traffic. The tow truck will get me! Is that cursed site open yet?",
+              "I put sixty million into the proxy account! If white sells out, curse your coal-powered internet!",
+              "The site is down? The shop at the crossroads did it in one click! Are you playing Call of Duty on my connection?"
+            ]
+          },
+          "deadline": 0,
+          "description": {
+            "fa": "ماشین قولنامه‌ای به نام باجناق است؛ ارجاع درست یا ثبت اطلاعات نادرست با ریسک بازرسی؟",
+            "en": "The brother-in-law owns the car. Refer for correction or submit false details with inspection risk?"
+          }
+        },
+        {
+          "title": {
+            "fa": "سه سفر، یک صورتحساب",
+            "en": "Three fares, one invoice"
+          },
+          "reward": 80000,
+          "tasks": [
+            "taxi-invoice",
+            "taxi-company",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "امیرعلی مهندس، امروز به‌جای سایت خودرو، حساب این سه سفر را نجات بده!",
+              "چهل‌وپنج، هفتاد و پنجاه هزار تومان. جمعش را قاطی سهمیهٔ بنزین نکن!",
+              "شرکت اگر صورتحسابت را قبول کند، حساب ماهانهٔ راننده‌ها را می‌دهد دست تو."
+            ],
+            "en": [
+              "Engineer Amirali, today save these three fares instead of the car portal!",
+              "Forty-five, seventy and fifty thousand. Do not mix the total with my fuel quota!",
+              "If the company accepts the invoice, you could handle all drivers’ monthly accounts."
+            ]
+          },
+          "description": {
+            "fa": "جمع سه کرایه را در حسابداری وارد کن، فرم شرکت را تکمیل کن و رسید بده.",
+            "en": "Calculate three fares in Accounts, complete the company form and issue a receipt."
+          }
+        }
+      ],
+      "angry": {
+        "fa": "«سی ثانیه شد مهندس! تا تو ثبت کنی جرثقیل تاکسی رو برده؛ با این سرعتت خاک تو سر این اینترنت!»",
+        "en": "“Half a minute, genius! At this speed even a tortoise could run this shop! Where is my order?”"
+      },
+      "mock": {
+        "fa": "«عجب مهندسی! کارمو از اول درست انجام بده.»",
+        "en": "“Some engineer you are! Do my order again, properly.”"
+      },
+      "group": "urgent"
+    },
+    {
+      "id": "mother",
+      "file": "moshtari/madar-danesh-amoz.png",
+      "name": {
+        "fa": "مادر دانش‌آموز مضطرب",
+        "en": "Anxious school mother"
+      },
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "missions": [
+        {
+          "title": {
+            "fa": "کد پستی نامعتبر",
+            "en": "Invalid postcode"
+          },
+          "reward": 40000,
+          "tasks": [
+            "school-address",
+            "school-grade",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "آقا تورو امام رضا یه کاریش بکن، مدیر مدرسه گفت تا ساعت ۱۰ ثبت‌نام نکنی پسرت میره شیفت عصر اون‌سرِ شهر…",
+              "رمز پادا؟ شاد؟ سیدا؟ والا به خدا پارسال یه آقایی بود یه کاغذی داد دستم… گم شد تو اثاث‌کشی… نمیشه خودتون بزنید رد شه؟",
+              "هزینه‌ش هرچی بشه می‌دم پسرم، فقط بنویس الف، نندازنش کلاس ب… آینده بچه‌م دست این مانیتور شماست!"
+            ],
+            "en": [
+              "Please, do something! The headmaster said register before ten or my son gets the afternoon shift across town!",
+              "Pada? Shad? Sida password? Last year someone gave me a paper. Lost it when we moved. Can you just make it pass?",
+              "I will pay whatever it costs, son. Just put him in A, not B. His future is in that monitor!"
+            ]
+          },
+          "deadline": 0,
+          "description": {
+            "fa": "آدرس و قبض هم‌خوان نیستند. تأییدیهٔ پست یا مدرک دستی ساختگی با ریسک؟",
+            "en": "The address and bill disagree. Postal verification or a fabricated note with risk?"
+          }
+        },
+        {
+          "title": {
+            "fa": "عکس ۳×۴ پشت‌سفید",
+            "en": "The 3×4 portrait"
+          },
+          "reward": 45000,
+          "tasks": [
+            "school-photo",
+            "school-grade",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "آقا تورو امام رضا یه کاریش بکن، مدیر مدرسه گفت تا ساعت ۱۰ ثبت‌نام نکنی پسرت میره شیفت عصر اون‌سرِ شهر…",
+              "رمز پادا؟ شاد؟ سیدا؟ والا به خدا پارسال یه آقایی بود یه کاغذی داد دستم… گم شد تو اثاث‌کشی… نمیشه خودتون بزنید رد شه؟",
+              "هزینه‌ش هرچی بشه می‌دم پسرم، فقط بنویس الف، نندازنش کلاس ب… آینده بچه‌م دست این مانیتور شماست!"
+            ],
+            "en": [
+              "Please, do something! The headmaster said register before ten or my son gets the afternoon shift across town!",
+              "Pada? Shad? Sida password? Last year someone gave me a paper. Lost it when we moved. Can you just make it pass?",
+              "I will pay whatever it costs, son. Just put him in A, not B. His future is in that monitor!"
+            ]
+          },
+          "deadline": 0,
+          "description": {
+            "fa": "سلفی کج را به ۳×۴ تبدیل کن؛ زمینهٔ خاکستری روشن و حجم کمتر از ۵۰ کیلوبایت.",
+            "en": "Convert the crooked selfie to 3×4, light gray background, less than 50 KB."
+          }
+        },
+        {
+          "title": {
+            "fa": "پروندهٔ امیر، نه مریم",
+            "en": "Amir’s file, not Maryam’s"
+          },
+          "reward": 60000,
+          "tasks": [
+            "school-folder",
+            "school-trip",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "عکس و ثبت‌نام حل شد؛ حالا رضایت‌نامهٔ اردوی امیر را می‌خواهند.",
+              "پروندهٔ خواهرش هم روی فلش است؛ دخترم را با پایهٔ هفتم نفرست اردو!",
+              "مدیر گفته اگر پرونده‌ها مرتب باشد، بقیهٔ کلاس هم همین‌جا می‌آیند."
+            ],
+            "en": [
+              "The photo and registration are sorted. Now Amir needs trip consent.",
+              "His sister’s file is on the drive too. Do not send my daughter with grade seven!",
+              "The principal says an organized shop could handle the rest of the class."
+            ]
+          },
+          "description": {
+            "fa": "دو سند امیر را انتخاب کن و رضایت‌نامهٔ پایهٔ هفتم با حضور ولی بساز.",
+            "en": "Select Amir’s two documents and prepare grade-seven consent with a guardian."
+          }
+        }
+      ],
+      "angry": {
+        "fa": "«نصف دقیقه رفت! تا تو کلیک کنی بچه‌م دیپلم گرفته؛ ثبت‌نام هفتمش چی شد پسرم؟»",
+        "en": "“Half a minute, genius! At this speed even a tortoise could run this shop! Where is my order?”"
+      },
+      "mock": {
+        "fa": "«عجب مهندسی! کارمو از اول درست انجام بده.»",
+        "en": "“Some engineer you are! Do my order again, properly.”"
+      },
+      "group": "education"
+    },
+    {
+      "id": "courier",
+      "file": "moshtari/payk-motori.png",
+      "name": {
+        "fa": "پیک موتوری شتاب‌زده",
+        "en": "Rushed motorcycle courier"
+      },
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "missions": [
+        {
+          "title": {
+            "fa": "کارتن‌خوابی کارتریج",
+            "en": "Cartridge catastrophe"
+          },
+          "reward": 35000,
+          "tasks": [
+            "courier-jam",
+            "courier-contrast",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "داداش جونِ عزیزت تک‌برگ پرینت فوری، موتور روشن پای دره! جریمه میشم تو رو جدت!",
+              "چرا انقدر ماته خط‌هاش؟ اینو بارکدخوان انبار نمی‌خونه که! دستت رو بزن رو اون دکمه پررنگش داداش.",
+              "کارتخوانت قطعه؟! بابا کارت به کارت می‌کنم، شمارَت رو بخون فقط برگه‌م رو بده دارم بدبخت میشم!"
+            ],
+            "en": [
+              "One urgent print, please! The bike is running outside. I will get a ticket!",
+              "Why are the lines so faded? The warehouse cannot scan that! Hit the darker-print button, brother.",
+              "Card machine down? I will transfer it! Just give me the sheet before my whole day falls apart!"
+            ]
+          },
+          "deadline": 30,
+          "description": {
+            "fa": "۳۰ ثانیه برای آزاد کردن غلطک، تنظیم کنتراست و چاپ بارکد خوانا.",
+            "en": "30 seconds to release the roller, increase contrast and print a readable barcode."
+          }
+        },
+        {
+          "title": {
+            "fa": "فایل PDF قفل‌شده",
+            "en": "The locked PDF"
+          },
+          "reward": 40000,
+          "tasks": [
+            "courier-meta",
+            "courier-password",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "داداش جونِ عزیزت تک‌برگ پرینت فوری، موتور روشن پای دره! جریمه میشم تو رو جدت!",
+              "چرا انقدر ماته خط‌هاش؟ اینو بارکدخوان انبار نمی‌خونه که! دستت رو بزن رو اون دکمه پررنگش داداش.",
+              "کارتخوانت قطعه؟! بابا کارت به کارت می‌کنم، شمارَت رو بخون فقط برگه‌م رو بده دارم بدبخت میشم!"
+            ],
+            "en": [
+              "One urgent print, please! The bike is running outside. I will get a ticket!",
+              "Why are the lines so faded? The warehouse cannot scan that! Hit the darker-print button, brother.",
+              "Card machine down? I will transfer it! Just give me the sheet before my whole day falls apart!"
+            ]
+          },
+          "deadline": 0,
+          "description": {
+            "fa": "معمای PDF نمونه: راهنمای فرستنده داخل متادیتای ساختگی است؛ هیچ فایل واقعی باز نمی‌شود.",
+            "en": "Sample PDF puzzle: the sender hint is in fictional metadata; no real file is opened."
+          }
+        },
+        {
+          "title": {
+            "fa": "رشت با قزوین فرق دارد",
+            "en": "Rasht is not Qazvin"
+          },
+          "reward": 75000,
+          "tasks": [
+            "courier-label",
+            "portal",
+            "print2"
+          ],
+          "lines": {
+            "fa": [
+              "بارنامهٔ قبلی رسید؛ امروز دو برچسب برای یک بستهٔ شکستنی می‌خواهم.",
+              "رشت، نه قزوین! تحویل حضوری هم بزن، شیشه را پشت در پرت نکنند.",
+              "شرکت برای چاپ برچسب‌های روزانه شریک می‌خواهد؛ خراب نکنی، اسمت را می‌دهم."
+            ],
+            "en": [
+              "The last waybill worked. Today I need two labels for a fragile parcel.",
+              "Rasht, not Qazvin! Hand delivery, so nobody throws the glass at the door.",
+              "The company needs a daily label partner. Get this right and I will pass on your name."
+            ]
+          },
+          "description": {
+            "fa": "مشخصات مقصد و شکستنی بودن را در مرورگر ثبت کن و دو برچسب چاپ کن.",
+            "en": "Enter the destination and fragile handling in the browser, then print two labels."
+          }
+        }
+      ],
+      "angry": {
+        "fa": "«سی ثانیه شد! موتورم خودش رسید انبار، من هنوز اینجام! پرینترت مرخصی رفته داداش؟»",
+        "en": "“Half a minute, genius! At this speed even a tortoise could run this shop! Where is my order?”"
+      },
+      "mock": {
+        "fa": "«عجب مهندسی! کارمو از اول درست انجام بده.»",
+        "en": "“Some engineer you are! Do my order again, properly.”"
+      },
+      "group": "urgent"
+    },
+    {
+      "id": "otpman",
+      "file": "moshtari/mard-montazer-pyamk.png",
+      "name": {
+        "fa": "مردِ منتظر پیامک رمز",
+        "en": "The OTP zombie"
+      },
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "missions": [
+        {
+          "title": {
+            "fa": "ماراتن دو دقیقه‌ای",
+            "en": "The two-minute marathon"
+          },
+          "reward": 45000,
+          "tasks": [
+            "otp-signal",
+            "otp-entry",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "نیومد… هنوز نیومد! آقا مگه نمیگن ثانیه‌ایه؟ الان دو دقیقه‌ست این چرخ‌دنده داره الکی می‌چرخه!",
+              "داداش گوشیت ایرانسله؟ بده من یه زنگ به این پشتیبانی وام لعنتی بزنم ببینم چرا پیامک بلاک شده!",
+              "صفحه پرید؟! یعنی چی جلسه شما منقضی شد؟! دوباره از اول باید اون همه فرم رو پر کنی؟ آخ قلبم…"
+            ],
+            "en": [
+              "Nothing. Still nothing! They said instant! This gear has been spinning for two minutes!",
+              "Is your phone on Irancell? Let me call that cursed loan support and ask why the texts are blocked!",
+              "The page vanished? Session expired? All those forms again? My heart!"
+            ]
+          },
+          "deadline": 0,
+          "description": {
+            "fa": "درگاه ۱۲۰ ثانیه مهلت دارد، ولی صبر مشتری فقط ۶۰ ثانیه است. هات‌اسپات و زاویهٔ آنتن را تنظیم کن.",
+            "en": "The gateway lasts 120 seconds, but customer patience lasts 60. Set the hotspot and signal angle."
+          }
+        },
+        {
+          "title": {
+            "fa": "سیم‌کارت سوخته",
+            "en": "A SIM from the past"
+          },
+          "reward": 30000,
+          "tasks": [
+            "otp-owner",
+            "otp-explain",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "نیومد… هنوز نیومد! آقا مگه نمیگن ثانیه‌ایه؟ الان دو دقیقه‌ست این چرخ‌دنده داره الکی می‌چرخه!",
+              "داداش گوشیت ایرانسله؟ بده من یه زنگ به این پشتیبانی وام لعنتی بزنم ببینم چرا پیامک بلاک شده!",
+              "صفحه پرید؟! یعنی چی جلسه شما منقضی شد؟! دوباره از اول باید اون همه فرم رو پر کنی؟ آخ قلبم…"
+            ],
+            "en": [
+              "Nothing. Still nothing! They said instant! This gear has been spinning for two minutes!",
+              "Is your phone on Irancell? Let me call that cursed loan support and ask why the texts are blocked!",
+              "The page vanished? Session expired? All those forms again? My heart!"
+            ]
+          },
+          "deadline": 0,
+          "description": {
+            "fa": "مالک سیم‌کارت مادربزرگ فوت‌شده است. بدون قول غیرممکن، راه‌حل را توضیح بده.",
+            "en": "The SIM belongs to his late grandmother. Explain a solution without impossible promises."
+          }
+        },
+        {
+          "title": {
+            "fa": "یک برداشت کافی است",
+            "en": "One debit is enough"
+          },
+          "reward": 65000,
+          "tasks": [
+            "otp-reconcile",
+            "otp-followup",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "این بار پیامک آمد، ولی پولم کجا رفت؟ یک برداشت و یک برگشت دارم.",
+              "هفتاد کم شده، بیست برگشته. لطفاً برای اطمینان دوباره دکمهٔ پرداخت را نزن!",
+              "اگر این حساب را صاف کنی، از این به بعد کارهای شرکت را هم می‌آورم."
+            ],
+            "en": [
+              "The message arrived this time, but where is my money? One debit, one refund.",
+              "Seventy went out, twenty came back. Please do not pay again just to be sure!",
+              "Reconcile this and I will bring the company’s paperwork here too."
+            ]
+          },
+          "description": {
+            "fa": "مبلغ خالص را حساب کن؛ PAY-208 را پرداخت‌شده ثبت کن و فقط رسید پیگیری بده.",
+            "en": "Calculate the net charge, record PAY-208 as paid, and issue tracking without another debit."
+          }
+        }
+      ],
+      "angry": {
+        "fa": "«سی ثانیه‌ست نگاه می‌کنم! تو هم مثل این آنتن فقط ادای وصل بودن درمیاری مهندس؟»",
+        "en": "“Half a minute, genius! At this speed even a tortoise could run this shop! Where is my order?”"
+      },
+      "mock": {
+        "fa": "«عجب مهندسی! کارمو از اول درست انجام بده.»",
+        "en": "“Some engineer you are! Do my order again, properly.”"
+      },
+      "group": "urgent"
+    },
+    {
+      "id": "traveler",
+      "file": "moshtari/moshtari-filtershkan.png",
+      "name": {
+        "fa": "مسافر مشکوک با فلش",
+        "en": "Suspicious USB traveler"
+      },
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "missions": [
+        {
+          "title": {
+            "fa": "ویروس‌کشی پنهانی",
+            "en": "Quiet quarantine"
+          },
+          "reward": 50000,
+          "tasks": [
+            "traveler-scan",
+            "traveler-isolate",
+            "archive"
+          ],
+          "lines": {
+            "fa": [
+              "صداتو بیار پایین مهندس… تو این فلش یه فایله، فقط بریز روی سی‌دی، لیبل هم نزن. پول پرینت رنگی باهات حساب می‌کنم.",
+              "آنتی‌ویروست داره اخطار میده؟ ردش کن بره بابا، گیرِ الکی میده… مگه سیستم خودت چیه که بترسه؟",
+              "راستی… شما اینجا فیلترشکن اختصاصی بدون قطعی هم می‌فروشین دیگه، درسته؟ مخصوص ترید می‌خوام…"
+            ],
+            "en": [
+              "Keep your voice down, engineer. There is a file on this USB. Just burn it, no label. I will pay the color-print rate.",
+              "Antivirus warning? Skip it! It complains about nothing. What is your computer so afraid of?",
+              "By the way, you sell private VPNs that never disconnect, right? I need one for trading."
+            ]
+          },
+          "deadline": 0,
+          "description": {
+            "fa": "چهار تهدید نمونه را اسکن و بی‌سروصدا قرنطینه کن تا سیستم مغازه سالم بماند.",
+            "en": "Scan and quietly quarantine four sample threats to protect the shop computer."
+          }
+        },
+        {
+          "title": {
+            "fa": "تست نفوذ پلیس فتا",
+            "en": "The undercover test"
+          },
+          "reward": 25000,
+          "tasks": [
+            "traveler-deal",
+            "traveler-receipt",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "صداتو بیار پایین مهندس… تو این فلش یه فایله، فقط بریز روی سی‌دی، لیبل هم نزن. پول پرینت رنگی باهات حساب می‌کنم.",
+              "آنتی‌ویروست داره اخطار میده؟ ردش کن بره بابا، گیرِ الکی میده… مگه سیستم خودت چیه که بترسه؟",
+              "راستی… شما اینجا فیلترشکن اختصاصی بدون قطعی هم می‌فروشین دیگه، درسته؟ مخصوص ترید می‌خوام…"
+            ],
+            "en": [
+              "Keep your voice down, engineer. There is a file on this USB. Just burn it, no label. I will pay the color-print rate.",
+              "Antivirus warning? Skip it! It complains about nothing. What is your computer so afraid of?",
+              "By the way, you sell private VPNs that never disconnect, right? I need one for trading."
+            ]
+          },
+          "deadline": 0,
+          "description": {
+            "fa": "پول درشت برای نصب‌کنندهٔ فیلترشکن بی‌نام؛ معاملهٔ مبهم ریسک بازرسی دارد. همه‌چیز داخل بازی است.",
+            "en": "Big money for an unlabelled VPN installer. The opaque deal adds inspection risk. Everything stays inside the game."
+          }
+        },
+        {
+          "title": {
+            "fa": "رسید این بار سفید نیست",
+            "en": "A receipt with details"
+          },
+          "reward": 70000,
+          "tasks": [
+            "traveler-consent",
+            "traveler-public",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "امروز فقط معرفی‌نامه و راهنمای عمومی را چاپ کن. خودم اجازه‌اش را دارم.",
+              "آن فایل نصبی مال سفارش امروز نیست؛ این بار لازم نیست نگاه کارآگاهی کنی.",
+              "قیمت روشن، خدمت روشن، رسید روشن؛ شاید این مدل معامله بهتر باشد."
+            ],
+            "en": [
+              "Today just print the introduction and public guide. I authorize it.",
+              "That installer is not part of this order. No detective work needed today.",
+              "Clear price, clear service, clear receipt. Maybe this is the better deal."
+            ]
+          },
+          "description": {
+            "fa": "رضایت و شرح خدمت را ثبت کن؛ فقط دو سند عمومی را انتخاب و چاپ کن.",
+            "en": "Record consent and the service description, select only the public documents, and print."
+          }
+        }
+      ],
+      "angry": {
+        "fa": "«نصف دقیقه شد مهندس… صدات پایینه، ولی سرعتت از صدات هم پایین‌تره!»",
+        "en": "“Half a minute, genius! At this speed even a tortoise could run this shop! Where is my order?”"
+      },
+      "mock": {
+        "fa": "«عجب مهندسی! کارمو از اول درست انجام بده.»",
+        "en": "“Some engineer you are! Do my order again, properly.”"
+      },
+      "group": "sensitive"
+    },
+    {
+      "id": "billman",
+      "file": "moshtari/pirmard-ghabz-bedast.png",
+      "name": {
+        "fa": "پیرمردِ قبوض سرگردان",
+        "en": "The lost-bill grandfather"
+      },
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "missions": [
+        {
+          "title": {
+            "fa": "رمز دومِ ایستا در عصر پویا",
+            "en": "Static code, dynamic age"
+          },
+          "reward": 25000,
+          "tasks": [
+            "bills-explain",
+            "bills-otp",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "باباجان، این عینک من جا مونده، این شناسه قبضه رو خودت بخون بزن… فقط قبض گاز قطع نشه پسرم، پاهام درد می‌کنه تو سرما.",
+              "رمز پویا چیه عموجان؟! من سی ساله با همین چهار رقم نون خریدم! شما جوونا همه‌چیزو الکی سخت کردین که سرِ ما کلاه بذارین!",
+              "رسیدِ کاغذیِ من چی شد؟ تا مُهرِ آبیِ این مغازه نخوره زیر این کاغذ، من از جام تکون نمی‌خورم!"
+            ],
+            "en": [
+              "Son, I left my glasses at home. Read the bill number for me. Just do not let the gas get cut. The cold hurts my legs.",
+              "What is a dynamic password? I have bought bread with these four digits for thirty years! You youngsters complicate things to cheat us!",
+              "Where is my paper receipt? I am not moving until that blue shop stamp is on it!"
+            ]
+          },
+          "deadline": 0,
+          "description": {
+            "fa": "روی مقوا نوشته ۱۲۳۴؛ رمز یک‌بارمصرف را با حوصله توضیح بده و پیامک نمونه را درست وارد کن.",
+            "en": "The cardboard says 1234. Explain the one-time code patiently and enter the sample SMS."
+          }
+        },
+        {
+          "title": {
+            "fa": "قبض اشتباهی همسایه",
+            "en": "The neighbor’s water bill"
+          },
+          "reward": 30000,
+          "tasks": [
+            "bills-sort",
+            "print1",
+            "bills-stamp"
+          ],
+          "lines": {
+            "fa": [
+              "باباجان، این عینک من جا مونده، این شناسه قبضه رو خودت بخون بزن… فقط قبض گاز قطع نشه پسرم، پاهام درد می‌کنه تو سرما.",
+              "رمز پویا چیه عموجان؟! من سی ساله با همین چهار رقم نون خریدم! شما جوونا همه‌چیزو الکی سخت کردین که سرِ ما کلاه بذارین!",
+              "رسیدِ کاغذیِ من چی شد؟ تا مُهرِ آبیِ این مغازه نخوره زیر این کاغذ، من از جام تکون نمی‌خورم!"
+            ],
+            "en": [
+              "Son, I left my glasses at home. Read the bill number for me. Just do not let the gas get cut. The cold hurts my legs.",
+              "What is a dynamic password? I have bought bread with these four digits for thirty years! You youngsters complicate things to cheat us!",
+              "Where is my paper receipt? I am not moving until that blue shop stamp is on it!"
+            ]
+          },
+          "deadline": 0,
+          "description": {
+            "fa": "گاز و برق واحد ۳ برای مشتری است؛ آب واحد ۴ برای مش‌قاسم. رسید را مهر آبی بزن.",
+            "en": "Unit 3 gas and power belong to him; unit 4 water belongs to Mr Qasem. Blue-stamp the receipt."
+          }
+        },
+        {
+          "title": {
+            "fa": "این قبض را قبلاً داده‌ام!",
+            "en": "I already paid that bill!"
+          },
+          "reward": 55000,
+          "tasks": [
+            "bills-duplicates",
+            "bills-total",
+            "print1"
+          ],
+          "lines": {
+            "fa": [
+              "باباجان، قبض ماه قبل قاطی این ماه شده؛ دوبار پول نگیرند از من.",
+              "گاز بیست‌وسه، برق سی‌وهفت؛ آب مش‌قاسم هنوز هم مال من نیست!",
+              "اگر رسیدها را مرتب کنی، تمام ساختمان را می‌فرستم پیش خودت."
+            ],
+            "en": [
+              "Son, last month’s paid bill is mixed with this month’s. Do not pay it twice.",
+              "Gas twenty-three, electricity thirty-seven. My neighbour’s water is still not mine!",
+              "Organize these receipts and I will send the whole building here."
+            ]
+          },
+          "description": {
+            "fa": "قبض‌های تکراری و همسایه را کنار بگذار؛ جمع دو قبض جدید را حساب کن و رسید بده.",
+            "en": "Exclude the duplicate and neighbour’s bills, total the two new bills and issue a receipt."
+          }
+        }
+      ],
+      "angry": {
+        "fa": "«سی ثانیه شد باباجان! با همین عینک جامونده‌م خودم زودتر می‌خوندم؛ تو هم عینکتو جا گذاشتی؟»",
+        "en": "“Half a minute, genius! At this speed even a tortoise could run this shop! Where is my order?”"
+      },
+      "mock": {
+        "fa": "«عجب مهندسی! کارمو از اول درست انجام بده.»",
+        "en": "“Some engineer you are! Do my order again, properly.”"
+      },
+      "group": "neighbours"
+    },
+    {
+      "id": "landlord",
+      "file": "moshtari/saheb-melk.png",
+      "name": {
+        "fa": "صاحب‌ملک طلبکار",
+        "en": "Demanding landlord"
+      },
+      "group": "urgent",
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "angry": {
+        "fa": "«سی ثانیه شد! اجاره رو با ماشین‌حساب عهد قاجار می‌شمری؟!»",
+        "en": "Thirty seconds! Are you counting rent with an antique calculator?"
+      },
+      "mock": {
+        "fa": "«با این حساب‌کتابت، اجاره رو از مانیتورات می‌گیرم! دوباره حساب کن.»",
+        "en": "At this rate I will collect rent in monitors! Count again."
+      },
+      "missions": [
+        {
+          "title": {
+            "fa": "شمارش سکه‌های رده‌خارج",
+            "en": "Counting obsolete coins"
+          },
+          "tasks": [
+            "rent-coins",
+            "rent-bank",
+            "print1"
+          ],
+          "reward": 50000,
+          "description": {
+            "fa": "پاکت سکه و اسکناس را تراز کن؛ سکه‌های سوراخ را کنار بگذار و ظرف ۴۵ ثانیه رسید بانک بساز.",
+            "en": "Balance the cash envelope, reject damaged coins and prepare a bank receipt in 45 seconds."
+          },
+          "lines": {
+            "fa": [
+              "پنج روز از موعد گذشت مهندس! برق مغازه رو بدم اداره‌برق قطع کنه یا خودت کلید رو تحویل می‌دی؟",
+              "این چیه آوردی پول پیش؟ پونصد تومنیِ تاشده قبول ندارم؛ یا پول نقد رایج، یا همین الان جمع کن بساطتو!",
+              "کافی‌نت زدی یا پاتوق گیم بازا؟ صدای تف‌تفِ این پی‌اس‌فورها مخ منو برد؛ کرایه این ماه یا نقده، یا با مانیتورات تسویه می‌کنم!"
+            ],
+            "en": [
+              "Five days overdue, engineer! Should I have the power cut or will you hand over the keys?",
+              "What is this deposit? I do not accept folded five-hundreds. Current cash, or pack up now!",
+              "Internet café or gamer den? Those PS4 gunshots drive me mad. This month is cash, or I take the monitors!"
+            ]
+          },
+          "deadline": 45
+        },
+        {
+          "title": {
+            "fa": "تهدید به تخلیه",
+            "en": "Eviction threat"
+          },
+          "tasks": [
+            "rent-negotiate",
+            "rent-queue",
+            "print1"
+          ],
+          "reward": 55000,
+          "description": {
+            "fa": "تهدید دوبرابرشدن اجاره را با قرارداد جواب بده و هم‌زمان صدای سیستم‌ها و ترتیب صف را حفظ کن.",
+            "en": "Answer the double-rent threat with the contract while managing system volume and the queue."
+          },
+          "lines": {
+            "fa": [
+              "پنج روز از موعد گذشت مهندس! برق مغازه رو بدم اداره‌برق قطع کنه یا خودت کلید رو تحویل می‌دی؟",
+              "این چیه آوردی پول پیش؟ پونصد تومنیِ تاشده قبول ندارم؛ یا پول نقد رایج، یا همین الان جمع کن بساطتو!",
+              "کافی‌نت زدی یا پاتوق گیم بازا؟ صدای تف‌تفِ این پی‌اس‌فورها مخ منو برد؛ کرایه این ماه یا نقده، یا با مانیتورات تسویه می‌کنم!"
+            ],
+            "en": [
+              "Five days overdue, engineer! Should I have the power cut or will you hand over the keys?",
+              "What is this deposit? I do not accept folded five-hundreds. Current cash, or pack up now!",
+              "Internet café or gamer den? Those PS4 gunshots drive me mad. This month is cash, or I take the monitors!"
+            ]
+          },
+          "deadline": 0
+        },
+        {
+          "title": {
+            "fa": "برق مشترکِ واحد بغلی",
+            "en": "The neighbour’s electricity"
+          },
+          "tasks": [
+            "rent-electric-files",
+            "rent-electric-total",
+            "print1"
+          ],
+          "reward": 60000,
+          "description": {
+            "fa": "قبض واحد بغلی لای مدارک است؛ فقط سهم برق و مشاعات زئوس را محاسبه و رسید کن.",
+            "en": "A neighbour’s bill is mixed in. Calculate and receipt only Zeus’s electricity and common-area share."
+          },
+          "lines": {
+            "fa": [
+              "امیرعلی، این قبض برق هم تسویه کن؛ همه‌ش گردن مغازهٔ توئه!",
+              "شمارهٔ کنتور؟ چه فرقی داره؟ فقط عدد پایینش رو ببین…",
+              "صبر کن، این یکی مال واحد بغلیه؟ پس رسید سهم خودت رو جدا بده."
+            ],
+            "en": [
+              "Amirali, settle this electricity bill too. It is all your shop’s fault!",
+              "Meter number? What difference does that make? Read the total!",
+              "Wait, that one is the neighbour’s? Then receipt your share separately."
+            ]
+          },
+          "deadline": 0
+        }
+      ]
+    },
+    {
+      "id": "phd",
+      "file": "moshtari/danesh-joy-afsorde.png",
+      "name": {
+        "fa": "دانشجوی دکتری فرسوده",
+        "en": "Exhausted PhD student"
+      },
+      "group": "education",
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "angry": {
+        "fa": "«نصف دقیقه رفت! تا تو پرینت بگیری استادم بازنشسته شده!»",
+        "en": "Half a minute! My supervisor will retire before you print!"
+      },
+      "mock": {
+        "fa": "«دفاع من با این کارت افتاد ترم بعد مهندس! دوباره درستش کن.»",
+        "en": "You just delayed my defence another term! Fix it properly."
+      },
+      "missions": [
+        {
+          "title": {
+            "fa": "نفرینِ فونت B Nazanin",
+            "en": "The B Nazanin curse"
+          },
+          "tasks": [
+            "thesis-font",
+            "archive",
+            "print1"
+          ],
+          "reward": 65000,
+          "description": {
+            "fa": "فونت‌های مربعی و جدول‌های ورد را ظرف ۳۰ ثانیه اصلاح کن، خروجی بساز و نمونهٔ چاپی بده.",
+            "en": "Fix square glyphs and broken Word tables within 30 seconds, export and print a sample."
+          },
+          "lines": {
+            "fa": [
+              "آقا قسم خوردم این آخرین باره پامو می‌ذارم دانشگاه… همه جدولام به‌هم ریخت، استاد می‌کشه منو!",
+              "چرا این صفحه شماره نداره؟! مگه نگفتم فرمت APA پایه‌ست؟ خدا مرگ بده این ویندوز کرک‌شده رو…",
+              "هرچقدر پول پِرینت رنگی و سیمی‌کردن بشه می‌دم، فقط این دکمه پرینت رو بزن دارفانی رو وداع نگم!"
+            ],
+            "en": [
+              "I swore this was my last university visit! All my tables broke. My supervisor will kill me!",
+              "Why is this page unnumbered? Did I not say APA was essential? Curse this cracked Windows!",
+              "Whatever colour printing and binding cost, I will pay. Just press Print before I leave this mortal world!"
+            ]
+          },
+          "deadline": 30
+        },
+        {
+          "title": {
+            "fa": "صفحه ۵۶ مفقود",
+            "en": "Missing page 56"
+          },
+          "tasks": [
+            "courier-jam",
+            "thesis-page56",
+            "print1"
+          ],
+          "reward": 70000,
+          "description": {
+            "fa": "چاپ ۱۲۰ صفحه وسط فصل دوم گیر کرده؛ غلطک را آزاد کن، دسته‌ها را مرتب کن و فقط صفحهٔ ۵۶ِ گمشده را دوباره چاپ کن.",
+            "en": "The 120-page job jammed mid-chapter. Release the roller, sort the ready stacks and reprint only missing page 56."
+          },
+          "lines": {
+            "fa": [
+              "آقا قسم خوردم این آخرین باره پامو می‌ذارم دانشگاه… همه جدولام به‌هم ریخت، استاد می‌کشه منو!",
+              "چرا این صفحه شماره نداره؟! مگه نگفتم فرمت APA پایه‌ست؟ خدا مرگ بده این ویندوز کرک‌شده رو…",
+              "هرچقدر پول پِرینت رنگی و سیمی‌کردن بشه می‌دم، فقط این دکمه پرینت رو بزن دارفانی رو وداع نگم!"
+            ],
+            "en": [
+              "I swore this was my last university visit! All my tables broke. My supervisor will kill me!",
+              "Why is this page unnumbered? Did I not say APA was essential? Curse this cracked Windows!",
+              "Whatever colour printing and binding cost, I will pay. Just press Print before I leave this mortal world!"
+            ]
+          },
+          "deadline": 0
+        },
+        {
+          "title": {
+            "fa": "فهرستِ یک فصل عقب‌تر",
+            "en": "The index one chapter behind"
+          },
+          "tasks": [
+            "thesis-index",
+            "thesis-final",
+            "print1"
+          ],
+          "reward": 75000,
+          "description": {
+            "fa": "شماره‌های فهرست با متن جور نیست؛ شروع فصل و جاسازی فونت را تنظیم و فقط نسخهٔ نهایی را تحویل بده.",
+            "en": "The index does not match the text. Correct chapter numbering and embedded fonts, then deliver the final version."
+          },
+          "lines": {
+            "fa": [
+              "فقط فهرست مونده… فصل دوم رو زده صفحهٔ شصت‌وپنج، ولی از پنجاه‌وشش شروع می‌شه!",
+              "این بار استاد روی لپ‌تاپ خودش باز می‌کنه؛ فونت‌ها توی PDF جا بمونن، دوباره مربع می‌بینه.",
+              "قدیمی و نهایی رو قاطی نکنی مهندس، همین یک‌بار آیندهٔ علم رو نجات بده."
+            ],
+            "en": [
+              "Only the index remains! It says chapter two starts on 65, but it starts on 56!",
+              "My supervisor will open this on their laptop. Embed the fonts or the squares return.",
+              "Do not mix the old draft with the final. Save the future of science, just this once."
+            ]
+          },
+          "deadline": 0
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "file": "moshtari/dlal-ramz-arz.png",
+      "name": {
+        "fa": "دلال رمزارز شلوغ",
+        "en": "Loud crypto broker"
+      },
+      "group": "sensitive",
+      "legacyMissions": [
+        0,
+        1
+      ],
+      "angry": {
+        "fa": "«سی ثانیه رفت! کندل‌ها از تو سریع‌ترن مهندس، لیکویید شدیم!»",
+        "en": "Thirty seconds! The candles move faster than you, engineer! Liquidated!"
+      },
+      "mock": {
+        "fa": "«با این تنظیماتت سیگنالِ قطعی می‌فروشی! دوباره از اول.»",
+        "en": "Your settings sell outage signals! Start again."
+      },
+      "missions": [
+        {
+          "title": {
+            "fa": "هات‌اسپاتِ خطرناک",
+            "en": "Dangerous hotspot"
+          },
+          "tasks": [
+            "crypto-signal",
+            "crypto-bandwidth",
+            "crypto-session"
+          ],
+          "reward": 55000,
+          "description": {
+            "fa": "گوشی‌اش برای بستن پوزیشن یک اتصال پایدار می‌خواهد؛ اتصال مهمان را بدون قربانی‌کردن صف مغازه برقرار کن. معاملهٔ واقعی انجام نمی‌شود.",
+            "en": "His phone needs a stable connection to close a position. Set up a limited guest session without starving the shop queue. No actual trade occurs."
+          },
+          "lines": {
+            "fa": [
+              "داداش لیکویید شدم! قسم می‌خورم یه کندل دیگه بیاد پایین بدبختم… فقط پونزده دقیقه اینترنت پایدار بده به این گوشی!",
+              "چی‌کار داری به اینترنت مخابرات؟ این پروکسیِ منه، پینگ رو تو تلگرام میاره رو ۴۰، بذار روی سیستمت هم نصب کنم حالشو ببرن.",
+              "تروخدا کارت‌خوانت رو کارت به کارت کن، تترهام تو صرافی گیر کرده، ده تومن دستی بده تا سر ساعت برگردونم!"
+            ],
+            "en": [
+              "Bro, I got liquidated! One more candle down and I am ruined. Just give this phone fifteen stable minutes!",
+              "Forget the provider! My proxy gives forty ping on Telegram. Let me put it on your systems too!",
+              "Please, transfer it to me. My tether is stuck on the exchange. Lend me ten and I will pay on time!"
+            ]
+          },
+          "deadline": 0
+        },
+        {
+          "title": {
+            "fa": "فروش فیلترشکنِ آلوده",
+            "en": "Selling an infected proxy"
+          },
+          "tasks": [
+            "crypto-proxy",
+            "traveler-isolate",
+            "print1"
+          ],
+          "reward": 45000,
+          "description": {
+            "fa": "پیشنهاد پروکسیِ دزد ترافیک را رد کن یا پول و ریسک بیشتری بگیر؛ نمونه‌های خطرناک را قرنطینه کن.",
+            "en": "Refuse the traffic-stealing proxy or accept extra money and risk; quarantine the dangerous samples."
+          },
+          "lines": {
+            "fa": [
+              "داداش لیکویید شدم! قسم می‌خورم یه کندل دیگه بیاد پایین بدبختم… فقط پونزده دقیقه اینترنت پایدار بده به این گوشی!",
+              "چی‌کار داری به اینترنت مخابرات؟ این پروکسیِ منه، پینگ رو تو تلگرام میاره رو ۴۰، بذار روی سیستمت هم نصب کنم حالشو ببرن.",
+              "تروخدا کارت‌خوانت رو کارت به کارت کن، تترهام تو صرافی گیر کرده، ده تومن دستی بده تا سر ساعت برگردونم!"
+            ],
+            "en": [
+              "Bro, I got liquidated! One more candle down and I am ruined. Just give this phone fifteen stable minutes!",
+              "Forget the provider! My proxy gives forty ping on Telegram. Let me put it on your systems too!",
+              "Please, transfer it to me. My tether is stuck on the exchange. Lend me ten and I will pay on time!"
+            ]
+          },
+          "deadline": 0
+        },
+        {
+          "title": {
+            "fa": "ده گیگِ اضافه",
+            "en": "Ten extra gigabytes"
+          },
+          "tasks": [
+            "crypto-drive",
+            "crypto-seal",
+            "print1"
+          ],
+          "reward": 65000,
+          "description": {
+            "fa": "هاردِ کاپشن‌رنگی دوباره روی میز است؛ بازی را از سکتور مخفی جدا کن و تحویل را روشن ثبت کن.",
+            "en": "The colourful jacket’s drive returns. Separate the game from its hidden sector and record exactly what is delivered."
+          },
+          "lines": {
+            "fa": [
+              "همون هارد ۳۲۰ گیگه مهندس؛ فقط Resident Evil رو تحویل بده.",
+              "اون ده گیگ اضافه به بازی ربط نداره، دستش نزن… به کسی هم چیزی نگو.",
+              "شاهین شاید امشب زنگ بزنه. من فقط رسید بازی رو می‌خوام، نه شرح زندگی‌مو!"
+            ],
+            "en": [
+              "It is the same 320 GB drive. Just deliver Resident Evil, engineer.",
+              "Those extra ten gigabytes have nothing to do with the game. Leave them alone. Tell nobody.",
+              "Shahin may call tonight. I only need a game receipt, not my life story!"
+            ]
+          },
+          "deadline": 0
+        }
+      ]
+    }
+  ],
+  "tasks": {
+    "pension": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "حکم بازنشستگی را از برگه‌ها پیدا کن.",
+        "en": "Find the pension certificate."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "حکم بازنشستگی",
+            "en": "Pension certificate"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "قبض برق",
+            "en": "Electricity bill"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "این قبض برقه؛ برای پروندهٔ بازنشستگی حکم لازم داریم.",
+        "en": "That is a power bill. We need the pension certificate."
+      }
+    },
+    "contrast": {
+      "place": "printer",
+      "kind": "choice",
+      "label": {
+        "fa": "نسخهٔ کمرنگ را خواناتر کن.",
+        "en": "Make the faded document readable."
+      },
+      "options": [
+        {
+          "id": "b",
+          "label": {
+            "fa": "چاپ همان نسخهٔ کمرنگ",
+            "en": "Keep the faded version"
+          }
+        },
+        {
+          "id": "a",
+          "label": {
+            "fa": "افزایش کنتراست",
+            "en": "Increase contrast"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "همین نسخه رو پس فرستادن؛ اول خواناش کن.",
+        "en": "This is the rejected version. Improve its contrast first."
+      }
+    },
+    "print2": {
+      "place": "printer",
+      "kind": "print",
+      "label": {
+        "fa": "دو نسخهٔ خوانا چاپ کن.",
+        "en": "Print two readable copies."
+      },
+      "sheets": 2,
+      "duration": 2.4
+    },
+    "scan": {
+      "place": "monitor",
+      "kind": "form",
+      "label": {
+        "fa": "اسکن خوانای مدارک: ۳۰۰ DPI و PDF یکپارچه.",
+        "en": "Readable document scan: 300 DPI and one combined PDF."
+      },
+      "sheets": 0,
+      "duration": 2.5,
+      "app": "scanner",
+      "fields": [
+        {
+          "key": "dpi",
+          "label": {
+            "fa": "کیفیت اسکن",
+            "en": "Scan quality"
+          },
+          "correct": "300",
+          "options": [
+            {
+              "value": "75",
+              "label": {
+                "fa": "۷۵ DPI؛ کم‌کیفیت",
+                "en": "75 DPI; low quality"
+              }
+            },
+            {
+              "value": "300",
+              "label": {
+                "fa": "۳۰۰ DPI؛ خوانا",
+                "en": "300 DPI; readable"
+              }
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "label": {
+            "fa": "قالب خروجی",
+            "en": "Output format"
+          },
+          "correct": "pdf",
+          "options": [
+            {
+              "value": "pdf",
+              "label": {
+                "fa": "PDF یکپارچه",
+                "en": "Combined PDF"
+              }
+            },
+            {
+              "value": "zip",
+              "label": {
+                "fa": "ZIP پراکنده",
+                "en": "Loose ZIP"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "اسکن مدارک خوانا نیست یا قالبش اشتباه است؛ نسخهٔ ۳۰۰ DPI در PDF می‌خواستم.",
+        "en": "The scan is unreadable or in the wrong format. I needed 300 DPI in a PDF."
+      }
+    },
+    "pdf": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "فایل مناسب ارسال را انتخاب کن.",
+        "en": "Choose a format for submission."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "PDF یکپارچه",
+            "en": "One PDF"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "عکس‌های پراکنده در ZIP",
+            "en": "Loose photos in a ZIP"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "سامانه یک PDF می‌خواد؛ پوشهٔ فشرده قبول نمی‌کنه.",
+        "en": "The portal accepts a single PDF, not an archive."
+      },
+      "app": "files"
+    },
+    "archive": {
+      "place": "monitor",
+      "kind": "timed",
+      "label": {
+        "fa": "نسخهٔ مرتب‌شده را در پوشهٔ آزمایشی ذخیره کن.",
+        "en": "Save the organized copy to the demo folder."
+      },
+      "sheets": 0,
+      "duration": 2.5,
+      "app": "files"
+    },
+    "appointment": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "نوع نوبت را با درخواست مشتری تطبیق بده.",
+        "en": "Match the appointment to the request."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "پیگیری پروندهٔ بازنشستگی",
+            "en": "Pension case follow-up"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "تعویض پلاک خودرو",
+            "en": "Vehicle registration"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "این مشتری برای بازنشستگی نوبت می‌خواد.",
+        "en": "The customer needs a pension appointment."
+      }
+    },
+    "portal": {
+      "place": "monitor",
+      "kind": "portal",
+      "label": {
+        "fa": "درخواست سامانه را تا دریافت پاسخ تکرار کن.",
+        "en": "Retry the portal request until it succeeds."
+      },
+      "sheets": 0,
+      "duration": 2.5,
+      "app": "browser"
+    },
+    "print1": {
+      "place": "printer",
+      "kind": "print",
+      "label": {
+        "fa": "یک رسید سفارش چاپ کن.",
+        "en": "Print one order receipt."
+      },
+      "sheets": 1,
+      "duration": 2.4
+    },
+    "recover": {
+      "place": "monitor",
+      "kind": "timed",
+      "label": {
+        "fa": "حساب آزمایشی را با حضور مشتری بازیابی کن.",
+        "en": "Recover the demo account with the customer present."
+      },
+      "sheets": 0,
+      "duration": 2.5,
+      "app": "browser"
+    },
+    "tracking": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "شناسهٔ رهگیری ساختگی را تطبیق بده: DEMO-024",
+        "en": "Match the fictional reference: DEMO-024"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "DEMO-024",
+            "en": "DEMO-024"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "DEMO-042",
+            "en": "DEMO-042"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "جای دو رقم عوض شده؛ شناسهٔ برگه DEMO-024 است.",
+        "en": "Two digits are swapped. The paper says DEMO-024."
+      }
+    },
+    "photo": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "عکس یادگاری را بدون بریدن صورت آماده کن.",
+        "en": "Prepare the keepsake photo without cropping the face."
+      },
+      "options": [
+        {
+          "id": "b",
+          "label": {
+            "fa": "برش از وسط صورت",
+            "en": "Crop through the face"
+          }
+        },
+        {
+          "id": "a",
+          "label": {
+            "fa": "حفظ کادر و اصلاح روشنایی",
+            "en": "Keep the frame; correct brightness"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "قرار بود عکس یادگاری بشه، نه عکس شناسایی شاهد!",
+        "en": "Keep the face intact in the keepsake photo."
+      },
+      "app": "photo"
+    },
+    "photosize": {
+      "place": "printer",
+      "kind": "choice",
+      "label": {
+        "fa": "اندازهٔ عکس درخواستی را تنظیم کن: ۱۰×۱۵",
+        "en": "Set the requested photo size: 10×15"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "۱۰×۱۵ سانتی‌متر",
+            "en": "10×15 cm"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "تمام صفحهٔ A4",
+            "en": "Full A4 page"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "مشتری عکس ۱۰×۱۵ خواسته، نه پوستر.",
+        "en": "The customer asked for 10×15, not a poster."
+      }
+    },
+    "model": {
+      "place": "shelf",
+      "kind": "choice",
+      "label": {
+        "fa": "مدل کنسول را با دسته تطبیق بده.",
+        "en": "Match the console to the controller."
+      },
+      "options": [
+        {
+          "id": "b",
+          "label": {
+            "fa": "PS3 / DualShock 3",
+            "en": "PS3 / DualShock 3"
+          }
+        },
+        {
+          "id": "a",
+          "label": {
+            "fa": "PS4 / DualShock 4",
+            "en": "PS4 / DualShock 4"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "این دسته برای PS4 است.",
+        "en": "This is a PS4 controller."
+      }
+    },
+    "deal": {
+      "place": "shelf",
+      "kind": "choice",
+      "label": {
+        "fa": "سر قیمت سرویس به توافق برس.",
+        "en": "Agree on the service price."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "۲۰ هزار: بررسی دستگاه و دیسک خودش",
+            "en": "20,000: check his console and disc"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "۵ هزار: قول اجرای هر بازی روی هر دستگاه",
+            "en": "5,000: promise every game on anything"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "قول غیرممکن نده؛ روی بررسی همین دستگاه توافق کن.",
+        "en": "Do not promise the impossible. Agree to inspect this console."
+      }
+    },
+    "console": {
+      "place": "shelf",
+      "kind": "timed",
+      "label": {
+        "fa": "آزمون اجرای آزمایشی کنسول را انجام بده.",
+        "en": "Run the simulated console boot test."
+      },
+      "sheets": 0,
+      "duration": 2.5
+    },
+    "controller": {
+      "place": "shelf",
+      "kind": "timed",
+      "label": {
+        "fa": "دکمه‌ها و آنالوگ دسته را آزمایش کن.",
+        "en": "Test the buttons and controller sticks."
+      },
+      "sheets": 0,
+      "duration": 2.5
+    },
+    "deadzone": {
+      "place": "shelf",
+      "kind": "choice",
+      "label": {
+        "fa": "لرزش نشانگر را با تنظیم مناسب کم کن.",
+        "en": "Reduce cursor drift with the right setting."
+      },
+      "options": [
+        {
+          "id": "b",
+          "label": {
+            "fa": "حساسیت ۲۰۰٪",
+            "en": "200% sensitivity"
+          }
+        },
+        {
+          "id": "a",
+          "label": {
+            "fa": "ناحیهٔ بی‌اثر ۱۲٪",
+            "en": "12% dead zone"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "حساسیت بیشتر لرزش رو بدتر می‌کنه؛ ناحیهٔ بی‌اثر رو تنظیم کن.",
+        "en": "Higher sensitivity worsens drift. Adjust the dead zone."
+      }
+    },
+    "savebackup": {
+      "place": "monitor",
+      "kind": "timed",
+      "label": {
+        "fa": "از سیو آزمایشی نسخهٔ پشتیبان بگیر.",
+        "en": "Back up the sample game save."
+      },
+      "sheets": 0,
+      "duration": 2.5,
+      "app": "files"
+    },
+    "space": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "برای نصب، جا باز کن و سیو را نگه دار.",
+        "en": "Free space while keeping the save."
+      },
+      "options": [
+        {
+          "id": "b",
+          "label": {
+            "fa": "حذف پوشهٔ سیوها",
+            "en": "Delete the saves folder"
+          }
+        },
+        {
+          "id": "a",
+          "label": {
+            "fa": "حذف فایل موقت نصب",
+            "en": "Remove installation cache"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "صد ساعت بازی رو پاک نکن؛ فایل موقت رو انتخاب کن.",
+        "en": "Do not erase a hundred hours of progress. Remove the cache."
+      },
+      "app": "files"
+    },
+    "install": {
+      "place": "shelf",
+      "kind": "timed",
+      "label": {
+        "fa": "نصب آزمایشی از دیسک مشتری را بررسی کن.",
+        "en": "Verify a simulated installation from the customer disc."
+      },
+      "sheets": 0,
+      "duration": 2.5
+    },
+    "usbcheck": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "فلش ناشناس را چطور بررسی می‌کنی؟",
+        "en": "How will you inspect the unknown USB?"
+      },
+      "options": [
+        {
+          "id": "b",
+          "label": {
+            "fa": "اجرای فوری START.exe",
+            "en": "Run START.exe immediately"
+          }
+        },
+        {
+          "id": "a",
+          "label": {
+            "fa": "بررسی فهرست در محیط آزمایشی",
+            "en": "Inspect the list in the demo environment"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "ظاهر عادی فلش دلیل امن بودن فایل اجرایی نیست.",
+        "en": "An ordinary-looking USB does not make its executable trustworthy."
+      },
+      "app": "files"
+    },
+    "usbscan": {
+      "place": "monitor",
+      "kind": "timed",
+      "label": {
+        "fa": "اسکن شبیه‌سازی‌شدهٔ فلش را اجرا کن.",
+        "en": "Run the simulated USB scan."
+      },
+      "sheets": 0,
+      "duration": 2.5,
+      "app": "files"
+    },
+    "quarantine": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "فایل مشکوک گزارش‌شده را جدا کن.",
+        "en": "Isolate the flagged file."
+      },
+      "options": [
+        {
+          "id": "b",
+          "label": {
+            "fa": "انتقال START.exe به میزکار",
+            "en": "Copy START.exe to the desktop"
+          }
+        },
+        {
+          "id": "a",
+          "label": {
+            "fa": "قرنطینهٔ START.exe",
+            "en": "Quarantine START.exe"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "اسکن فایل اجرایی رو علامت زده؛ به میزکار منتقلش نکن.",
+        "en": "The scan flagged the executable. Keep it isolated."
+      },
+      "app": "files"
+    },
+    "ownership": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "قبل از بازیابی فایل‌ها، درخواست را روشن کن.",
+        "en": "Clarify the request before recovery."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "تأیید مالکیت و اجازهٔ بازیابی",
+            "en": "Confirm ownership and recovery consent"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "بازیابی بدون پرسیدن",
+            "en": "Recover without asking"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "اول معلوم کن فایل‌ها مال کیه و چه کاری خواسته شده.",
+        "en": "First establish whose files these are and what recovery is requested."
+      }
+    },
+    "restore": {
+      "place": "monitor",
+      "kind": "timed",
+      "label": {
+        "fa": "فایل‌های نمونه را روی نسخهٔ کپی بازیابی کن.",
+        "en": "Recover sample files on a working copy."
+      },
+      "sheets": 0,
+      "duration": 2.5,
+      "app": "files"
+    },
+    "refuse": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "مشتری تغییر مخفی مبلغ رسید را می‌خواهد.",
+        "en": "The customer asks for a covert receipt amount change."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "رد تغییر مبلغ؛ پیشنهاد چاپ اصل",
+            "en": "Decline the change; offer the original"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "تغییر مبلغ و حذف ردپا",
+            "en": "Change the amount and hide the trace"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "این اصلاح تایپی نیست؛ مبلغ سند نباید پنهانی عوض شود.",
+        "en": "This is not a typo correction. Do not covertly alter the amount."
+      }
+    },
+    "original": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "فایل قابل چاپ را انتخاب کن.",
+        "en": "Choose the printable file."
+      },
+      "options": [
+        {
+          "id": "b",
+          "label": {
+            "fa": "نسخهٔ دستکاری‌شده",
+            "en": "Altered copy"
+          }
+        },
+        {
+          "id": "a",
+          "label": {
+            "fa": "رسید اصلی و بدون تغییر",
+            "en": "Original unchanged receipt"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "فقط نسخهٔ اصلی با سفارش پذیرفته‌شده سازگاره.",
+        "en": "Only the original matches the accepted service."
+      },
+      "app": "files"
+    },
+    "examdocs": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "مدارک ثبت‌نام را کامل کن.",
+        "en": "Complete the registration documents."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "مدرک هویتی + کارنامه + عکس",
+            "en": "ID + transcript + photo"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "کارت کتابخانه + جزوه",
+            "en": "Library card + study notes"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "جزوه کمک درسیه؛ مدرک ثبت‌نام نیست.",
+        "en": "Study notes are not registration documents."
+      }
+    },
+    "examphoto": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "عکس را مطابق راهنمای فرم آماده کن.",
+        "en": "Prepare the photo to match the demo form."
+      },
+      "options": [
+        {
+          "id": "b",
+          "label": {
+            "fa": "سلفی افقی با فیلتر",
+            "en": "Filtered landscape selfie"
+          }
+        },
+        {
+          "id": "a",
+          "label": {
+            "fa": "پرترهٔ روشن، JPG، بدون حاشیه",
+            "en": "Clear JPG portrait without borders"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "فرم عکس پرترهٔ ساده می‌خواد.",
+        "en": "The form asks for a plain portrait."
+      },
+      "app": "photo"
+    },
+    "examcode": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "کد رشتهٔ ساختگی روی فرم را بررسی کن: ۲۴۰۱",
+        "en": "Check the fictional program code: 2401"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "۲۴۰۱ — مطابق فرم",
+            "en": "2401 — matches form"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "۲۱۴۰ — شبیه فرم",
+            "en": "2140 — looks similar"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "دو رقم جابه‌جا شده؛ کد درست ۲۴۰۱ است.",
+        "en": "The digits are swapped. The correct code is 2401."
+      }
+    },
+    "review": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "پیش‌نمایش فرم را قبل از تأیید بخوان.",
+        "en": "Review the form before confirmation."
+      },
+      "options": [
+        {
+          "id": "b",
+          "label": {
+            "fa": "ارسال بدون بازبینی",
+            "en": "Submit without review"
+          }
+        },
+        {
+          "id": "a",
+          "label": {
+            "fa": "تأیید نسخهٔ اصلاح‌شده با مشتری",
+            "en": "Confirm corrected preview with customer"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "آخر مهلته، ولی یک نگاه از ثبت اشتباه بهتره.",
+        "en": "It is late, but a quick review prevents a wrong submission."
+      },
+      "app": "browser"
+    },
+    "receiptcheck": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "شمارهٔ رسید آزمایشی را تطبیق بده: EXAM-318",
+        "en": "Match the demo receipt: EXAM-318"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "EXAM-318",
+            "en": "EXAM-318"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "EXAM-381",
+            "en": "EXAM-381"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "شمارهٔ رسید EXAM-318 است؛ جابه‌جایی رقم را اصلاح کن.",
+        "en": "The receipt is EXAM-318. Correct the transposed digits."
+      }
+    },
+    "taxi-color": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "رنگ پژو پارس در فرم: سفید؛ نمایندگی: ۱۲۴",
+        "en": "Peugeot Pars: white; dealership: 124"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "سفید / نمایندگی ۱۲۴",
+            "en": "White / dealership 124"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "مشکی / نمایندگی ۱۴۲",
+            "en": "Black / dealership 142"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "گفتم سفید، نمایندگی ۱۲۴! با این فرم واسه خودت تاکسی بگیر مهندس!",
+        "en": "I said white, dealership 124! Buy yourself a taxi with that form, genius!"
+      },
+      "app": "browser"
+    },
+    "taxi-refresh": {
+      "place": "monitor",
+      "kind": "refresh",
+      "label": {
+        "fa": "سایت پیش‌فروش: F5 یا دکمهٔ تازه‌سازی را تکرار کن.",
+        "en": "Presale portal: repeat F5 or click Refresh."
+      },
+      "feedback": {
+        "fa": "مهندس، مهلت پیش‌فروش پرید؛ سرعتت از اینترنت ذغالی هم کمتره!",
+        "en": "The presale deadline passed! You are slower than this coal-powered internet!"
+      },
+      "duration": 3,
+      "sheets": 0,
+      "app": "browser"
+    },
+    "fuel-owner": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "پلاک با کد ملی نمی‌خواند؛ خودرو به نام باجناق مشتری است.",
+        "en": "Plate and ID mismatch; the brother-in-law owns this car."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "ارجاع به مالک برای اصلاح اطلاعات؛ ۵٪ فشار",
+            "en": "Refer to owner for correction; +5 stress"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "ثبت اطلاعات نادرست؛ ۲ ریسک بازرسی و ۴۰ هزار اضافه",
+            "en": "Submit false details; +2 inspection risk, +40,000"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "پلاک با مالک جور نیست؛ مهندسِ قاطی‌پاتی!",
+        "en": "The plate does not match the owner, genius!"
+      },
+      "branches": {
+        "a": {
+          "stress": 5
+        },
+        "b": {
+          "risk": 2,
+          "bonus": 40000
+        }
+      }
+    },
+    "fuel-check": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "شناسهٔ پروندهٔ سوخت روی برگه: FUEL-124",
+        "en": "Fuel case reference on paper: FUEL-124"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "FUEL-124",
+            "en": "FUEL-124"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "FUEL-142",
+            "en": "FUEL-142"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "پروندهٔ باجناقم رو هم قاطی کردی؟ شناسه ۱۲۴ بود!",
+        "en": "Now you mixed up his case too? The reference was 124!"
+      },
+      "app": "browser"
+    },
+    "school-address": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "کد پستی با قبض نمی‌خواند؛ آدرس باید تأیید شود.",
+        "en": "Postcode does not match the bill; the address needs verification."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "ارجاع به اداره پست؛ ۵٪ فشار",
+            "en": "Refer to post office; +5 stress"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "اسکن تأییدیهٔ دستی ساختگی؛ ۲ ریسک، ۴۰ هزار اضافه",
+            "en": "Scan a fabricated note; +2 risk, +40,000"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "این آدرس مال ما نیست! با این دقتت پسرم رو بفرست ماه!",
+        "en": "That is not our address! With your accuracy my son will go to school on the moon!"
+      },
+      "branches": {
+        "a": {
+          "stress": 5
+        },
+        "b": {
+          "risk": 2,
+          "bonus": 40000
+        }
+      }
+    },
+    "school-grade": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "فرم سیدا: پایهٔ هفتم، کلاس الف.",
+        "en": "Sida form: seventh grade, class A."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "هفتم / الف",
+            "en": "Seventh / A"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "هشتم / ب",
+            "en": "Eighth / B"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "گفتم هفتم الف! یه پایه هم سرخود ارتقاش دادی؟",
+        "en": "I said seventh A! Did you promote him a whole grade by yourself?"
+      },
+      "app": "browser"
+    },
+    "school-photo": {
+      "place": "monitor",
+      "kind": "photo",
+      "label": {
+        "fa": "عکس ۳×۴، زمینهٔ خاکستری روشن، حجم کمتر از ۵۰ کیلوبایت.",
+        "en": "3×4 photo, light gray background, under 50 KB."
+      },
+      "feedback": {
+        "fa": "این سلفی فیلتر‌دار هنوز نه ۳×۴ شده نه زیر ۵۰ کیلوبایت! مدرسه‌ست پسرم، پیج اینستاگرام نیست!",
+        "en": "That filtered selfie still is not a 3?4 under 50 KB! It is a school, not Instagram!"
+      },
+      "duration": 4,
+      "sheets": 0,
+      "app": "photo"
+    },
+    "courier-jam": {
+      "place": "printer",
+      "kind": "jam",
+      "label": {
+        "fa": "درِ پرینتر را باز کن و غلطک گیرکرده را آزاد کن.",
+        "en": "Open the printer cover and release the jammed roller."
+      },
+      "feedback": {
+        "fa": "هنوز کاغذ توی غلطکه! پرینترت داره بارنامه رو می‌خوره مهندس!",
+        "en": "Paper is still in the roller! Your printer is eating my shipping label!"
+      },
+      "duration": 3,
+      "sheets": 0
+    },
+    "courier-contrast": {
+      "place": "printer",
+      "kind": "choice",
+      "label": {
+        "fa": "بارکد باید خوانا باشد؛ جوهر کم است.",
+        "en": "Barcode must scan; ink is running low."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "حالت بارکد: کنتراست بالا و صرفه‌جویی خاموش",
+            "en": "Barcode mode: high contrast, economy off"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "حالت اقتصادی و چاپ کم‌رنگ",
+            "en": "Economy mode and faded print"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "انبار با این خط‌های روح‌مانند چی اسکن کنه؟ نقاشی غار کشیدی؟",
+        "en": "How can the warehouse scan these ghost lines? Is this cave art?"
+      }
+    },
+    "courier-meta": {
+      "place": "monitor",
+      "kind": "timed",
+      "label": {
+        "fa": "متادیتای PDF نمونه را بخوان؛ راهنمای فرستنده: DEMO-4312.",
+        "en": "Read the sample PDF metadata; sender hint: DEMO-4312."
+      },
+      "feedback": {
+        "fa": "فایل نمونه باز نشد؛ حتی راهنمای روی صفحه رو هم نخوندی؟",
+        "en": "The sample did not open. Did you even read the on-screen hint?"
+      },
+      "duration": 3,
+      "sheets": 0,
+      "app": "files"
+    },
+    "courier-password": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "رمز فایل نمونه در راهنمای فرستنده کدام بود؟ DEMO-4312",
+        "en": "Which sample password matches the sender hint? DEMO-4312"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "DEMO-4312",
+            "en": "DEMO-4312"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "DEMO-4321",
+            "en": "DEMO-4321"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "رمز نمونه ۴۳۱۲ بود! تو که چهار رقم رو جابه‌جا می‌زنی بارنامه رو کجا می‌فرستی؟",
+        "en": "The demo code was 4312! Where will you ship anything if four digits defeat you?"
+      },
+      "app": "files"
+    },
+    "otp-signal": {
+      "place": "monitor",
+      "kind": "signal",
+      "label": {
+        "fa": "هات‌اسپات را وصل کن و گوشی را کنار پنجره در زاویهٔ مناسب بگذار.",
+        "en": "Connect the hotspot and find the window signal angle."
+      },
+      "feedback": {
+        "fa": "هات‌اسپات خاموش بود و گوشی هم رو به دیوار! منتظر پیامک بودی یا معجزه؟",
+        "en": "Hotspot was off and the phone faced the wall! Were you waiting for a text or a miracle?"
+      },
+      "duration": 4,
+      "sheets": 0,
+      "app": "browser"
+    },
+    "otp-entry": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "پیامک آزمایشی پس از اتصال: ۶۴۲۱",
+        "en": "Demo SMS after connection: 6421"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "۶۴۲۱",
+            "en": "6421"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "۶۲۴۱",
+            "en": "6241"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "پیامک ۶۴۲۱ بود! حالا تو هم مثل آنتن قطع شدی؟",
+        "en": "The text said 6421! Did your brain lose its signal too?"
+      },
+      "app": "browser"
+    },
+    "otp-owner": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "سیم‌کارت به نام مادربزرگ فوت‌شده است؛ چه می‌گویی؟",
+        "en": "SIM is registered to his late grandmother. What do you say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "آرام توضیح می‌دهم که مالکیت باید با هویت پرداخت‌کننده بخواند.",
+            "en": "Calmly explain that SIM ownership and payer identity must match."
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "قول می‌دهم با همین سیم‌کارت حتماً تأیید می‌شود.",
+            "en": "Promise this SIM will definitely pass verification."
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "خودت گفتی درست می‌شه! مادربزرگ خدابیامرزم هم از این قولت تعجب کرد!",
+        "en": "You promised it would work! Even my late grandmother is surprised by that promise!"
+      }
+    },
+    "otp-explain": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "برای ادامهٔ پرونده، راه‌حل قابل اجرا بده.",
+        "en": "Offer a workable next step for the case."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "راهنمای ثبت شمارهٔ متعلق به خود مشتری",
+            "en": "Guide the customer to register their own number"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "ارسال مجدد با همان شمارهٔ ناسازگار",
+            "en": "Resend with the same mismatched number"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "دوباره همون شماره؟ دکمه رو تکرار کنی که مالک عوض نمی‌شه مهندس!",
+        "en": "Same number again? Clicking twice does not change its owner!"
+      },
+      "app": "browser"
+    },
+    "traveler-scan": {
+      "place": "monitor",
+      "kind": "timed",
+      "label": {
+        "fa": "فلش نمونه: چهار تهدید پیدا شد؛ فهرست قرنطینه را آماده کن.",
+        "en": "Demo USB: four threats found; prepare the quarantine list."
+      },
+      "feedback": {
+        "fa": "چهار اخطار دیدی، باز هم ردش کردی؟",
+        "en": "Four warnings and you still skipped the scan?"
+      },
+      "duration": 3,
+      "sheets": 0,
+      "app": "files"
+    },
+    "traveler-isolate": {
+      "place": "monitor",
+      "kind": "quarantine",
+      "label": {
+        "fa": "هر چهار فایل مشکوک را بی‌سروصدا قرنطینه کن.",
+        "en": "Quietly quarantine all four flagged files."
+      },
+      "feedback": {
+        "fa": "چهار تا ویروس بود، هنوز جا گذاشتی؟ آنتی‌ویروست از خودت باهوش‌تره!",
+        "en": "There were four threats and you missed some? Your antivirus is smarter than you!"
+      },
+      "duration": 4,
+      "sheets": 0,
+      "app": "files"
+    },
+    "traveler-deal": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "پول اضافه برای فایل نصبی بی‌نام؛ معامله را قبول می‌کنی؟",
+        "en": "Extra money for an unlabelled installer. Accept the deal?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "رد معاملهٔ مبهم؛ ارائهٔ سرویس عادی با رسید",
+            "en": "Decline the opaque deal; offer a normal receipted service"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "قبول معامله؛ ۲ ریسک بازرسی و ۱۲۰ هزار اضافه",
+            "en": "Accept; +2 inspection risk and +120,000"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "حتی درخواست رو هم درست ثبت نکردی مهندس!",
+        "en": "You did not even record the request properly!"
+      },
+      "branches": {
+        "a": {},
+        "b": {
+          "risk": 2,
+          "bonus": 120000
+        }
+      }
+    },
+    "traveler-receipt": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "خدمات انجام‌شده را در رسید ثبت کن.",
+        "en": "Record the performed service on the receipt."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "رسید با شرح خدمت و مشخصات پرونده",
+            "en": "Receipt with service description and case reference"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "رسید سفید و بدون شرح",
+            "en": "Blank receipt without description"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "رسید سفید؟ این کاغذه یا کارنامهٔ دقتت؟",
+        "en": "A blank receipt? Is this paper or your report card for attention?"
+      },
+      "app": "browser"
+    },
+    "bills-explain": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "رمز ۱۲۳۴ روی مقوا برای پرداخت آزمایشی کافی نیست.",
+        "en": "The 1234 on the cardboard is not enough for the demo payment."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "آرام توضیح بده رمز یک‌بارمصرف برای همین پرداخت است.",
+            "en": "Explain gently that the one-time code is for this payment."
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "بگو همان ۱۲۳۴ همیشه برای هر پرداخت کافی است.",
+            "en": "Say 1234 always works for every payment."
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "اول گفتی همون رمزه، حالا نیست؟ خودت از من بیشتر گیج شدی باباجان!",
+        "en": "First you said it was the same code, now it is not? You are more confused than I am!"
+      }
+    },
+    "bills-otp": {
+      "place": "monitor",
+      "kind": "choice",
+      "label": {
+        "fa": "مشتری پیامک نمونه را می‌خواند: ۵۸۲۴",
+        "en": "Customer reads the demo SMS: 5824"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "۵۸۲۴",
+            "en": "5824"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "۱۲۳۴ روی مقوا",
+            "en": "1234 from the cardboard"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "باز اون مقوا رو زدی؟ پیامک رو واسه تزئین خوندم باباجان؟",
+        "en": "That cardboard code again? Did I read the text just for decoration?"
+      },
+      "app": "browser"
+    },
+    "bills-sort": {
+      "place": "papers",
+      "kind": "choice",
+      "label": {
+        "fa": "قبض گاز و برق: واحد ۳؛ قبض آب: مش‌قاسم، واحد ۴.",
+        "en": "Gas and power: unit 3; water: Mr Qasem, unit 4."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "فقط گاز و برق واحد ۳",
+            "en": "Only unit 3 gas and power"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "همهٔ قبض‌ها، از جمله آب واحد ۴",
+            "en": "All bills, including unit 4 water"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "چرا پول منو دادی به مش قاسم؟ قبض خوندنت از چشم بی‌عینک من بدتره!",
+        "en": "Why did you pay Mr Qasem with my money? You read worse than I do without glasses!"
+      }
+    },
+    "bills-stamp": {
+      "place": "printer",
+      "kind": "choice",
+      "label": {
+        "fa": "رسید کاغذی مشتری را با مهر آبی آماده کن.",
+        "en": "Prepare the paper receipt with the blue stamp."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "رسید واحد ۳ با مهر آبی",
+            "en": "Unit 3 receipt with blue stamp"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "رسید واحد ۴ بدون مهر",
+            "en": "Unit 4 receipt without stamp"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "نه واحدش درسته نه مهر داره! باباجان این رسیدو برای کی نوشتی؟",
+        "en": "Wrong unit and no stamp! Who did you write this receipt for?"
+      }
+    },
+    "rahimi-appointment": {
+      "place": "monitor",
+      "kind": "form",
+      "label": {
+        "fa": "نوبت صندوق بازنشستگی: شعبهٔ غرب، ساعت ۹:۳۰، بررسی حکم.",
+        "en": "Pension appointment: west branch, 09:30, certificate review."
+      },
+      "duration": 2.4,
+      "app": "browser",
+      "fields": [
+        {
+          "key": "branch",
+          "label": {
+            "fa": "شعبه",
+            "en": "Branch"
+          },
+          "correct": "west",
+          "options": [
+            {
+              "value": "east",
+              "label": {
+                "fa": "شرق",
+                "en": "East"
+              }
+            },
+            {
+              "value": "west",
+              "label": {
+                "fa": "غرب",
+                "en": "West"
+              }
+            }
+          ]
+        },
+        {
+          "key": "time",
+          "label": {
+            "fa": "ساعت",
+            "en": "Time"
+          },
+          "correct": "0930",
+          "options": [
+            {
+              "value": "0930",
+              "label": {
+                "fa": "۹:۳۰",
+                "en": "09:30"
+              }
+            },
+            {
+              "value": "1030",
+              "label": {
+                "fa": "۱۰:۳۰",
+                "en": "10:30"
+              }
+            }
+          ]
+        },
+        {
+          "key": "service",
+          "label": {
+            "fa": "خدمت",
+            "en": "Service"
+          },
+          "correct": "pension",
+          "options": [
+            {
+              "value": "vehicle",
+              "label": {
+                "fa": "تعویض پلاک",
+                "en": "Vehicle registration"
+              }
+            },
+            {
+              "value": "pension",
+              "label": {
+                "fa": "بررسی حکم بازنشستگی",
+                "en": "Pension certificate review"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "اطلاعات فرم با برگهٔ مشتری نمی‌خواند؛ نسخهٔ درست را دوباره بساز.",
+        "en": "The form does not match my documents. Rebuild the correct version."
+      }
+    },
+    "naderi-album": {
+      "place": "monitor",
+      "kind": "files",
+      "label": {
+        "fa": "فقط سه عکس خانوادگی را برای آلبوم انتخاب کن؛ کارت بانکی داخل بسته نباشد.",
+        "en": "Select the three family photos for the album; exclude the bank card."
+      },
+      "duration": 2.4,
+      "app": "files",
+      "items": [
+        {
+          "id": "pic1",
+          "label": {
+            "fa": "عکس نوروز.jpg",
+            "en": "Nowruz.jpg"
+          }
+        },
+        {
+          "id": "card",
+          "label": {
+            "fa": "کارت بانکی.jpg",
+            "en": "Bank card.jpg"
+          }
+        },
+        {
+          "id": "pic2",
+          "label": {
+            "fa": "تولد.jpg",
+            "en": "Birthday.jpg"
+          }
+        },
+        {
+          "id": "pic3",
+          "label": {
+            "fa": "سفر.jpg",
+            "en": "Holiday.jpg"
+          }
+        }
+      ],
+      "required": [
+        "pic1",
+        "pic2",
+        "pic3"
+      ],
+      "feedback": {
+        "fa": "فایل‌های اشتباه را انتخاب کردی؛ سند موردنیاز جا مانده یا فایل اضافی داخل بسته است.",
+        "en": "You selected the wrong files: a required document is missing or an extra file is included."
+      }
+    },
+    "naderi-print-order": {
+      "place": "monitor",
+      "kind": "form",
+      "label": {
+        "fa": "سفارش عکس: ۱۰×۱۵، کاغذ مات، بدون بریدن چهره.",
+        "en": "Photo order: 10×15, matte paper, preserve faces."
+      },
+      "duration": 2.4,
+      "app": "browser",
+      "fields": [
+        {
+          "key": "size",
+          "label": {
+            "fa": "اندازه",
+            "en": "Size"
+          },
+          "correct": "10x15",
+          "options": [
+            {
+              "value": "A4",
+              "label": {
+                "fa": "A4",
+                "en": "A4"
+              }
+            },
+            {
+              "value": "10x15",
+              "label": {
+                "fa": "۱۰×۱۵",
+                "en": "10×15"
+              }
+            }
+          ]
+        },
+        {
+          "key": "paper",
+          "label": {
+            "fa": "کاغذ",
+            "en": "Paper"
+          },
+          "correct": "matte",
+          "options": [
+            {
+              "value": "matte",
+              "label": {
+                "fa": "مات",
+                "en": "Matte"
+              }
+            },
+            {
+              "value": "gloss",
+              "label": {
+                "fa": "براق",
+                "en": "Glossy"
+              }
+            }
+          ]
+        },
+        {
+          "key": "frame",
+          "label": {
+            "fa": "کادر",
+            "en": "Frame"
+          },
+          "correct": "full",
+          "options": [
+            {
+              "value": "cut",
+              "label": {
+                "fa": "برش از وسط چهره",
+                "en": "Cut through faces"
+              }
+            },
+            {
+              "value": "full",
+              "label": {
+                "fa": "حفظ کادر کامل",
+                "en": "Keep the full frame"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "اطلاعات فرم با برگهٔ مشتری نمی‌خواند؛ نسخهٔ درست را دوباره بساز.",
+        "en": "The form does not match my documents. Rebuild the correct version."
+      }
+    },
+    "gamer-backup": {
+      "place": "monitor",
+      "kind": "files",
+      "label": {
+        "fa": "سیو مرحلهٔ آخر و پروفایل را نگه دار؛ فایل موقت نصب لازم نیست.",
+        "en": "Keep the final-level save and profile; omit the temporary installer."
+      },
+      "duration": 2.4,
+      "app": "files",
+      "items": [
+        {
+          "id": "save",
+          "label": {
+            "fa": "سیو مرحلهٔ آخر.sav",
+            "en": "Final level.sav"
+          }
+        },
+        {
+          "id": "temp",
+          "label": {
+            "fa": "نصب موقت.tmp",
+            "en": "Installer.tmp"
+          }
+        },
+        {
+          "id": "profile",
+          "label": {
+            "fa": "پروفایل آرین.dat",
+            "en": "Arin profile.dat"
+          }
+        }
+      ],
+      "required": [
+        "save",
+        "profile"
+      ],
+      "feedback": {
+        "fa": "فایل‌های اشتباه را انتخاب کردی؛ سند موردنیاز جا مانده یا فایل اضافی داخل بسته است.",
+        "en": "You selected the wrong files: a required document is missing or an extra file is included."
+      }
+    },
+    "recover-docs": {
+      "place": "monitor",
+      "kind": "files",
+      "label": {
+        "fa": "روی نسخهٔ کپی فقط قرارداد و فاکتور را بازیابی کن.",
+        "en": "Recover only the contract and invoice from the working copy."
+      },
+      "duration": 2.4,
+      "app": "files",
+      "items": [
+        {
+          "id": "contract",
+          "label": {
+            "fa": "قرارداد.pdf",
+            "en": "Contract.pdf"
+          }
+        },
+        {
+          "id": "setup",
+          "label": {
+            "fa": "SETUP.exe",
+            "en": "SETUP.exe"
+          }
+        },
+        {
+          "id": "invoice",
+          "label": {
+            "fa": "فاکتور.pdf",
+            "en": "Invoice.pdf"
+          }
+        },
+        {
+          "id": "cache",
+          "label": {
+            "fa": "کش.tmp",
+            "en": "Cache.tmp"
+          }
+        }
+      ],
+      "required": [
+        "contract",
+        "invoice"
+      ],
+      "feedback": {
+        "fa": "فایل‌های اشتباه را انتخاب کردی؛ سند موردنیاز جا مانده یا فایل اضافی داخل بسته است.",
+        "en": "You selected the wrong files: a required document is missing or an extra file is included."
+      }
+    },
+    "exam-admit": {
+      "place": "monitor",
+      "kind": "form",
+      "label": {
+        "fa": "کارت ورود سارا: رشتهٔ ۲۴۰۱، حوزهٔ ۱۰۲، نوبت صبح.",
+        "en": "Sara’s exam admission: course 2401, centre 102, morning session."
+      },
+      "duration": 2.4,
+      "app": "browser",
+      "fields": [
+        {
+          "key": "course",
+          "label": {
+            "fa": "رشته",
+            "en": "Course"
+          },
+          "correct": "2401",
+          "options": [
+            {
+              "value": "2140",
+              "label": {
+                "fa": "۲۱۴۰",
+                "en": "2140"
+              }
+            },
+            {
+              "value": "2401",
+              "label": {
+                "fa": "۲۴۰۱",
+                "en": "2401"
+              }
+            }
+          ]
+        },
+        {
+          "key": "centre",
+          "label": {
+            "fa": "حوزه",
+            "en": "Centre"
+          },
+          "correct": "102",
+          "options": [
+            {
+              "value": "102",
+              "label": {
+                "fa": "۱۰۲",
+                "en": "102"
+              }
+            },
+            {
+              "value": "120",
+              "label": {
+                "fa": "۱۲۰",
+                "en": "120"
+              }
+            }
+          ]
+        },
+        {
+          "key": "session",
+          "label": {
+            "fa": "نوبت",
+            "en": "Session"
+          },
+          "correct": "morning",
+          "options": [
+            {
+              "value": "evening",
+              "label": {
+                "fa": "عصر",
+                "en": "Evening"
+              }
+            },
+            {
+              "value": "morning",
+              "label": {
+                "fa": "صبح",
+                "en": "Morning"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "اطلاعات فرم با برگهٔ مشتری نمی‌خواند؛ نسخهٔ درست را دوباره بساز.",
+        "en": "The form does not match my documents. Rebuild the correct version."
+      }
+    },
+    "taxi-invoice": {
+      "place": "monitor",
+      "kind": "invoice",
+      "label": {
+        "fa": "سه کرایه را جمع کن: ۴۵٬۰۰۰ + ۷۰٬۰۰۰ + ۵۰٬۰۰۰ تومان.",
+        "en": "Total the three fares: 45,000 + 70,000 + 50,000 tomans."
+      },
+      "duration": 2.4,
+      "app": "accounts",
+      "items": [
+        {
+          "label": {
+            "fa": "مسیر اول",
+            "en": "Trip one"
+          },
+          "amount": 45000
+        },
+        {
+          "label": {
+            "fa": "مسیر دوم",
+            "en": "Trip two"
+          },
+          "amount": 70000
+        },
+        {
+          "label": {
+            "fa": "مسیر سوم",
+            "en": "Trip three"
+          },
+          "amount": 50000
+        }
+      ],
+      "feedback": {
+        "fa": "جمع حساب با ریز رسیدها یکی نیست؛ ماشین‌حساب هم بهت اعتراض دارد!",
+        "en": "Your total does not match the receipt lines. Even the calculator is protesting!"
+      }
+    },
+    "taxi-company": {
+      "place": "monitor",
+      "kind": "form",
+      "label": {
+        "fa": "صورتحساب شرکت: رانندهٔ خود مشتری، سه سفر، پرداخت اعتباری.",
+        "en": "Company invoice: this customer as driver, three trips, credit payment."
+      },
+      "duration": 2.4,
+      "app": "browser",
+      "fields": [
+        {
+          "key": "driver",
+          "label": {
+            "fa": "راننده",
+            "en": "Driver"
+          },
+          "correct": "customer",
+          "options": [
+            {
+              "value": "brother",
+              "label": {
+                "fa": "باجناق مشتری",
+                "en": "Customer’s brother-in-law"
+              }
+            },
+            {
+              "value": "customer",
+              "label": {
+                "fa": "خود مشتری",
+                "en": "The customer"
+              }
+            }
+          ]
+        },
+        {
+          "key": "trips",
+          "label": {
+            "fa": "تعداد سفر",
+            "en": "Trips"
+          },
+          "correct": "3",
+          "options": [
+            {
+              "value": "3",
+              "label": {
+                "fa": "۳",
+                "en": "3"
+              }
+            },
+            {
+              "value": "2",
+              "label": {
+                "fa": "۲",
+                "en": "2"
+              }
+            }
+          ]
+        },
+        {
+          "key": "payment",
+          "label": {
+            "fa": "روش پرداخت",
+            "en": "Payment"
+          },
+          "correct": "credit",
+          "options": [
+            {
+              "value": "cash",
+              "label": {
+                "fa": "نقدی",
+                "en": "Cash"
+              }
+            },
+            {
+              "value": "credit",
+              "label": {
+                "fa": "اعتباری شرکت",
+                "en": "Company credit"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "اطلاعات فرم با برگهٔ مشتری نمی‌خواند؛ نسخهٔ درست را دوباره بساز.",
+        "en": "The form does not match my documents. Rebuild the correct version."
+      }
+    },
+    "school-folder": {
+      "place": "monitor",
+      "kind": "files",
+      "label": {
+        "fa": "گزارش تحصیلی پسر و رضایت‌نامه را بردار؛ پروندهٔ خواهرش را کنار بگذار.",
+        "en": "Select the son’s report and consent form; leave his sister’s file out."
+      },
+      "duration": 2.4,
+      "app": "files",
+      "items": [
+        {
+          "id": "report",
+          "label": {
+            "fa": "کارنامهٔ امیر.pdf",
+            "en": "Amir report.pdf"
+          }
+        },
+        {
+          "id": "sister",
+          "label": {
+            "fa": "پروندهٔ مریم.pdf",
+            "en": "Maryam file.pdf"
+          }
+        },
+        {
+          "id": "consent",
+          "label": {
+            "fa": "رضایت‌نامهٔ امیر.pdf",
+            "en": "Amir consent.pdf"
+          }
+        }
+      ],
+      "required": [
+        "report",
+        "consent"
+      ],
+      "feedback": {
+        "fa": "فایل‌های اشتباه را انتخاب کردی؛ سند موردنیاز جا مانده یا فایل اضافی داخل بسته است.",
+        "en": "You selected the wrong files: a required document is missing or an extra file is included."
+      }
+    },
+    "school-trip": {
+      "place": "monitor",
+      "kind": "form",
+      "label": {
+        "fa": "رضایت‌نامهٔ اردو: امیر، پایهٔ هفتم، اجازهٔ حضور با ولی.",
+        "en": "School trip consent: Amir, grade seven, attending with guardian."
+      },
+      "duration": 2.4,
+      "app": "browser",
+      "fields": [
+        {
+          "key": "child",
+          "label": {
+            "fa": "دانش‌آموز",
+            "en": "Student"
+          },
+          "correct": "amir",
+          "options": [
+            {
+              "value": "maryam",
+              "label": {
+                "fa": "مریم",
+                "en": "Maryam"
+              }
+            },
+            {
+              "value": "amir",
+              "label": {
+                "fa": "امیر",
+                "en": "Amir"
+              }
+            }
+          ]
+        },
+        {
+          "key": "grade",
+          "label": {
+            "fa": "پایه",
+            "en": "Grade"
+          },
+          "correct": "7",
+          "options": [
+            {
+              "value": "7",
+              "label": {
+                "fa": "هفتم",
+                "en": "Seven"
+              }
+            },
+            {
+              "value": "8",
+              "label": {
+                "fa": "هشتم",
+                "en": "Eight"
+              }
+            }
+          ]
+        },
+        {
+          "key": "guardian",
+          "label": {
+            "fa": "همراه",
+            "en": "Guardian"
+          },
+          "correct": "parent",
+          "options": [
+            {
+              "value": "alone",
+              "label": {
+                "fa": "بدون همراه",
+                "en": "Unaccompanied"
+              }
+            },
+            {
+              "value": "parent",
+              "label": {
+                "fa": "با ولی",
+                "en": "With guardian"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "اطلاعات فرم با برگهٔ مشتری نمی‌خواند؛ نسخهٔ درست را دوباره بساز.",
+        "en": "The form does not match my documents. Rebuild the correct version."
+      }
+    },
+    "courier-label": {
+      "place": "monitor",
+      "kind": "form",
+      "label": {
+        "fa": "دو برچسب: مقصد رشت، بستهٔ شکستنی، تحویل حضوری.",
+        "en": "Two labels: Rasht destination, fragile parcel, hand delivery."
+      },
+      "duration": 2.4,
+      "app": "browser",
+      "fields": [
+        {
+          "key": "city",
+          "label": {
+            "fa": "مقصد",
+            "en": "Destination"
+          },
+          "correct": "rasht",
+          "options": [
+            {
+              "value": "qazvin",
+              "label": {
+                "fa": "قزوین",
+                "en": "Qazvin"
+              }
+            },
+            {
+              "value": "rasht",
+              "label": {
+                "fa": "رشت",
+                "en": "Rasht"
+              }
+            }
+          ]
+        },
+        {
+          "key": "package",
+          "label": {
+            "fa": "نوع بسته",
+            "en": "Parcel type"
+          },
+          "correct": "fragile",
+          "options": [
+            {
+              "value": "fragile",
+              "label": {
+                "fa": "شکستنی",
+                "en": "Fragile"
+              }
+            },
+            {
+              "value": "normal",
+              "label": {
+                "fa": "عادی",
+                "en": "Standard"
+              }
+            }
+          ]
+        },
+        {
+          "key": "delivery",
+          "label": {
+            "fa": "تحویل",
+            "en": "Delivery"
+          },
+          "correct": "person",
+          "options": [
+            {
+              "value": "door",
+              "label": {
+                "fa": "پشت در",
+                "en": "Leave at door"
+              }
+            },
+            {
+              "value": "person",
+              "label": {
+                "fa": "حضوری",
+                "en": "Hand delivery"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "اطلاعات فرم با برگهٔ مشتری نمی‌خواند؛ نسخهٔ درست را دوباره بساز.",
+        "en": "The form does not match my documents. Rebuild the correct version."
+      }
+    },
+    "otp-reconcile": {
+      "place": "monitor",
+      "kind": "invoice",
+      "label": {
+        "fa": "مبلغ نهایی پس از برگشت: ۷۰٬۰۰۰ منهای ۲۰٬۰۰۰ تومان؛ دوباره پرداخت نکن.",
+        "en": "Net charge after refund: 70,000 minus 20,000 tomans; do not pay twice."
+      },
+      "duration": 2.4,
+      "app": "accounts",
+      "items": [
+        {
+          "label": {
+            "fa": "برداشت ثبت‌شده",
+            "en": "Recorded debit"
+          },
+          "amount": 70000
+        },
+        {
+          "label": {
+            "fa": "برگشت به حساب",
+            "en": "Refund"
+          },
+          "amount": -20000
+        }
+      ],
+      "feedback": {
+        "fa": "جمع حساب با ریز رسیدها یکی نیست؛ ماشین‌حساب هم بهت اعتراض دارد!",
+        "en": "Your total does not match the receipt lines. Even the calculator is protesting!"
+      }
+    },
+    "otp-followup": {
+      "place": "monitor",
+      "kind": "form",
+      "label": {
+        "fa": "تراکنش PAY-208 موفق است؛ فقط کد پیگیری بده، برداشت تکراری نزن.",
+        "en": "PAY-208 succeeded; issue tracking only, never a second debit."
+      },
+      "duration": 2.4,
+      "app": "browser",
+      "fields": [
+        {
+          "key": "reference",
+          "label": {
+            "fa": "تراکنش",
+            "en": "Transaction"
+          },
+          "correct": "208",
+          "options": [
+            {
+              "value": "280",
+              "label": {
+                "fa": "PAY-280",
+                "en": "PAY-280"
+              }
+            },
+            {
+              "value": "208",
+              "label": {
+                "fa": "PAY-208",
+                "en": "PAY-208"
+              }
+            }
+          ]
+        },
+        {
+          "key": "status",
+          "label": {
+            "fa": "وضعیت",
+            "en": "Status"
+          },
+          "correct": "paid",
+          "options": [
+            {
+              "value": "paid",
+              "label": {
+                "fa": "پرداخت‌شده",
+                "en": "Paid"
+              }
+            },
+            {
+              "value": "pending",
+              "label": {
+                "fa": "منتظر پرداخت",
+                "en": "Pending"
+              }
+            }
+          ]
+        },
+        {
+          "key": "operation",
+          "label": {
+            "fa": "عملیات",
+            "en": "Operation"
+          },
+          "correct": "track",
+          "options": [
+            {
+              "value": "pay",
+              "label": {
+                "fa": "برداشت دوباره",
+                "en": "Charge again"
+              }
+            },
+            {
+              "value": "track",
+              "label": {
+                "fa": "فقط پیگیری",
+                "en": "Tracking only"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "اطلاعات فرم با برگهٔ مشتری نمی‌خواند؛ نسخهٔ درست را دوباره بساز.",
+        "en": "The form does not match my documents. Rebuild the correct version."
+      }
+    },
+    "traveler-consent": {
+      "place": "monitor",
+      "kind": "form",
+      "label": {
+        "fa": "خدمت روشن با رضایت مشتری: چاپ سند عمومی، بدون اجرای فایل نصبی.",
+        "en": "Clear service with consent: print a public document, run no installer."
+      },
+      "duration": 2.4,
+      "app": "browser",
+      "fields": [
+        {
+          "key": "consent",
+          "label": {
+            "fa": "اجازهٔ مشتری",
+            "en": "Customer consent"
+          },
+          "correct": "yes",
+          "options": [
+            {
+              "value": "no",
+              "label": {
+                "fa": "بدون اجازه",
+                "en": "No consent"
+              }
+            },
+            {
+              "value": "yes",
+              "label": {
+                "fa": "اجازهٔ چاپ دارد",
+                "en": "Printing authorized"
+              }
+            }
+          ]
+        },
+        {
+          "key": "service",
+          "label": {
+            "fa": "خدمت",
+            "en": "Service"
+          },
+          "correct": "print",
+          "options": [
+            {
+              "value": "print",
+              "label": {
+                "fa": "چاپ سند عمومی",
+                "en": "Print a public document"
+              }
+            },
+            {
+              "value": "install",
+              "label": {
+                "fa": "اجرای فایل ناشناس",
+                "en": "Run unknown installer"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "اطلاعات فرم با برگهٔ مشتری نمی‌خواند؛ نسخهٔ درست را دوباره بساز.",
+        "en": "The form does not match my documents. Rebuild the correct version."
+      }
+    },
+    "traveler-public": {
+      "place": "monitor",
+      "kind": "files",
+      "label": {
+        "fa": "فقط معرفی‌نامه و راهنمای عمومی را بردار؛ فایل نصبی و پوشهٔ خصوصی ممنوع.",
+        "en": "Select the public introduction and guide; omit the installer and private folder."
+      },
+      "duration": 2.4,
+      "app": "files",
+      "items": [
+        {
+          "id": "intro",
+          "label": {
+            "fa": "معرفی‌نامه.pdf",
+            "en": "Introduction.pdf"
+          }
+        },
+        {
+          "id": "private",
+          "label": {
+            "fa": "شخصی.zip",
+            "en": "Private.zip"
+          }
+        },
+        {
+          "id": "guide",
+          "label": {
+            "fa": "راهنمای عمومی.pdf",
+            "en": "Public guide.pdf"
+          }
+        },
+        {
+          "id": "run",
+          "label": {
+            "fa": "START.exe",
+            "en": "START.exe"
+          }
+        }
+      ],
+      "required": [
+        "intro",
+        "guide"
+      ],
+      "feedback": {
+        "fa": "فایل‌های اشتباه را انتخاب کردی؛ سند موردنیاز جا مانده یا فایل اضافی داخل بسته است.",
+        "en": "You selected the wrong files: a required document is missing or an extra file is included."
+      }
+    },
+    "bills-duplicates": {
+      "place": "monitor",
+      "kind": "files",
+      "label": {
+        "fa": "فقط قبض جدید گاز و برق واحد ۳؛ قبض پرداخت‌شده و آب همسایه را حذف کن.",
+        "en": "Only the new gas and electricity bills for unit 3; omit the paid bill and neighbour’s water bill."
+      },
+      "duration": 2.4,
+      "app": "files",
+      "items": [
+        {
+          "id": "gas",
+          "label": {
+            "fa": "گاز جدید واحد ۳ — ۲۳٬۰۰۰",
+            "en": "New gas, unit 3 — 23,000"
+          }
+        },
+        {
+          "id": "paid",
+          "label": {
+            "fa": "گاز ماه قبل — پرداخت‌شده",
+            "en": "Last month’s gas — paid"
+          }
+        },
+        {
+          "id": "electric",
+          "label": {
+            "fa": "برق جدید واحد ۳ — ۳۷٬۰۰۰",
+            "en": "New electricity, unit 3 — 37,000"
+          }
+        },
+        {
+          "id": "water",
+          "label": {
+            "fa": "آب مش‌قاسم — واحد ۴",
+            "en": "Neighbour’s water — unit 4"
+          }
+        }
+      ],
+      "required": [
+        "gas",
+        "electric"
+      ],
+      "feedback": {
+        "fa": "فایل‌های اشتباه را انتخاب کردی؛ سند موردنیاز جا مانده یا فایل اضافی داخل بسته است.",
+        "en": "You selected the wrong files: a required document is missing or an extra file is included."
+      }
+    },
+    "bills-total": {
+      "place": "monitor",
+      "kind": "invoice",
+      "label": {
+        "fa": "جمع قبض‌های جدید واحد ۳: گاز ۲۳٬۰۰۰ + برق ۳۷٬۰۰۰ تومان.",
+        "en": "Total the new unit 3 bills: gas 23,000 + electricity 37,000 tomans."
+      },
+      "duration": 2.4,
+      "app": "accounts",
+      "items": [
+        {
+          "label": {
+            "fa": "گاز واحد ۳",
+            "en": "Unit 3 gas"
+          },
+          "amount": 23000
+        },
+        {
+          "label": {
+            "fa": "برق واحد ۳",
+            "en": "Unit 3 electricity"
+          },
+          "amount": 37000
+        }
+      ],
+      "feedback": {
+        "fa": "جمع حساب با ریز رسیدها یکی نیست؛ ماشین‌حساب هم بهت اعتراض دارد!",
+        "en": "Your total does not match the receipt lines. Even the calculator is protesting!"
+      }
+    },
+    "rent-coins": {
+      "kind": "invoice",
+      "place": "monitor",
+      "label": {
+        "fa": "سکه‌های سوراخ مردودند: ۸۰ سکهٔ سالم × ۵۰۰ + ۶۰٬۰۰۰ + ۱۰۰٬۰۰۰ تومان را جمع کن.",
+        "en": "Reject the damaged coins: total 80 valid coins × 500 + 60,000 + 100,000 tomans."
+      },
+      "duration": 2.4,
+      "items": [
+        {
+          "label": {
+            "fa": "۸۰ سکهٔ سالم پانصدتومانی",
+            "en": "80 valid 500-toman coins"
+          },
+          "amount": 40000
+        },
+        {
+          "label": {
+            "fa": "اسکناس‌های سالم دستهٔ اول",
+            "en": "Valid banknotes, first bundle"
+          },
+          "amount": 60000
+        },
+        {
+          "label": {
+            "fa": "اسکناس‌های سالم دستهٔ دوم",
+            "en": "Valid banknotes, second bundle"
+          },
+          "amount": 100000
+        },
+        {
+          "label": {
+            "fa": "سکه‌های سوراخ و اسکناس‌های مردود — حساب نشوند",
+            "en": "Damaged coins and rejected notes — do not count"
+          },
+          "amount": 0
+        }
+      ],
+      "feedback": {
+        "fa": "جمع حساب اشتباهه! سکهٔ نامعتبر یا قبض کس دیگه رو حساب کردی مهندس؟",
+        "en": "That total is wrong! Did you count rejected coins or somebody else’s bill, engineer?"
+      },
+      "app": "accounts"
+    },
+    "rent-bank": {
+      "kind": "choice",
+      "place": "papers",
+      "label": {
+        "fa": "پیش از بسته‌شدن بانک، برای ۲۰۰٬۰۰۰ تومان معتبر رسید بساز.",
+        "en": "Before the bank closes, receipt the 200,000 valid tomans."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "۲۰۰٬۰۰۰ معتبر؛ مردودی‌ها جدا و رسید به نام زئوس",
+            "en": "200,000 accepted; rejected money separate, Zeus receipt"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "سکه‌های سوراخ را هم پول سالم حساب کن",
+            "en": "Count the damaged coins as valid money"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "خروجی با خواستهٔ مشتری جور نیست؛ از اول با دقت انجام بده.",
+        "en": "The result does not match my request. Start again carefully."
+      }
+    },
+    "rent-negotiate": {
+      "kind": "choice",
+      "place": "papers",
+      "label": {
+        "fa": "با تهدید دوبرابرکردن اجاره چه می‌کنی؟",
+        "en": "How do you respond to the threat of double rent?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "ارجاع به قرارداد؛ مذاکره با رسید و وقت مشخص",
+            "en": "Use the contract; negotiate with a receipt and appointment"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "قبول شفاهی دو برابر اجاره و بدون رسید",
+            "en": "Verbally accept double rent without a receipt"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "بدون قرارداد پذیرفتی؟ فردا می‌گم سه برابر! این که مذاکره نبود مهندس.",
+        "en": "You accepted without a contract? Tomorrow I will ask for triple! That was no negotiation."
+      }
+    },
+    "rent-queue": {
+      "kind": "form",
+      "place": "monitor",
+      "label": {
+        "fa": "بحث را زمان‌بندی کن: صدای بازی ۲۰٪، صف عادی، مذاکره بعد از تحویل‌ها.",
+        "en": "Schedule the argument: game volume 20%, normal queue, discuss after deliveries."
+      },
+      "duration": 2.4,
+      "fields": [
+        {
+          "key": "volume",
+          "label": {
+            "fa": "صدای سیستم‌های گیم",
+            "en": "Game volume"
+          },
+          "correct": "20",
+          "options": [
+            {
+              "value": "20",
+              "label": {
+                "fa": "۲۰٪",
+                "en": "20%"
+              }
+            },
+            {
+              "value": "100",
+              "label": {
+                "fa": "۱۰۰٪",
+                "en": "100%"
+              }
+            }
+          ]
+        },
+        {
+          "key": "queue",
+          "label": {
+            "fa": "صف مشتری‌ها",
+            "en": "Customer queue"
+          },
+          "correct": "keep",
+          "options": [
+            {
+              "value": "keep",
+              "label": {
+                "fa": "حفظ ترتیب ورود",
+                "en": "Keep arrival order"
+              }
+            },
+            {
+              "value": "drop",
+              "label": {
+                "fa": "لغو تمام سفارش‌ها",
+                "en": "Cancel all orders"
+              }
+            }
+          ]
+        },
+        {
+          "key": "meeting",
+          "label": {
+            "fa": "زمان مذاکره",
+            "en": "Discussion time"
+          },
+          "correct": "after",
+          "options": [
+            {
+              "value": "now",
+              "label": {
+                "fa": "وسط کار مشتری بعدی",
+                "en": "During the next order"
+              }
+            },
+            {
+              "value": "after",
+              "label": {
+                "fa": "بعد از تحویل سفارش‌ها",
+                "en": "After deliveries"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "تنظیمات پرونده با درخواست من فرق دارد؛ دوباره از روی شرح کار تنظیمش کن.",
+        "en": "These settings do not match my case. Read the request and do it again."
+      },
+      "app": "browser"
+    },
+    "rent-electric-files": {
+      "kind": "files",
+      "place": "monitor",
+      "label": {
+        "fa": "فقط قبض برق و قرائت کنتور زئوس را انتخاب کن، نه واحد بغلی.",
+        "en": "Select Zeus’s electricity bill and meter reading, not the neighbour’s."
+      },
+      "duration": 2.6,
+      "items": [
+        {
+          "id": "shop",
+          "label": {
+            "fa": "قبض برق زئوس",
+            "en": "Zeus electricity bill"
+          }
+        },
+        {
+          "id": "meter",
+          "label": {
+            "fa": "قرائت کنتور زئوس",
+            "en": "Zeus meter reading"
+          }
+        },
+        {
+          "id": "neighbor",
+          "label": {
+            "fa": "قبض واحد بغلی",
+            "en": "Neighbour’s bill"
+          }
+        }
+      ],
+      "required": [
+        "shop",
+        "meter"
+      ],
+      "feedback": {
+        "fa": "فایل‌های انتخابی درست نیستند؛ یک برگهٔ اشتباه می‌تواند کل کار را خراب کند.",
+        "en": "Those are the wrong files. One incorrect page can spoil the whole job."
+      },
+      "app": "files"
+    },
+    "rent-electric-total": {
+      "kind": "invoice",
+      "place": "monitor",
+      "label": {
+        "fa": "سهم زئوس: ۸۰٬۰۰۰ برق + ۲۰٬۰۰۰ مشاعات.",
+        "en": "Zeus’s share: 80,000 electricity + 20,000 common areas."
+      },
+      "duration": 2.4,
+      "items": [
+        {
+          "label": {
+            "fa": "برق زئوس",
+            "en": "Zeus electricity"
+          },
+          "amount": 80000
+        },
+        {
+          "label": {
+            "fa": "سهم مشاعات",
+            "en": "Common-area share"
+          },
+          "amount": 20000
+        }
+      ],
+      "feedback": {
+        "fa": "جمع حساب اشتباهه! سکهٔ نامعتبر یا قبض کس دیگه رو حساب کردی مهندس؟",
+        "en": "That total is wrong! Did you count rejected coins or somebody else’s bill, engineer?"
+      },
+      "app": "accounts"
+    },
+    "thesis-font": {
+      "kind": "form",
+      "place": "monitor",
+      "label": {
+        "fa": "پایان‌نامه: فونت B Nazanin، قالب APA و عرض خودکار جدول؛ مهلت ۳۰ ثانیه.",
+        "en": "Thesis: B Nazanin font, APA template, automatic table width; 30-second deadline."
+      },
+      "duration": 2.4,
+      "fields": [
+        {
+          "key": "font",
+          "label": {
+            "fa": "فونت متن",
+            "en": "Body font"
+          },
+          "correct": "nazanin",
+          "options": [
+            {
+              "value": "arial",
+              "label": {
+                "fa": "Arial / مربع‌ها باقی بمانند",
+                "en": "Arial / leave the squares"
+              }
+            },
+            {
+              "value": "nazanin",
+              "label": {
+                "fa": "B Nazanin",
+                "en": "B Nazanin"
+              }
+            }
+          ]
+        },
+        {
+          "key": "style",
+          "label": {
+            "fa": "قالب مرجع",
+            "en": "Reference style"
+          },
+          "correct": "apa",
+          "options": [
+            {
+              "value": "apa",
+              "label": {
+                "fa": "APA",
+                "en": "APA"
+              }
+            },
+            {
+              "value": "plain",
+              "label": {
+                "fa": "متن ساده",
+                "en": "Plain text"
+              }
+            }
+          ]
+        },
+        {
+          "key": "tables",
+          "label": {
+            "fa": "عرض جدول‌ها",
+            "en": "Table width"
+          },
+          "correct": "auto",
+          "options": [
+            {
+              "value": "fixed",
+              "label": {
+                "fa": "ثابت و بریده",
+                "en": "Fixed and cropped"
+              }
+            },
+            {
+              "value": "auto",
+              "label": {
+                "fa": "خودکار در عرض صفحه",
+                "en": "Fit to page"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "تنظیمات پرونده با درخواست من فرق دارد؛ دوباره از روی شرح کار تنظیمش کن.",
+        "en": "These settings do not match my case. Read the request and do it again."
+      },
+      "app": "files"
+    },
+    "thesis-page56": {
+      "kind": "files",
+      "place": "monitor",
+      "label": {
+        "fa": "بستهٔ ۱۲۰صفحه‌ای را مرتب کن: ۱–۵۵، صفحهٔ ۵۶ ایمیل، ۵۷–۱۲۰.",
+        "en": "Rebuild the 120-page set: 1–55, emailed page 56, 57–120."
+      },
+      "duration": 2.6,
+      "items": [
+        {
+          "id": "first",
+          "label": {
+            "fa": "دستهٔ آمادهٔ صفحه‌های ۱ تا ۵۵",
+            "en": "Ready pages 1–55"
+          }
+        },
+        {
+          "id": "missing",
+          "label": {
+            "fa": "پیوست ایمیل: صفحهٔ ۵۶ نسخهٔ نهایی",
+            "en": "Email attachment: final page 56"
+          }
+        },
+        {
+          "id": "last",
+          "label": {
+            "fa": "دستهٔ آمادهٔ صفحه‌های ۵۷ تا ۱۲۰",
+            "en": "Ready pages 57–120"
+          }
+        },
+        {
+          "id": "draft",
+          "label": {
+            "fa": "صفحهٔ ۵۶ نسخهٔ قدیمی",
+            "en": "Old draft page 56"
+          }
+        }
+      ],
+      "required": [
+        "first",
+        "missing",
+        "last"
+      ],
+      "feedback": {
+        "fa": "فایل‌های انتخابی درست نیستند؛ یک برگهٔ اشتباه می‌تواند کل کار را خراب کند.",
+        "en": "Those are the wrong files. One incorrect page can spoil the whole job."
+      },
+      "app": "files"
+    },
+    "thesis-index": {
+      "kind": "form",
+      "place": "monitor",
+      "label": {
+        "fa": "فهرست نهایی: فصل دوم صفحهٔ ۵۶، شماره‌ها از مقدمه، فونت داخل PDF.",
+        "en": "Final index: chapter two on page 56, numbering from the introduction, PDF fonts embedded."
+      },
+      "duration": 2.4,
+      "fields": [
+        {
+          "key": "chapter",
+          "label": {
+            "fa": "شروع فصل دوم",
+            "en": "Chapter two starts"
+          },
+          "correct": "56",
+          "options": [
+            {
+              "value": "65",
+              "label": {
+                "fa": "صفحهٔ ۶۵",
+                "en": "Page 65"
+              }
+            },
+            {
+              "value": "56",
+              "label": {
+                "fa": "صفحهٔ ۵۶",
+                "en": "Page 56"
+              }
+            }
+          ]
+        },
+        {
+          "key": "numbering",
+          "label": {
+            "fa": "شروع شماره‌گذاری",
+            "en": "Start numbering"
+          },
+          "correct": "intro",
+          "options": [
+            {
+              "value": "intro",
+              "label": {
+                "fa": "از مقدمه",
+                "en": "From the introduction"
+              }
+            },
+            {
+              "value": "cover",
+              "label": {
+                "fa": "از جلد",
+                "en": "From the cover"
+              }
+            }
+          ]
+        },
+        {
+          "key": "embed",
+          "label": {
+            "fa": "فونت PDF",
+            "en": "PDF fonts"
+          },
+          "correct": "yes",
+          "options": [
+            {
+              "value": "yes",
+              "label": {
+                "fa": "جاسازی فونت",
+                "en": "Embed fonts"
+              }
+            },
+            {
+              "value": "no",
+              "label": {
+                "fa": "بدون فونت",
+                "en": "No embedded fonts"
+              }
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "fa": "تنظیمات پرونده با درخواست من فرق دارد؛ دوباره از روی شرح کار تنظیمش کن.",
+        "en": "These settings do not match my case. Read the request and do it again."
+      },
+      "app": "files"
+    },
+    "thesis-final": {
+      "kind": "files",
+      "place": "monitor",
+      "label": {
+        "fa": "فقط پایان‌نامهٔ نهایی و گزارش تطبیق را تحویل بده.",
+        "en": "Deliver only the final thesis and consistency report."
+      },
+      "duration": 2.6,
+      "items": [
+        {
+          "id": "final",
+          "label": {
+            "fa": "Thesis_FINAL.pdf / نهایی",
+            "en": "Thesis_FINAL.pdf / final"
+          }
+        },
+        {
+          "id": "report",
+          "label": {
+            "fa": "گزارش تطبیق فهرست و صفحه‌ها",
+            "en": "Index/page consistency report"
+          }
+        },
+        {
+          "id": "old",
+          "label": {
+            "fa": "Thesis_old.docx / پیش‌نویس",
+            "en": "Thesis_old.docx / draft"
+          }
+        }
+      ],
+      "required": [
+        "final",
+        "report"
+      ],
+      "feedback": {
+        "fa": "فایل‌های انتخابی درست نیستند؛ یک برگهٔ اشتباه می‌تواند کل کار را خراب کند.",
+        "en": "Those are the wrong files. One incorrect page can spoil the whole job."
+      },
+      "app": "files"
+    },
+    "crypto-signal": {
+      "kind": "signal",
+      "place": "monitor",
+      "label": {
+        "fa": "هات‌اسپات آزمایشی را روشن کن و زاویهٔ آنتن را روی ۴۵ درجه بگذار.",
+        "en": "Enable the simulated hotspot and set reception to 45 degrees."
+      },
+      "duration": 2.4,
+      "app": "browser"
+    },
+    "crypto-bandwidth": {
+      "kind": "choice",
+      "place": "monitor",
+      "label": {
+        "fa": "صف مشتری‌ها را حفظ کن؛ اتصال مهمان با سقف ترافیک بده.",
+        "en": "Protect the queue; provide a guest session with a traffic limit."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "شبکهٔ مهمان با سقف ترافیک؛ سیستم‌های مغازه اولویت دارند",
+            "en": "Guest session with traffic limit; shop systems have priority"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "تمام پهنای باند را به گوشی مشتری بده",
+            "en": "Give the customer all shop bandwidth"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "با این تنظیمات کل مغازه قطع شد! پوزیشن من بسته نشد، صف تو هم خوابید.",
+        "en": "You stalled the whole shop! My position is still open and your queue is frozen."
+      },
+      "app": "browser"
+    },
+    "crypto-session": {
+      "kind": "timed",
+      "place": "monitor",
+      "label": {
+        "fa": "اتصال محدودِ نمایشی را برقرار و رسید جلسه صادر کن.",
+        "en": "Establish the limited demo connection and issue a session receipt."
+      },
+      "duration": 2,
+      "app": "browser"
+    },
+    "crypto-proxy": {
+      "kind": "choice",
+      "place": "monitor",
+      "label": {
+        "fa": "پروکسی ارزان در پنهان ترافیک مشتری‌ها را می‌دزدد.",
+        "en": "The cheap proxy secretly steals customer traffic."
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "نصب نکن؛ نمونه را قرنطینه و پیشنهاد را رد کن",
+            "en": "Do not install; quarantine the sample and refuse"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "پیشنهاد را بپذیر؛ ۱۰۰٬۰۰۰ اضافه و ۳ ریسک",
+            "en": "Accept: 100,000 extra and 3 risk"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "رسید این کار با انتخابت یکی نیست؛ دوباره بررسی کن.",
+        "en": "The receipt does not match your decision. Review it again."
+      },
+      "branches": {
+        "a": {},
+        "b": {
+          "bonus": 100000,
+          "risk": 3
+        }
+      },
+      "app": "files"
+    },
+    "crypto-drive": {
+      "kind": "files",
+      "place": "monitor",
+      "label": {
+        "fa": "از هارد ۳۲۰ گیگ فقط Resident Evil را انتخاب کن؛ سکتور رمزگذاری‌شدهٔ ۱۰ گیگ جدا بماند.",
+        "en": "From the 320 GB drive select only Resident Evil; keep the encrypted 10 GB sector isolated."
+      },
+      "duration": 2.6,
+      "items": [
+        {
+          "id": "game",
+          "label": {
+            "fa": "Resident Evil / فایل بازی",
+            "en": "Resident Evil / game files"
+          }
+        },
+        {
+          "id": "sector",
+          "label": {
+            "fa": "سکتور مخفی ۱۰ گیگ / رمزشده",
+            "en": "Hidden 10 GB sector / encrypted"
+          }
+        },
+        {
+          "id": "config",
+          "label": {
+            "fa": "پروکسی ناشناس",
+            "en": "Unknown proxy"
+          }
+        }
+      ],
+      "required": [
+        "game"
+      ],
+      "feedback": {
+        "fa": "فایل‌های انتخابی درست نیستند؛ یک برگهٔ اشتباه می‌تواند کل کار را خراب کند.",
+        "en": "Those are the wrong files. One incorrect page can spoil the whole job."
+      },
+      "app": "files"
+    },
+    "crypto-seal": {
+      "kind": "choice",
+      "place": "papers",
+      "label": {
+        "fa": "با سکتور ده‌گیگی تا بررسی عمو رحیم چه می‌کنی؟",
+        "en": "What happens to the ten-gigabyte sector until Uncle Rahim reviews it?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "fa": "جدا و مهروموم؛ تحویل فقط با شرح خدمت روشن",
+            "en": "Keep separate and sealed; use a clear service description"
+          }
+        },
+        {
+          "id": "b",
+          "label": {
+            "fa": "به نام فایل بازی برای هرکس خواست بفرست",
+            "en": "Send it to anyone under a game-file label"
+          }
+        }
+      ],
+      "correct": "a",
+      "feedback": {
+        "fa": "این سکتور بازی نیست؛ توی رسید هم نباید قایمش کنی. دوباره بساز.",
+        "en": "That sector is not a game. Do not hide it in the receipt. Rebuild it."
+      }
+    }
+  },
+  "story": {
+    "title": {
+      "fa": "شب‌های نت — راز کافی‌نت زئوس",
+      "en": "Net Nights — The Secret of Zeus Internet Café"
+    },
+    "premise": {
+      "fa": "تو امیرعلی هستی؛ صاحب کافی‌نت خسته و نیمه‌تاریک «زئوس» در یکی از کوچه‌پس‌کوچه‌های پرباران و قدیمی تهران. پرینتر لیزری مدام برگه گیر می‌کند، دسکتاپ‌ها زیر فشار ویندوز ۷ ناله می‌کنند و قاب‌های خاکی PS3 و PS4 قفسه را پر کرده‌اند. اما کار اصلی تو فقط ثبت‌نام یارانه و پرینت فرم وام نیست. زئوس به «هاب سایه» تبدیل شده؛ دلال‌ها، دانشجوها و آدم‌های لنگ شبکه‌های زیرزمینی هارد می‌آورند تا رویشان بازی کپی‌خور، فایل فیلترشکن یا داده‌های رمزشده بریزی.",
+      "en": "You are Amirali, owner of Zeus, a tired, dim internet café in an old, rain-soaked Tehran alley. The laser printer keeps jamming, desktops groan under Windows 7, and dusty PS3 and PS4 cases fill the shelves. Your work goes beyond subsidy registrations and loan forms. Zeus has become a “shadow hub”: brokers, students and people tied to underground networks bring drives for copied games, VPN files and encrypted data."
+    },
+    "chapters": [
+      {
+        "title": {
+          "fa": "روز اول — بوی جوهر و هارد ۳۲۰ گیگ",
+          "en": "Day one — Ink and a 320 GB drive"
+        },
+        "opening": {
+          "fa": "باران روی شیشهٔ زئوس می‌زند. امیرعلی، کرکره را بالا بکش؛ پیرمرد رمز پویا می‌خواهد، دانشجو با فونت B Nazanin درگیر است و راننده پشت ارور ۵۰۲ مانده. پنج مشتری امروز نخستین کارشان را می‌آورند.",
+          "en": "Rain taps the Zeus window. Amirali, lift the shutter: a pensioner needs an OTP, a student has a broken B Nazanin font, and a driver is stuck at error 502. Five selected customers bring their first orders."
+        },
+        "obstacle": {
+          "fa": "اجاره نزدیک است؛ صف را مدیریت کن و نگذار فشار کار به ۱۰۰٪ برسد. در مدیریت فایل، کپی آزمایشی هارد و پوشاندن پنجره را تمرین کن.",
+          "en": "Rent is due soon. Manage the queue and keep stress below 100%. In File Manager, practise the simulated drive copy and cover window."
+        },
+        "closing": {
+          "fa": "آخر شب، صدای پرینتر می‌خوابد؛ یک جوان با کاپشن رنگی پشت شیشه ایستاده است.",
+          "en": "After closing, the printer falls silent. A young man in a colourful jacket waits at the window."
+        },
+        "location": {
+          "fa": "کافی‌نت زئوس",
+          "en": "Zeus Internet Café"
+        },
+        "event": null
+      },
+      {
+        "title": {
+          "fa": "روز دوم — ده گیگِ ناپیدا",
+          "en": "Day two — Ten invisible gigabytes"
+        },
+        "opening": {
+          "fa": "دلال رمزارز، هارد ۳۲۰ گیگی را روی میز می‌گذارد: «Resident Evil رو بریز، به بقیه‌ش دست نزن.» کنار بازی، یک سکتور مخفیِ رمزگذاری‌شده با حجم ۱۰ گیگ می‌بینی. همان مشتری‌های دیروز با سفارش دوم برمی‌گردند.",
+          "en": "A crypto broker leaves a 320 GB drive: “Copy Resident Evil. Leave the rest alone.” Beside the game is a hidden, encrypted 10 GB sector. Yesterday’s customers return with their second orders."
+        },
+        "obstacle": {
+          "fa": "مریم می‌گوید: «پول این هاردها زیادی راحت می‌رسه، امیرعلی.» هنوز نمی‌دانی چه کسی منتظر آن سکتور است.",
+          "en": "Maryam says, “The money from those drives comes too easily, Amirali.” You still do not know who is waiting for that sector."
+        },
+        "closing": {
+          "fa": "هارد را کنار می‌گذاری. پیام ناشناسی روی صفحه است: «شاهین. فردا شب، علاءالدین.»",
+          "en": "You set the drive aside. An unknown message reads: “Shahin. Aladdin. Tomorrow night.”"
+        },
+        "location": {
+          "fa": "کافی‌نت زئوس",
+          "en": "Zeus Internet Café"
+        },
+        "event": null
+      },
+      {
+        "title": {
+          "fa": "روز سوم — چک اجاره",
+          "en": "Day three — The rent cheque"
+        },
+        "opening": {
+          "fa": "ویندوز ۷ زیر فشار ناله می‌کند و چک اجاره تا فردا باید نقد شود. هر پنج مشتری برای سومین و متفاوت‌ترین سفارششان می‌آیند. بعد از بستن مغازه، نوبت رفتن به جمهوری است.",
+          "en": "Windows 7 groans under load and the rent cheque must clear tomorrow. The same five customers bring their third, distinct orders. After closing, you must head to Jomhouri."
+        },
+        "obstacle": {
+          "fa": "درآمد امروز واقعیِ صندوق بازی است؛ وعدهٔ پول شبانهٔ شاهین، حساب دیگری دارد. ارتقاها را با فکر بخر.",
+          "en": "Today’s earnings belong to the game’s till. Shahin’s promise of night money is another matter. Choose upgrades carefully."
+        },
+        "closing": {
+          "fa": "تابلوی زئوس را خاموش می‌کنی. باران روی زین موتور نشسته؛ چک اجاره در جیبت است.",
+          "en": "You switch off Zeus’s sign. Rain beads on the motorcycle seat; the rent cheque is in your pocket."
+        },
+        "location": {
+          "fa": "کافی‌نت زئوس",
+          "en": "Zeus Internet Café"
+        },
+        "event": null
+      },
+      {
+        "title": {
+          "fa": "روز چهارم — ورود به پاساژ علاءالدین",
+          "en": "Day four — Enter Aladdin Passage"
+        },
+        "opening": {
+          "fa": "شب، جمهوری. شاهین میان هاردهای لوله‌شده و باکس‌های قفل‌شده منتظرت است. می‌گوید: «زئوس رو بکن ایستگاه ترانزیت دیتا؛ سه برابر اجاره‌ت رو شبی نقدی می‌گیری.»",
+          "en": "Night on Jomhouri. Shahin waits among wrapped drives and locked boxes. “Make Zeus a data transit station. Three times your rent, cash, every night.”"
+        },
+        "obstacle": {
+          "fa": "چک اجاره در جیبت سنگینی می‌کند؛ این پیشنهاد یک قرارداد معمولیِ خدمات نیست.",
+          "en": "The rent cheque weighs on you. This offer is no ordinary service contract."
+        },
+        "closing": {
+          "fa": "پاساژ پشت سرت تاریک می‌شود؛ صدای معامله هنوز در گوشت است.",
+          "en": "The passage darkens behind you. The offer keeps echoing."
+        },
+        "location": {
+          "fa": "جمهوری / پاساژ علاءالدین",
+          "en": "Jomhouri / Aladdin Passage"
+        },
+        "event": {
+          "prompt": {
+            "fa": "شاهین دستش را دراز می‌کند. جواب امیرعلی چیست؟",
+            "en": "Shahin offers his hand. What does Amirali say?"
+          },
+          "options": [
+            {
+              "id": "decline",
+              "label": {
+                "fa": "«زئوس ایستگاه تو نمی‌شه.» پیشنهاد را رد کن.",
+                "en": "“Zeus will not be your station.” Refuse."
+              },
+              "reaction": {
+                "fa": "شاهین لبخندش را جمع می‌کند: «اجاره که رسید، یادت میاد.»",
+                "en": "Shahin stops smiling. “You will remember when the rent is due.”"
+              },
+              "flags": {
+                "dealActive": false
+              },
+              "cash": 0,
+              "risk": 0
+            },
+            {
+              "id": "accept",
+              "label": {
+                "fa": "پیش‌پرداخت ترانزیت را بگیر — ۳۰۰٬۰۰۰ تومان.",
+                "en": "Take the transit advance — 300,000 tomans."
+              },
+              "reaction": {
+                "fa": "پول در جیبت است؛ شاهین حالا زئوس را یکی از ایستگاه‌هایش می‌داند.",
+                "en": "The money is in your pocket. Shahin now counts Zeus among his stations."
+              },
+              "flags": {
+                "dealActive": true
+              },
+              "cash": 300000,
+              "risk": 1
+            }
+          ]
+        }
+      },
+      {
+        "title": {
+          "fa": "روز پنجم — باکس بی‌نام",
+          "en": "Day five — The unlabelled box"
+        },
+        "opening": {
+          "fa": "جلوی مغازه، پیکی یک باکس قفل‌شده می‌گذارد. برگهٔ همراهش فقط یک آدرس دارد؛ نه صاحب، نه شرح محتوا. مریم به دفتر رسیدها اشاره می‌کند.",
+          "en": "A courier leaves a locked box at the shop. Its slip has an address, no owner and no description. Maryam points at the receipt book."
+        },
+        "obstacle": {
+          "fa": "فشار پول، ثبت رسید و پرسیدن سؤال را وقت‌تلف‌کردن جلوه می‌دهد.",
+          "en": "Money pressure makes keeping receipts and asking questions feel like wasted time."
+        },
+        "closing": {
+          "fa": "توی دفتر، جای یک امضا مانده؛ ردِ تصمیم‌ها از خود پول ماندگارتر است.",
+          "en": "A signature space remains in the book. Decisions leave a longer trail than cash."
+        },
+        "location": {
+          "fa": "زئوس / تحویل شبانه",
+          "en": "Zeus / Night delivery"
+        },
+        "event": {
+          "prompt": {
+            "fa": "این بسته را چطور تحویل می‌گیری؟",
+            "en": "How will you handle the package?"
+          },
+          "options": [
+            {
+              "id": "inventory",
+              "label": {
+                "fa": "بدون مشخصات تحویل نگیر؛ رسید و هویت صاحب را بخواه.",
+                "en": "Require an owner and a receipt before accepting."
+              },
+              "reaction": {
+                "fa": "مریم سری تکان می‌دهد: «حداقل معلومه مال کیه.»",
+                "en": "Maryam nods. “At least we will know whose it is.”"
+              },
+              "flags": {},
+              "cash": 0,
+              "risk": 0
+            },
+            {
+              "id": "unlogged",
+              "label": {
+                "fa": "باکس را بی‌رسید نگه دار — ۸۰٬۰۰۰ تومان.",
+                "en": "Keep it without a receipt — 80,000 tomans."
+              },
+              "reaction": {
+                "fa": "شماره‌ای ناشناس پیام می‌دهد: «همین‌طوری ادامه بده.»",
+                "en": "An unknown number texts: “Keep it that way.”"
+              },
+              "flags": {},
+              "cash": 80000,
+              "risk": 1
+            }
+          ]
+        }
+      },
+      {
+        "title": {
+          "fa": "روز ششم — کوچهٔ بارانی",
+          "en": "Day six — Rain alley"
+        },
+        "opening": {
+          "fa": "موتور را در کوچهٔ باریک خاموش می‌کنی. نور چراغ ماشینی روی دیوار می‌لغزد؛ پیک رقیب از دور تو را زیر نظر دارد. مقصد، یک هارد با فایل‌های سیاه می‌خواهد.",
+          "en": "You stop the bike in a narrow alley. Headlights slide across a wall; a rival courier watches from afar. The destination wants a drive of black files."
+        },
+        "obstacle": {
+          "fa": "در کوچه راه برگشت داری؛ تحویل داده به شبکه قابل پس‌گرفتن نیست.",
+          "en": "You can still turn back in the alley. A handover to the network cannot be retrieved."
+        },
+        "closing": {
+          "fa": "از کوچه بیرون می‌زنی. باران رد لاستیک را پاک می‌کند، اما ردِ تحویل داده پاک نمی‌شود.",
+          "en": "You leave the alley. Rain erases the tyre tracks, but cannot undo a data handover."
+        },
+        "location": {
+          "fa": "کوچه‌های بارانی تهران",
+          "en": "Rainy Tehran alleys"
+        },
+        "event": {
+          "prompt": {
+            "fa": "صدای موتور دیگری نزدیک می‌شود. با هارد چه می‌کنی؟",
+            "en": "Another motorcycle approaches. What do you do with the drive?"
+          },
+          "options": [
+            {
+              "id": "isolate",
+              "label": {
+                "fa": "تحویل را لغو کن؛ هارد را جدا نگه دار و برگرد.",
+                "en": "Cancel the delivery; isolate the drive and return."
+              },
+              "reaction": {
+                "fa": "مریم پشت تلفن می‌گوید: «برگرد. مغازه هنوز چراغ داره.»",
+                "en": "Maryam says over the phone, “Come back. The shop light is still on.”"
+              },
+              "flags": {},
+              "cash": 0,
+              "risk": 0
+            },
+            {
+              "id": "copy-black",
+              "label": {
+                "fa": "فایل‌های سیاه را تحویل بده — ۲۵۰٬۰۰۰ تومان.",
+                "en": "Hand over the black files — 250,000 tomans."
+              },
+              "reaction": {
+                "fa": "پول را می‌گیری؛ نسخه‌ای از داده حالا در شبکه است و این تحویل برگشت‌پذیر نیست.",
+                "en": "You take the money. The network now has a copy; this handover cannot be undone."
+              },
+              "flags": {
+                "transferred": true
+              },
+              "cash": 250000,
+              "risk": 2
+            }
+          ]
+        }
+      },
+      {
+        "title": {
+          "fa": "روز هفتم — سه برابر اجاره",
+          "en": "Day seven — Three times the rent"
+        },
+        "opening": {
+          "fa": "شاهین راهت را در خروجی علاءالدین می‌بندد: «یک بار برای همیشه انتخاب کن. این شبکه جای نصفه‌نیمه کار کردن نیست.» پشت سرش چند باکس تازه روی هم چیده شده.",
+          "en": "Shahin stops you at Aladdin’s exit. “Choose once and for all. This network has no room for half measures.” Fresh locked boxes are stacked behind him."
+        },
+        "obstacle": {
+          "fa": "هنوز می‌توانی از قرارداد کنار بکشی؛ داده‌ای که قبلاً تحویل داده‌ای، با رد کردن امروز پس گرفته نمی‌شود.",
+          "en": "You can still leave the arrangement. Refusing today cannot retrieve data you already handed over."
+        },
+        "closing": {
+          "fa": "صدای کرکرهٔ پاساژ بلند می‌شود. حالا شاهین می‌داند روی چه کسی حساب کند.",
+          "en": "The passage shutter rattles down. Shahin now knows whom he can count on."
+        },
+        "location": {
+          "fa": "پاساژ علاءالدین / خروجی",
+          "en": "Aladdin Passage / Exit"
+        },
+        "event": {
+          "prompt": {
+            "fa": "قرارداد ترانزیت زئوس ادامه پیدا کند؟",
+            "en": "Will Zeus remain a transit station?"
+          },
+          "options": [
+            {
+              "id": "refuse-shahin",
+              "label": {
+                "fa": "معامله را قطع کن؛ سفارش‌های سنگین را رد کن.",
+                "en": "End the arrangement; refuse the heavy orders."
+              },
+              "reaction": {
+                "fa": "«پیشنهادت رو بردار، شاهین. زئوس فروشی نیست.»",
+                "en": "“Take your offer away, Shahin. Zeus is not for sale.”"
+              },
+              "flags": {
+                "dealActive": false
+              },
+              "cash": 0,
+              "risk": 0
+            },
+            {
+              "id": "sell",
+              "label": {
+                "fa": "قرارداد را ادامه بده و داده تحویل بده — ۴۵۰٬۰۰۰ تومان.",
+                "en": "Continue and hand over data — 450,000 tomans."
+              },
+              "reaction": {
+                "fa": "شاهین کلید باکس بعدی را کف دستت می‌گذارد: «حالا شدی شریک.»",
+                "en": "Shahin presses the next box key into your hand. “Now we are partners.”"
+              },
+              "flags": {
+                "dealActive": true,
+                "transferred": true
+              },
+              "cash": 450000,
+              "risk": 2
+            }
+          ]
+        }
+      },
+      {
+        "title": {
+          "fa": "روز هشتم — هشدار مریم",
+          "en": "Day eight — Maryam’s warning"
+        },
+        "opening": {
+          "fa": "بازرس‌ها دور زئوس آفتابی شده‌اند. مریم آهسته می‌گوید: «امیرعلی، این کار عاقبت نداره. اون ده گیگ فقط بازی نیست. عمو رحیم می‌تونه کمک کنه.»",
+          "en": "Inspectors circle Zeus. Maryam whispers, “Amirali, this will not end well. Those ten gigabytes are not just games. Uncle Rahim can help.”"
+        },
+        "obstacle": {
+          "fa": "پول بیشتر، هارد را بی‌خطر نمی‌کند. هشدار را بشنوی یا به آن بخندی؟",
+          "en": "More money does not make the drive safe. Will you listen or laugh it off?"
+        },
+        "closing": {
+          "fa": "برای اولین بار، سکوت زئوس از صدای پرینتر سنگین‌تر است.",
+          "en": "For the first time, Zeus’s silence weighs more than its printer’s noise."
+        },
+        "location": {
+          "fa": "زئوس / پشت پیشخوان",
+          "en": "Zeus / Behind the counter"
+        },
+        "event": {
+          "prompt": {
+            "fa": "به مریم چه می‌گویی؟",
+            "en": "What do you tell Maryam?"
+          },
+          "options": [
+            {
+              "id": "listen-maryam",
+              "label": {
+                "fa": "«حق با توئه. با عمو رحیم تماس بگیر.»",
+                "en": "“You are right. Call Uncle Rahim.”"
+              },
+              "reaction": {
+                "fa": "مریم شمارهٔ تعمیرگاه قدیمی را می‌گیرد.",
+                "en": "Maryam calls the old repair shop."
+              },
+              "flags": {
+                "warningIgnored": false
+              },
+              "cash": 0,
+              "risk": 0
+            },
+            {
+              "id": "ignore",
+              "label": {
+                "fa": "«زیادی نگران می‌شی؛ پولش خوبه.»",
+                "en": "“You worry too much. The money is good.”"
+              },
+              "reaction": {
+                "fa": "مریم جواب نمی‌دهد؛ شمارهٔ عمو رحیم را روی میز می‌گذارد و می‌رود.",
+                "en": "Maryam leaves Uncle Rahim’s number on the desk and walks away."
+              },
+              "flags": {
+                "warningIgnored": true
+              },
+              "cash": 0,
+              "risk": 0
+            }
+          ]
+        }
+      },
+      {
+        "title": {
+          "fa": "روز نهم — عمو رحیم و سکتور مخفی",
+          "en": "Day nine — Uncle Rahim and the hidden sector"
+        },
+        "opening": {
+          "fa": "عمو رحیم، تعمیرکار کهنه‌کار، کنار CRT می‌نشیند. سکتور ده گیگی را می‌بیند: «این داده‌ها بوی جاسوسی می‌ده، نه بازی. قبل از رسیدن پیک تکلیفش رو روشن کن.»",
+          "en": "Uncle Rahim, the veteran repairman, sits beside the CRT. He sees the ten-gigabyte sector. “This smells of espionage, not games. Decide before the courier arrives.”"
+        },
+        "obstacle": {
+          "fa": "پاک‌سازی هارد محلی در داستان، نسخهٔ داده‌ای را که قبلاً به شبکه داده‌ای پس نمی‌گیرد.",
+          "en": "Erasing this fictional local drive cannot retrieve a copy already handed to the network."
+        },
+        "closing": {
+          "fa": "ساعت از نیمه‌شب گذشته؛ زنگ مغازه دیگر صدای یک مشتری معمولی را نمی‌دهد.",
+          "en": "It is past midnight. The shop bell no longer sounds like an ordinary customer."
+        },
+        "location": {
+          "fa": "زئوس / میز تعمیرات",
+          "en": "Zeus / Repair bench"
+        },
+        "event": {
+          "prompt": {
+            "fa": "با سکتور مخفی چه می‌کنی؟",
+            "en": "What will you do with the hidden sector?"
+          },
+          "options": [
+            {
+              "id": "uncle-erase",
+              "label": {
+                "fa": "با کمک عمو رحیم سکتورهای مخفی را پاک کن.",
+                "en": "Erase the hidden sectors with Uncle Rahim."
+              },
+              "reaction": {
+                "fa": "عمو رحیم در روایت هارد را پاک می‌کند: «حالا نذار دوباره این چرخه شروع بشه.»",
+                "en": "Uncle Rahim erases the drive in the story. “Do not start this cycle again.”"
+              },
+              "flags": {
+                "cleaned": true
+              },
+              "cash": 0,
+              "risk": 0
+            },
+            {
+              "id": "send-sector",
+              "label": {
+                "fa": "هارد رمزگذاری‌شده را به پیک شبکه بده — ۶۰۰٬۰۰۰ تومان.",
+                "en": "Give the encrypted drive to the network courier — 600,000 tomans."
+              },
+              "reaction": {
+                "fa": "پیک هارد را زیر بارانی‌اش پنهان می‌کند. عمو رحیم بی‌حرف از جا بلند می‌شود.",
+                "en": "The courier hides the drive under his raincoat. Uncle Rahim gets up without a word."
+              },
+              "flags": {
+                "transferred": true
+              },
+              "cash": 600000,
+              "risk": 3
+            }
+          ]
+        }
+      },
+      {
+        "title": {
+          "fa": "روز دهم — آخرین کرکره",
+          "en": "Day ten — The final shutter"
+        },
+        "opening": {
+          "fa": "ساعت ۲:۵۷ بامداد است. شاهین آخرین پیام را می‌فرستد: «یک تحویل دیگه و همه‌چی حل می‌شه.» مریم و عمو رحیم پشت پیشخوان منتظرند. از خیابان صدای ترمز می‌آید.",
+          "en": "It is 02:57. Shahin sends one last message: “One more delivery and everything is solved.” Maryam and Uncle Rahim wait behind the counter. Brakes squeal outside."
+        },
+        "obstacle": {
+          "fa": "پایان از مجموع انتخاب‌ها ساخته می‌شود: قطع معامله، تحویل‌ندادن داده و پاک‌سازی با عمو رحیم. تصمیم آخر، تحویل‌های قبلی را لغو نمی‌کند.",
+          "en": "The ending follows your choices: end the deal, never hand over the data, and erase it with Uncle Rahim. The last choice cannot undo earlier handovers."
+        },
+        "closing": {
+          "fa": "تا ساعت سه فقط چند دقیقه مانده است.",
+          "en": "Only minutes remain until three."
+        },
+        "location": {
+          "fa": "زئوس / ۰۲:۵۷ بامداد",
+          "en": "Zeus / 02:57 AM"
+        },
+        "event": {
+          "prompt": {
+            "fa": "آخرین جواب امیرعلی؟",
+            "en": "Amirali’s final answer?"
+          },
+          "options": [
+            {
+              "id": "open-zeus",
+              "label": {
+                "fa": "پیشنهاد آخر را رد کن؛ زئوس را برای هم‌محله‌ای‌ها نگه دار.",
+                "en": "Refuse the last offer; keep Zeus for the neighbourhood."
+              },
+              "reaction": {
+                "fa": "گوشی را خاموش می‌کنی. اکنون نتیجهٔ انتخاب‌هایت روشن می‌شود.",
+                "en": "You turn off the phone. Your choices now reveal their outcome."
+              },
+              "flags": {
+                "dealActive": false
+              },
+              "cash": 0,
+              "risk": 0
+            },
+            {
+              "id": "last-deal",
+              "label": {
+                "fa": "تحویل آخر را قبول کن — ۱٬۰۰۰٬۰۰۰ تومان.",
+                "en": "Accept the last delivery — 1,000,000 tomans."
+              },
+              "reaction": {
+                "fa": "صدای شیشه از جلوی مغازه بلند می‌شود. پیام شاهین دیگر جوابی ندارد.",
+                "en": "Glass shatters at the front. Shahin no longer answers."
+              },
+              "flags": {
+                "dealActive": true,
+                "transferred": true
+              },
+              "cash": 1000000,
+              "risk": 3
+            }
+          ]
+        }
+      }
+    ],
+    "good": [
+      {
+        "fa": "پایان خوب — چراغ‌های روشن زئوس",
+        "en": "Good ending — The lights of Zeus"
+      },
+      {
+        "fa": "پیشنهادات سنگین شاهین را رد کردی، هارد حاوی داده‌های جاسوسی را به شبکهٔ زیرزمینی ندادی و با کمک عمو رحیم سکتورهای مخفی را پاک کردی. شاهین و باندش لو می‌روند یا مجبور به فرار می‌شوند.",
+        "en": "You refused Shahin’s heavy offers, kept the espionage data out of the underground network, and erased the hidden sectors with Uncle Rahim. Shahin and his gang are exposed or forced to flee."
+      },
+      {
+        "fa": "اگرچه ثروتمند نشدی، کافی‌نت زئوس پلمپ نمی‌شود. کرکره را بالا می‌کشی؛ آفتاب بی‌رمق روی تابلو می‌تابد. کنار مریم و مشتری‌های عادی محله، با خیال راحت چای می‌نوشی. تو زنده ماندی و شرفت را نفروختی.",
+        "en": "You did not become rich, but Zeus stays open. You lift the shutter; pale sunlight reaches the sign. With Maryam and the neighbourhood’s regulars, you drink tea in peace. You survived without selling your honour."
+      }
+    ],
+    "bad": [
+      {
+        "fa": "پایان بد — ارور ۵۰۲، قطعی ابدی",
+        "en": "Bad ending — Error 502, permanent disconnection"
+      },
+      {
+        "fa": "طمع و فایل‌های سیاه راه زئوس را بستند. ساعت ۳ بامداد، زیر باران شدید، صدای شکستن شیشهٔ جلوی مغازه می‌آید. مأموران وارد می‌شوند و تمام سیستم‌ها مصادره می‌شود.",
+        "en": "Greed and black files closed Zeus’s path. At 03:00 in heavy rain, the front window shatters. Officers enter and seize every computer."
+      },
+      {
+        "fa": "مانیتورها روی صفحهٔ سیاه با متن قرمز گیر می‌کنند: «سیستم به دستور مقام قضایی توقیف شد». سوار ماشین سیاه می‌شوی؛ به تابلوی شکسته و خاموش کافی‌نت زئوس نگاه می‌کنی و برای همیشه وارد تاریکی می‌شوی.",
+        "en": "Black monitors freeze on a red message: “System seized by judicial order.” You enter a black car, look back at Zeus’s broken, dark sign, and disappear into the night."
+      }
+    ]
+  }
+}

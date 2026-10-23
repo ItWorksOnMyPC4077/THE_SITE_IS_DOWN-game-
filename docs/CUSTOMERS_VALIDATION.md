@@ -1,5 +1,7 @@
 # Customer edition validation — 2026-10-14
 
+> Historical two-customer build. See [README](../README.md) and [current version notes](SHIFT_UPDATE.md) for the current five-customer build.
+
 ## Implemented
 
 - Both original PNGs from `image/` are embedded in the standalone HTML, used at the counter and in customer conversations.

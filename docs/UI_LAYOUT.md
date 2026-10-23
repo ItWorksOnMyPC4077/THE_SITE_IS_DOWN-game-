@@ -1,5 +1,7 @@
 # UI layout and art implementation plan
 
+> Historical Godot UI plan, not the current HTML layout. See [README](../README.md) and [current version notes](SHIFT_UPDATE.md).
+
 ## Screen hierarchy
 
 Base UI design: **1280 × 800**, minimum window **1024 × 720**. The root scroll container protects content at smaller supported window sizes. The scene has a 24-pixel outer margin and 14–24-pixel gaps. This is a desktop layout; narrow/mobile reflow is not implemented.

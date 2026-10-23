@@ -1,0 +1,418 @@
+{
+  "chapters": [
+    {
+      "opponent": "maryam",
+      "background": "shop",
+      "beats": [
+        {
+          "left": {
+            "fa": "کرکره رو بده بالا؛ پنج نفر توی این بارون منتظرن.",
+            "en": "Raise the shutter. Five people are waiting in the rain."
+          },
+          "right": {
+            "fa": "هنوز چای دم نکشیده، صف تشکیل شده. زئوس از خواب هم طلبکاره.",
+            "en": "The tea is not even ready and we have a queue. Zeus charges rent on sleep, too."
+          }
+        },
+        {
+          "left": {
+            "fa": "ثبت‌نام و پرینت رو جمع کن. امروز پول اجاره رو لازم داریم.",
+            "en": "Handle the forms and printing. We need the rent money today."
+          },
+          "right": {
+            "fa": "با یه پرینتر خسته و سایت ۵۰۲؟ چه تیم برنده‌ای داریم!",
+            "en": "A tired printer and a 502 portal? What a winning team."
+          }
+        },
+        {
+          "left": {
+            "fa": "هر مشتری فقط یک کار داره؛ قبولش کن، انجامش بده، بعد تحویل بده.",
+            "en": "One job per customer. Accept it, do the work, then deliver it."
+          },
+          "right": {
+            "fa": "باشه. اول این پنج نفر، بعد شاید یه جرعه چای سهم من بشه.",
+            "en": "Fine. These five first. Perhaps I will earn a sip of tea."
+          }
+        }
+      ]
+    },
+    {
+      "opponent": "maryam",
+      "background": "shop",
+      "beats": [
+        {
+          "left": {
+            "fa": "این هارد ۳۲۰ گیگی رو دیدی؟ فقط برای Resident Evil نیست.",
+            "en": "Did you see that 320 GB drive? It is not just for Resident Evil."
+          },
+          "right": {
+            "fa": "ده گیگ مخفی و رمزگذاری‌شده. بازی جدیدشون اسمش دردسره؟",
+            "en": "Ten hidden, encrypted gigabytes. Is their new game called Trouble?"
+          }
+        },
+        {
+          "left": {
+            "fa": "پول این هاردها زیادی راحت می‌رسه. باید حواسمون باشه.",
+            "en": "The money from these drives comes too easily. We need to be careful."
+          },
+          "right": {
+            "fa": "تو زئوس حتی چاپ یه برگه هم راحت نیست؛ همینش مشکوکه.",
+            "en": "Even printing a page is hard at Zeus. Easy money is suspicious."
+          }
+        },
+        {
+          "left": {
+            "fa": "همون پنج نفر دیروز امروز کار دومشون رو میارن.",
+            "en": "Yesterday’s five will bring their second jobs today."
+          },
+          "right": {
+            "fa": "پس فعلاً کار مردم رو راه می‌اندازیم؛ این ده گیگ رو جدا نگه دار.",
+            "en": "Then we help our customers first. Keep those ten gigabytes isolated."
+          }
+        }
+      ]
+    },
+    {
+      "opponent": "maryam",
+      "background": "shop",
+      "beats": [
+        {
+          "left": {
+            "fa": "چک اجاره فرداست. شاهین گفته امشب جمهوری منتظرته.",
+            "en": "The rent cheque is due tomorrow. Shahin is waiting in Jomhouri tonight."
+          },
+          "right": {
+            "fa": "اگر اجاره رو با ارور سایت می‌گرفتن، الان صاحب کل ساختمون بودیم.",
+            "en": "If rent were paid in website errors, we would own the whole building."
+          }
+        },
+        {
+          "left": {
+            "fa": "قبل از رفتن، سومین کار اون پنج مشتری رو تموم کن.",
+            "en": "Finish those five customers’ third jobs before you leave."
+          },
+          "right": {
+            "fa": "باشه. قطعهٔ بهتر می‌خریم، نه یه دردسر گرون‌تر.",
+            "en": "Right. We need better parts, not more expensive trouble."
+          }
+        },
+        {
+          "left": {
+            "fa": "هر پیشنهادی داد، بدون پرسیدن دربارهٔ محتوا قبول نکن.",
+            "en": "Whatever he offers, ask about the contents before accepting."
+          },
+          "right": {
+            "fa": "قول نمی‌دم اجاره وسوسه‌م نکنه؛ ولی گوش‌هام هنوز کار می‌کنن.",
+            "en": "The rent might tempt me, but my ears still work."
+          }
+        }
+      ]
+    },
+    {
+      "opponent": "shahin",
+      "background": "market",
+      "beats": [
+        {
+          "left": {
+            "fa": "زئوس رو بکن ایستگاه ترانزیت دیتا. شبی سه برابر اجاره‌ت نقد می‌گیری.",
+            "en": "Make Zeus a data transit station. Three times your rent, paid nightly."
+          },
+          "right": {
+            "fa": "سه برابر اجاره؟ از کی تا حالا کپی کردن این‌قدر سود داره؟",
+            "en": "Three times the rent? Since when is copying this profitable?"
+          }
+        },
+        {
+          "left": {
+            "fa": "تو فقط هارد رو تحویل می‌گیری و تحویل می‌دی. سؤال اضافه هم لازم نیست.",
+            "en": "You take the drives and pass them on. No extra questions needed."
+          },
+          "right": {
+            "fa": "من حتی واسه یه تک‌برگ پرینت هم می‌پرسم مال کیه.",
+            "en": "I ask whose file it is even for a single-page print."
+          }
+        },
+        {
+          "left": {
+            "fa": "پیش‌پرداخت آماده‌ست. شریک می‌شی یا با همون صف پیرمردها سر می‌کنی؟",
+            "en": "The advance is ready. Partners, or back to your queue of pensioners?"
+          },
+          "right": {
+            "fa": "بذار ببینم قیمت این پول، فقط اجاره‌ست یا خود زئوس.",
+            "en": "Let me work out whether this money costs the rent, or Zeus itself."
+          }
+        }
+      ]
+    },
+    {
+      "opponent": "maryam",
+      "background": "street",
+      "beats": [
+        {
+          "left": {
+            "fa": "این باکس قفل‌شده رو گذاشتن جلوی مغازه. نه اسم صاحب داره، نه رسید.",
+            "en": "They left this locked box outside. No owner’s name, no receipt."
+          },
+          "right": {
+            "fa": "عالیه؛ بسته‌ای که از همین اول دوست نداره شناخته بشه.",
+            "en": "Wonderful. A package that already prefers anonymity."
+          }
+        },
+        {
+          "left": {
+            "fa": "شمارهٔ فرستنده رو بخواه. دفتر رسید واسه همین روزهاست.",
+            "en": "Ask for the sender’s details. This is what the receipt book is for."
+          },
+          "right": {
+            "fa": "پولِ بی‌سؤال همیشه آخرش یه سؤال خیلی گرون داره.",
+            "en": "Money without questions tends to leave an expensive question behind."
+          }
+        },
+        {
+          "left": {
+            "fa": "بی‌رسید نگهش می‌داری یا مشخصات صاحب رو می‌خوای؟",
+            "en": "Keep it unlogged, or insist on an owner’s details?"
+          },
+          "right": {
+            "fa": "این بار تصمیم رو با چشم باز می‌گیرم.",
+            "en": "This time I decide with my eyes open."
+          }
+        }
+      ]
+    },
+    {
+      "opponent": "maryam",
+      "background": "street",
+      "beats": [
+        {
+          "left": {
+            "fa": "صدای موتور میاد. رسیدی به اون کوچه؟",
+            "en": "I can hear a motorcycle. Have you reached the alley?"
+          },
+          "right": {
+            "fa": "آره. یه ماشین هم انگار از مسیر من خوشش اومده؛ ول‌کن نیست.",
+            "en": "Yes. A car seems very fond of my route. It will not leave."
+          }
+        },
+        {
+          "left": {
+            "fa": "هارد رو تحویل نده تا مطمئن بشیم توی اون سکتور چیه.",
+            "en": "Do not hand over the drive until we know what is in that sector."
+          },
+          "right": {
+            "fa": "اگه داده بره، دیگه دکمهٔ برگردوندن فایل نداریم.",
+            "en": "Once the data leaves, there is no Undo button."
+          }
+        },
+        {
+          "left": {
+            "fa": "برگرد. مغازه هنوز چراغ داره.",
+            "en": "Come back. The shop light is still on."
+          },
+          "right": {
+            "fa": "صدای اون موتور نزدیک‌تر شد. باید همین الان انتخاب کنم.",
+            "en": "That engine is getting closer. I have to choose now."
+          }
+        }
+      ]
+    },
+    {
+      "opponent": "shahin",
+      "background": "market",
+      "beats": [
+        {
+          "left": {
+            "fa": "این شبکه جای نصفه‌نیمه کار کردن نیست. یک بار برای همیشه انتخاب کن.",
+            "en": "This network has no room for half measures. Choose once and for all."
+          },
+          "right": {
+            "fa": "من کافی‌نت دارم، نه انبار سفارش‌های بی‌صاحب تو.",
+            "en": "I run an internet café, not your warehouse for ownerless orders."
+          }
+        },
+        {
+          "left": {
+            "fa": "چهارصد و پنجاه هزار برای تحویل بعدی. اجاره‌ت دیگه مسئله نیست.",
+            "en": "Four hundred and fifty thousand for the next handover. Rent stops being a problem."
+          },
+          "right": {
+            "fa": "اجاره شاید؛ ولی بقیهٔ مسئله‌ها تازه دارن صف می‌کشن.",
+            "en": "Perhaps rent does. The other problems are just starting to queue."
+          }
+        },
+        {
+          "left": {
+            "fa": "ادامه می‌دی یا قرارداد تمومه؟",
+            "en": "Are we continuing, or is our arrangement over?"
+          },
+          "right": {
+            "fa": "هرچی قبلاً تحویل داده باشم برنمی‌گرده؛ اما قدم بعد هنوز دست منه.",
+            "en": "I cannot retrieve an earlier handover. But my next step is still mine."
+          }
+        }
+      ]
+    },
+    {
+      "opponent": "maryam",
+      "background": "shop",
+      "beats": [
+        {
+          "left": {
+            "fa": "بازرس‌ها دوباره دور مغازه بودن. این کار عاقبت نداره.",
+            "en": "The inspectors were outside again. This cannot end well."
+          },
+          "right": {
+            "fa": "دیروز دنبال اینترنت پایدار بودیم؛ امروز دنبال یه نفس راحت.",
+            "en": "Yesterday we wanted a stable connection. Today we want a quiet breath."
+          }
+        },
+        {
+          "left": {
+            "fa": "اون ده گیگ فقط بازی نیست. عمو رحیم می‌تونه کمک کنه.",
+            "en": "Those ten gigabytes are not just games. Uncle Rahim can help."
+          },
+          "right": {
+            "fa": "کاش دردسر هم مثل فایل موقت پاک می‌شد.",
+            "en": "If only trouble could be deleted like temporary files."
+          }
+        },
+        {
+          "left": {
+            "fa": "شماره‌ش اینجاست. هنوز می‌شه جلوی بدتر شدنش رو گرفت.",
+            "en": "Here is his number. We can still stop this getting worse."
+          },
+          "right": {
+            "fa": "باید تصمیم بگیرم به هشدار تو گوش کنم یا صدای پول.",
+            "en": "I need to decide whether to listen to your warning or the money."
+          }
+        }
+      ]
+    },
+    {
+      "opponent": "rahim",
+      "background": "shop",
+      "beats": [
+        {
+          "left": {
+            "fa": "این سکتورها بوی جاسوسی می‌دن، نه بازی. قبل از رسیدن پیک تصمیم بگیر.",
+            "en": "These sectors smell of spying, not games. Decide before the courier arrives."
+          },
+          "right": {
+            "fa": "این تنها فایل مغازه‌ست که از خود ویندوز هم دردسرش بیشتره.",
+            "en": "The one file in this shop that causes more trouble than Windows."
+          }
+        },
+        {
+          "left": {
+            "fa": "نسخهٔ روی این هارد رو می‌شه پاک کرد؛ نسخه‌ای که تحویل دادی رو نه.",
+            "en": "We can erase this local drive. We cannot retrieve a copy you already handed over."
+          },
+          "right": {
+            "fa": "پس پاک کردنش، گذشته رو عوض نمی‌کنه؛ فقط شاید جلو فردا رو بگیره.",
+            "en": "Erasing it will not change yesterday. It might still protect tomorrow."
+          }
+        },
+        {
+          "left": {
+            "fa": "کمکت می‌کنم پاکش کنی. فقط دوباره این چرخه رو شروع نکن.",
+            "en": "I will help you erase it. Just do not start this cycle again."
+          },
+          "right": {
+            "fa": "پیک یا پاک‌سازی… این بار اسم گزینه‌ها هم شبیه هم نیست.",
+            "en": "The courier, or erasure. This time the options do not even look alike."
+          }
+        }
+      ]
+    },
+    {
+      "opponent": "shahin",
+      "background": "street",
+      "beats": [
+        {
+          "left": {
+            "fa": "یک تحویل دیگه و همه‌چی حل می‌شه. یک میلیون، همین امشب.",
+            "en": "One more delivery fixes everything. One million, tonight."
+          },
+          "right": {
+            "fa": "ساعت دو و پنجاه‌وهفته. پیشنهادهای تو چرا همیشه خواب ندارن؟",
+            "en": "It is 2:57 a.m. Why do your offers never sleep?"
+          }
+        },
+        {
+          "left": {
+            "fa": "این آخرین فرصته. هارد رو بده به پیک.",
+            "en": "This is the last chance. Give the drive to the courier."
+          },
+          "right": {
+            "fa": "مریم و عمو رحیم اینجان. این‌بار فقط من نیستم که هزینه‌ش رو می‌دم.",
+            "en": "Maryam and Uncle Rahim are here. I am not the only one who would pay for this."
+          }
+        },
+        {
+          "left": {
+            "fa": "جوابت چیه؟",
+            "en": "What is your answer?"
+          },
+          "right": {
+            "fa": "از خیابون صدای ترمز میاد… جواب آخرم باید روشن باشه.",
+            "en": "I can hear brakes outside. My last answer has to be clear."
+          }
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "good": {
+      "opponent": "maryam",
+      "background": "street",
+      "beats": [
+        {
+          "left": {
+            "fa": "کرکره رو بده بالا. هم‌محله‌ای‌ها پشت درن.",
+            "en": "Raise the shutter. Our neighbours are waiting outside."
+          },
+          "right": {
+            "fa": "این بار چراغ زئوس برای خودمون روشنه، نه هاردهای بی‌نام.",
+            "en": "This time the Zeus light is on for us, not anonymous drives."
+          }
+        },
+        {
+          "left": {
+            "fa": "میلیاردر نشدیم؛ ولی مغازه‌مون هنوز بازه. چای می‌خوری؟",
+            "en": "We did not become billionaires. But the shop is still open. Tea?"
+          },
+          "right": {
+            "fa": "آره. بالاخره یه چیزی توی این مغازه بدون ارور آماده شد.",
+            "en": "Yes. Finally, something in this shop is ready without an error."
+          }
+        }
+      ]
+    },
+    "bad": {
+      "opponent": "maryam",
+      "background": "street",
+      "beats": [
+        {
+          "left": {
+            "fa": "صدای شیشه… امیرعلی، دارن میان داخل!",
+            "en": "The glass… Amirali, they are coming inside!"
+          },
+          "right": {
+            "fa": "مانیتورها سیاه شدن. این یکی دیگه ارور اینترنت نیست.",
+            "en": "The monitors went black. This is no ordinary connection error."
+          }
+        },
+        {
+          "left": {
+            "fa": "سیستم‌ها رو دارن می‌برن… زئوس چی می‌شه؟",
+            "en": "They are taking the computers. What happens to Zeus?"
+          },
+          "right": {
+            "fa": "تابلو خاموشه. هیچ F5ای این شب رو از اول بارگذاری نمی‌کنه.",
+            "en": "The sign is dark. No F5 can reload this night."
+          }
+        }
+      ]
+    }
+  }
+}

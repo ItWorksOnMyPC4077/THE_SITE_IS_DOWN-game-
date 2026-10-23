@@ -1,5 +1,7 @@
 # The Site is Down! / سایت بسته است!
 
+> Historical design and future targets, not a list of current features. See [README](../README.md) and [current version notes](SHIFT_UPDATE.md) for the playable HTML build.
+
 **Game design document • v0.1 • 13 October 2026**
 
 ## 1. Pitch and player promise

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111111">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'none'; media-src data:; base-uri 'none'; form-action 'none'">
+  <title>شب‌های نت — راز کافی‌نت زئوس | Net Nights</title>
+  <style>/*__CSS__*/</style>
+</head>
+<body>
+  <div class="ambient-backdrop" aria-hidden="true"></div>
+  <main id="world" class="world" aria-label="کافه‌نت">
+    <div class="scene" id="scene">
+      <img id="shop-image" src="assets/mohit/shop-reference.png" alt="" draggable="false">
+      <div class="scene-vignette" aria-hidden="true"></div>
+      <div class="screen-light" aria-hidden="true"></div>
+      <div class="tea-steam" id="tea-steam" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="printer-paper" id="printer-paper" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <button id="customer-sprite" class="customer-sprite" type="button" hidden><img id="customer-image" alt="" draggable="false"><span id="customer-name"></span></button>
+      <div class="hotspots" id="hotspots" inert>
+        <button class="hotspot monitor" data-place="monitor" type="button"><span class="target-point"></span><span class="hotspot-label" data-text="monitor"></span></button>
+        <button class="hotspot printer" data-place="printer" type="button"><span class="target-point"></span><span class="hotspot-label" data-text="printer"></span></button>
+        <button class="hotspot shelf" data-place="shelf" type="button"><span class="target-point"></span><span class="hotspot-label" data-text="shelf"></span></button>
+        <button class="hotspot papers" data-place="papers" type="button"><span class="target-point"></span><span class="hotspot-label" data-text="papers"></span></button>
+        <button id="tea-cup" class="hotspot tea" data-place="tea" type="button"><span class="target-point"></span><span class="hotspot-label" data-text="drink_tea"></span></button>
+      </div>
+      <button id="scene-dialogue" class="scene-dialogue" type="button" hidden aria-describedby="scene-dialogue-hint"><span id="scene-dialogue-name" class="scene-dialogue-name"></span><span id="scene-dialogue-line" class="scene-dialogue-line" aria-live="polite" aria-atomic="true"></span><span class="scene-dialogue-bottom"><span id="scene-dialogue-count"></span><span id="scene-dialogue-hint"></span></span></button>
+    </div>
+  </main>
+
+  <section class="intro" id="intro" aria-labelledby="game-title">
+    <div class="intro-card">
+      <div class="chapter-label"><span></span><p data-text="intro_eyebrow"></p><span></span></div>
+      <h1 id="game-title"><span data-text="title_first"></span><strong data-text="title_second"></strong></h1>
+      <p class="english-title" lang="en" dir="ltr">NET NIGHTS / ZEUS</p>
+      <p class="intro-line" data-text="intro_line"></p>
+      <fieldset id="difficulty-picker" class="difficulty-picker"><legend data-text="difficulty_question"></legend><div class="difficulty-options"><button type="button" data-difficulty="easy" aria-pressed="false" data-text="easy"></button><button type="button" data-difficulty="normal" aria-pressed="false" data-text="normal"></button><button type="button" data-difficulty="hard" aria-pressed="false" data-text="hard"></button></div><p id="difficulty-description"></p></fieldset>
+      <button id="start" class="start-button" type="button"><span data-text="start"></span><span aria-hidden="true">←</span></button>
+      <button id="open-tutorial" class="quiet-button tutorial-menu-button" type="button" data-text="tutorial"></button>
+      <button id="restart-shift" class="quiet-button" type="button" data-text="restart_shift" hidden></button>
+      <p class="intro-note" data-text="intro_note"></p>
+    </div>
+    <div class="intro-bottom"><span data-text="setting"></span><span class="edition" data-text="edition"></span></div>
+  </section>
+
+  <header class="topbar">
+    <div class="shop-identity" id="shop-identity" hidden><span class="status-dot"></span><div><strong data-text="shop_name"></strong><small id="day-status"></small></div></div>
+    <nav class="settings" aria-label="تنظیمات">
+      <button id="language" type="button" class="quiet-button" aria-label="Change language">English</button>
+      <button id="audio" type="button" class="quiet-button"></button>
+      <button id="motion" type="button" class="quiet-button"></button>
+      <button id="fullscreen" type="button" class="quiet-button" data-text="fullscreen"></button>
+      <button id="pause" type="button" class="quiet-button" data-text="pause" hidden></button>
+    </nav>
+  </header>
+  <button id="order-tracker" class="order-tracker" type="button" hidden><span id="order-label"></span><strong id="order-objective"></strong><small id="order-money"></small><span id="customer-patience" class="customer-patience" hidden><span data-text="patience"></span><b id="patience-number"></b><span id="patience-bar" class="patience-track" role="progressbar" aria-label="مهلت مشتری" aria-valuemin="0" aria-valuemax="60"><i id="patience-fill"></i><span class="patience-half"></span></span></span></button>
+  <section id="customer-actions" class="customer-actions" hidden aria-label="سفارش مشتری"><button id="accept-order" type="button" class="panel-button" data-text="accept_order"></button><button id="deliver-order" type="button" class="panel-button" data-text="deliver_order"></button><button id="leave-customer" type="button" class="quiet-button" data-text="leave_customer"></button><span id="visit-status" role="status"></span></section>
+
+  <section id="dev-toolbar" class="dev-toolbar" hidden aria-label="Developer mode"><span data-text="dev_on"></span><button id="dev-skip" class="quiet-button" type="button" data-text="dev_skip"></button></section>
+
+  <section class="speech" id="speech" hidden aria-live="polite" aria-atomic="true"><span class="speaker" data-text="nima"></span><p id="speech-text"></p></section>
+
+  <footer class="hud" id="hud" hidden>
+    <div class="vitals"><div class="stress-block"><span data-text="stress"></span><div class="stress-track" role="progressbar" id="stress-bar" aria-valuemin="0" aria-valuemax="100"><i id="stress-fill"></i><span class="stress-threshold" aria-hidden="true"></span></div><b id="stress-number"></b><small id="stress-state"></small></div><span class="hud-divider"></span><span id="paper-count"></span></div>
+    <div class="stress-details"><span id="stress-cause"></span><button type="button" id="take-breath" class="quiet-button" data-text="take_breath"></button><button type="button" id="day-board" class="quiet-button" data-text="day_board"></button><button type="button" id="open-upgrades" class="quiet-button" data-text="upgrades"></button><button type="button" id="open-tools" class="quiet-button" data-text="tools"></button></div>
+    <button id="copy-cover" type="button" class="quiet-button" hidden></button><div class="hud-actions"><button id="show-hints" class="quiet-button" type="button"><kbd>H</kbd><span data-text="hints"></span></button><button id="guide" class="quiet-button" type="button" data-text="guide"></button><span class="scene-time" dir="ltr">08:03</span></div>
+  </footer>
+
+  <dialog id="panel" aria-labelledby="panel-title">
+    <div class="panel-top"><span id="panel-caption"></span><button id="close-panel" type="button" aria-label="بستن">×</button></div>
+    <div id="panel-content"></div>
+  </dialog>
+  <div id="game-event" class="game-event" role="status" aria-live="polite" hidden></div>
+  <div class="save-warning" id="save-warning" hidden data-text="storage_warning"></div>
+  <noscript><div class="no-script">برای اجرای بازی جاوااسکریپت را فعال کن. Enable JavaScript to play.</div></noscript>
+  <script type="application/json" id="room-data">/*__DATA__*/</script>
+  <script>/*__ENGINE__*/</script>
+  <script>/*__APP__*/</script>
+</body>
+</html>

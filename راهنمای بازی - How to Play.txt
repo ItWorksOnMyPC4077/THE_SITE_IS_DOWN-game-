@@ -1,0 +1,135 @@
+شب‌های نت — راز کافی‌نت زئوس | Net Nights — The Secret of Zeus
+راهنمای نسخهٔ ۹ — پنج مشتری در روز، ده روز داستان و دو پایان
+Version 9 — five daily customers, ten story days and two endings
+
+فارسی
+======
+اجرا: offline.html را با Chrome باز کن؛ تصاویر و فونت داخل همین فایل‌اند.
+یا index.html را باز کن و پوشهٔ assets را کنارش نگه دار. نصب برنامه یا اینترنت لازم نیست.
+
+۰. از منوی اصلی «آموزش و تمرین» را باز کن. ۱۲ مرحلهٔ تعاملی قبول سفارش، چاپ و تحویل، چای، صبر مشتری، ارتقا و شش برنامه را یاد می‌دهند. این تمرین پول و ذخیرهٔ داستانت را عوض نمی‌کند.
+۱. صحنهٔ داستان صفحهٔ جدا دارد: تصویر شخصیت اصلی راست و طرف گفت‌وگو چپ است. روی هر حباب یا «ادامهٔ گفت‌وگو» بزن؛ حباب فقط حرف‌ها را جلو می‌برد. دکمهٔ زبان داخل همین صفحه است و محل گفت‌وگو ذخیره می‌شود.
+سختی را انتخاب کن، بخش داستان را بخوان و «شروع کار امروز» را بزن. هر بازی پنج نفر از ۱۴ مشتری انتخاب می‌شوند و همان پنج نفر روزی یک بار می‌آیند؛ مأموریت اول در روز اول، دوم در روز دوم و سوم در روز سوم.
+۲. حباب کنار عکس خودکار ظاهر می‌شود؛ کلیک روی آن فقط حرف را جلو می‌برد.
+۳. «قبول سفارش» را بزن، سپس روی ابزار مربوط در صحنه کلیک کن. H جای ابزارها را نشان می‌دهد.
+۴. در کامپیوتر برنامهٔ درست را از شش آیکن باز کن؛ مرورگر، فایل‌ها، عکس، اسکنر، حسابداری و دفتر مشتری‌ها. دکمهٔ راهنما برنامهٔ مربوط به سفارش را مشخص می‌کند.
+۵. مراحل را تمام کن، پنجره را ببند و «تحویل سفارش» را بزن. دستمزد فقط یک بار پرداخت می‌شود.
+۶. مشتری پس از ۵ ثانیه یا با دکمهٔ خداحافظی می‌رود؛ مراجعهٔ بعد ۴ ثانیه بعد می‌رسد. پس از پنجمین مشتری، گزارش و داستان روز بعد باز می‌شود؛ تا زدن دکمهٔ شروع، زمان متوقف است.
+۷. «دفتر روزها» گروه‌بندی مشتری‌ها، مأموریت هر سه روز و وضعیت تحویل‌ها را نشان می‌دهد. خواندن دفتر زمان را نگه می‌دارد. شب، پول و ارتقا حفظ می‌شوند؛ صبح روز دوم و سوم ۲۰٪ از استرس کم و کاغذ تا دست‌کم ۲۰ برگ پر می‌شود.
+
+زمان انتظار و اشتباه
+--------------------
+مهلت هر مراجعه از لحظهٔ ورود ۶۰ ثانیه است. نوار گرافیکی روی کارت سفارش و داخل پنجرهٔ ابزار دیده می‌شود.
+در ثانیهٔ ۳۰ مشتری یک بار مسخره‌ات می‌کند و دقیقاً ۱۵ واحد درصد استرس می‌گیری.
+در ثانیهٔ ۶۰ سفارش شکست می‌خورد و مشتری بدون پرداخت می‌رود؛ درآمد آن مراجعه را ازدست می‌دهی؛ پایان به انتخاب‌های شبانه وابسته است.
+عوض‌کردن مرحله و گفت‌وگو زمان را صفر نمی‌کنند.
+آسان: دو مرحله و راهنمای فوری اشتباه‌ها. سامانه با اولین تلاش پاسخ می‌دهد.
+متوسط: سه مرحله. کار اشتباه انجام می‌شود و فقط موقع تحویل لو می‌رود.
+سخت: سه مرحله، کار کندتر و ورود کد چهاررقمی. حتی کد اشتباه فقط موقع تحویل مشخص می‌شود.
+در متوسط و سخت، مشتری علت اشتباه را می‌گوید و مسخره می‌کند: ۲۵ واحد درصد استرس، صفر دستمزد و انجام دوباره از مرحلهٔ اول.
+زمان باقی‌ماندهٔ همان مراجعه ادامه دارد. در سخت، اعداد فارسی و عربی هم برای کد پذیرفته می‌شوند.
+
+مشتری‌ها و مینی‌گیم‌ها
+----------------------
+رانندهٔ تاکسی: F5 یا دکمهٔ تازه‌سازی؛ پژو پارس سفید، نمایندگی ۱۲۴؛ مهلت ویژه ۴۵ ثانیه.
+کارت سوخت او و کد پستی مادر، انتخاب‌های داستانی با ریسک بازرسی دارند.
+مادر: عکس را ۳×۴، زمینه را خاکستری روشن و حجم را ۴۵ کیلوبایت کن؛ سپس خروجی بگیر.
+پیک: غلطک گیرکرده را آزاد کن، کنتراست بارکد را بالا ببر و در مهلت ویژهٔ ۳۰ ثانیه چاپ کن.
+PDF پیک یک معمای ساختگی با راهنمای DEMO-4312 است؛ هیچ فایل واقعی باز نمی‌شود.
+مرد پیامک: هات‌اسپات را روشن کن و زاویهٔ ۴۵ درجه را انتخاب کن، سپس پیامک نمونه را بگیر.
+جلسهٔ درگاه ۱۲۰ ثانیه است اما صبر مشتری همچنان ۶۰ ثانیه است.
+مسافر: هر چهار تهدید را قرنطینه کن. معاملهٔ مبهم مأموریت دوم پول بیشتر و ریسک بازرسی دارد.
+پیرمرد قبوض: رمز پویا را توضیح بده؛ قبض‌های واحد ۳ را از آب واحد ۴ جدا کن و رسید را مهر آبی بزن.
+روز سوم: رحیمی نوبت بازنشستگی می‌خواهد، نادری آلبوم عکس، آرین بکاپ سیو، مشتری فلش بازیابی مجاز، سارا کارت آزمون، راننده صورتحساب، مادر رضایت‌نامه، پیک برچسب بسته، مرد پیامک تطبیق حساب، مسافر چاپ عمومی و پیرمرد بررسی قبض تکراری.
+فرم: گزینهٔ هر فیلد را انتخاب و ثبت کن. فایل: فقط اسناد خواسته‌شده را داخل بسته بگذار. حسابداری: مبلغ نهایی را خودت وارد کن؛ ارقام فارسی، انگلیسی و جداکنندهٔ هزارگان پذیرفته می‌شوند.
+مشتری‌های تازه: صاحب‌ملک (سکه‌ها، تهدید تخلیه، سهم برق)، دانشجوی دکتری (فونت، صفحهٔ ۵۶، فهرست نهایی)، دلال رمزارز (هات‌اسپات، پروکسی آلوده، سکتور ده‌گیگی). هر کدام در هر روز یک کار متفاوت می‌آورند.
+متن کامل داستان: docs/STORY.fa.md؛ جدول همهٔ مأموریت‌ها: docs/TRAINING_AND_DEV.md.
+
+ارتقا، استرس و پایان
+--------------------
+«ارتقای وسایل» در نوار پایین یا پنجرهٔ استراحت و سرویس باز می‌شود و بازی را مکث می‌کند.
+سیستم و SSD و پرینتر هرکدام سه سطح دارند. هر سطح ۲۰٪ از زمان پایهٔ کار کم می‌کند؛ نهایتاً ۶۰٪ زمان کمتر.
+ارتقای سیستم علاوه بر سرعت، F5 لازم را کمتر می‌کند و از سطح دوم یک تلاش ناموفق سامانه را حذف می‌کند.
+خرید فقط با موجودی واقعی است و وسط عملیات ممکن نیست. ارتقا و هزینهٔ آن ذخیره می‌شوند.
+بالای ۵۰٪ استرس احتمال سوتی هست. در ۱۰۰٪ کیبورد قربانی می‌شود و پایان بد می‌گیری.
+کلیک روی خود استکان چای استرس را کم می‌کند؛ بین دو بار نوشیدن ۲۵ ثانیه صبر کن. چای، نفس عمیق، رادیو و سرویس پرینتر در منوی استراحت و سرویس هم هستند. راهنمای گزینه فقط در آسان نمایش داده می‌شود.
+روزهای ۴ تا ۱۰، هفت فصل شبانه با شاهین، مریم و عمو رحیم هستند. موتورسواری و تعقیب در این نسخه روایت و انتخاب است؛ شهر آزاد یا کنترل موتور ندارد.
+پایان خوب: معاملهٔ شاهین را قطع کن، هیچ دادهٔ مخفی تحویل شبکه نده و سکتورها را با عمو رحیم پاک کن. زئوس باز می‌ماند و کنار مریم چای می‌نوشی؛ پایان میلیاردر شدن حذف شده است.
+تحویل داده برگشت‌پذیر نیست؛ پاک‌سازی بعدی یا رد معامله در شب آخر آن را لغو نمی‌کند. مسیر پرطمع به بازرسی ساعت ۳ و توقیف سیستم‌ها می‌رسد. استرس ۱۰۰٪ هم پایان بد با شکستن کیبورد است.
+کپی و پنهان‌کاری: در مدیریت فایل، کپی آزمایشی هارد را شروع کن. بازرس پس از ۳ ثانیه می‌آید؛ ۲٫۵ ثانیه فرصت پوشاندن با C یا دکمه داری. فرم خودرو کپی را متوقف می‌کند؛ دوباره برگرد تا تمام شود. Alt+Tab معمولاً در اختیار ویندوز است. هر روز یک کپی کامل ۱۵٬۰۰۰ تومان دارد؛ دیده‌شدن ۱۲ استرس و یک ریسک اضافه می‌کند.
+
+حالت دولوپر: N یا د را هنگام بازی بزن. «اسکیپ مشتری» اول می‌پرسد مشتری راضی برود یا ناراضی؛ راضی دستمزد پایه می‌دهد و ناراضی سفارش ازدست‌رفته و بدون پول ثبت می‌کند. لغو، همان مشتری و کار در حال انجام را نگه می‌دارد. موقع سؤال زمان متوقف است. در فیلد تایپ، کلید N حالت را عوض نمی‌کند.
+
+کنترل و ذخیره
+-------------
+۱ کامپیوتر، ۲ پرینتر، ۳ قفسهٔ کنسول، ۴ برگه‌ها. این چهار ابزار کاری به‌علاوهٔ استکان چای قابل کلیک‌اند. قفسه، عکس میز بازی را باز می‌کند: PS3 سمت چپ و PS4 سمت راست؛ روی دستگاه یا دسته‌اش کلیک کن.
+H: نمایش نقاط تعاملی. Escape: بستن پنجره یا توقف. Tab/Enter/Space: کار با دکمه‌ها.
+F5 فقط هنگام مرحلهٔ تازه‌سازی پیش‌فروش، داخل بازی عمل می‌کند.
+توقف، راهنما، ارتقا، دفتر روزها، صفحهٔ شروع روز و رفتن صفحه به پس‌زمینه زمان را متوقف می‌کنند؛ ابزارهای عادی چنین نیستند.
+فارسی/English، صدا، افکت‌ها و تمام‌صفحه از بالا تنظیم می‌شوند.
+ذخیرهٔ خودکار به همین مرورگر و نشانی وابسته است. ذخیره‌های قبلی با حفظ درآمد، ارتقا و سفارش‌های پرداخت‌شده تبدیل می‌شوند؛ سفارش پرداخت‌شده دوباره دستمزد نمی‌دهد. سفارش ناتمام ناسازگار با ترتیب روزها از ابتدا انجام می‌شود.
+برای دیدن ۱۵ مراجعهٔ یک بازی تازه از ابتدا، «داستان تازه از روز اول» را بزن؛ پیشرفت و درآمد همان شیفت صفر می‌شوند.
+
+ENGLISH
+=======
+Open offline.html in Chrome; all images and the font are embedded.
+Alternatively, open index.html with the assets folder beside it. No installation or internet is required.
+
+Open Learn and practise from the main menu first: 12 interactive lessons teach speech, accepting, printing, delivery, tea, patience, upgrades and the six apps in a separate practice room. Your campaign save and money remain intact.
+Story scenes are full-screen: the supplied Nima image is on the right and the partner is on the left. Either speech bubble or Continue dialogue advances speech only. Use the in-scene language button; reading progress is saved. Decisions and Begin day are separate.
+Choose a difficulty, read the day opening and choose Open shop for the day. Read the automatic speech bubble and use Accept order.
+Bubble clicks only advance speech. Click scene equipment; in the computer, choose the appropriate app: Browser, Files, Photo, Scanner, Accounts or Daybook.
+General equipment tests do not advance an order. Finish the tasks, close the panel and use Deliver order.
+Each order pays once. Customers leave after 5 seconds or through Goodbye; the next visit arrives 4 seconds later.
+Five customers, one per category, are selected from the 14-person catalog and return once daily: mission one on day one, two on day two, three on day three. Daily order is shuffled.
+After the fifth visit, a report and the next chapter wait for you. Time is frozen until you open the shop.
+The shelf opens the console bench: click PS3 on the left or PS4 on the right. This also performs an active console-selection task. The daybook marks the five selected customers, groups the full catalog and lists all three missions. Close returns to the previous screen; at an opening, use Begin day to start. Overnight, money and upgrades remain; days two and three reduce stress by 20 points and top paper up to at least 20 sheets.
+
+Patience and errors
+-------------------
+Every visit has 60 seconds, starting at arrival. A graphical clock appears on the order card and in equipment panels.
+At 30 seconds the customer mocks you once and adds exactly 15 stress points.
+At 60 seconds the visit is lost and the customer leaves unpaid. Steps and dialogue do not reset time.
+Easy has two steps, immediate mistake guidance and first-attempt portals.
+Normal has three steps; errors stay hidden until delivery.
+Hard has three slower steps and reference entry. Wrong codes also remain hidden until delivery.
+On Normal/Hard, the customer explains and mocks a wrong delivery: +25 stress points, no payment, redo from step one.
+The original patience clock keeps running. Persian and Arabic-Indic digits work in reference inputs.
+
+New tasks
+---------
+Taxi: use F5 or Refresh, choose white Peugeot Pars / dealership 124; special work deadline: 45 seconds.
+His fuel-card case and the mother's postcode case include risky story decisions.
+Mother: crop to 3×4, select light gray background and 45 KB, then export.
+Courier: release the jammed roller, raise barcode contrast and print; special work deadline: 30 seconds.
+His locked PDF is a fictional puzzle with hint DEMO-4312; no actual file is opened.
+OTP man: enable hotspot, choose 45 degrees by the window, request the demo SMS.
+The gateway session is 120 seconds; customer patience is still only 60 seconds.
+Traveler: quarantine all four sample threats. The second mission offers extra money for inspection risk.
+Grandfather: explain one-time codes, separate unit 3 bills from unit 4 water, and blue-stamp his receipt.
+Day three adds appointment forms, family-photo selection, save backups, authorized recovery, exam admission, fare invoices, school consent, parcel labels, payment reconciliation, public documents and duplicate bills.
+Forms: choose every field. Files: build only the requested bundle. Accounts: enter the final total yourself; Latin, Persian and Arabic-Indic digits and grouping separators work.
+
+Upgrades and endings
+--------------------
+Open Equipment upgrades from the bottom bar or equipment panel. This window pauses gameplay.
+Computer/SSD and printer have three levels each. Each removes 20% of base job time, up to 60% shorter jobs.
+Computer upgrades also reduce required refreshes and remove one portal failure from level 2.
+Purchases require available earnings and cannot happen mid-job. Spending and upgrades are saved.
+Above 50% stress, involuntary fumbles become possible. At 100%, the keyboard breaks and you get the bad ending.
+Click the tea glass to lower stress; wait 25 seconds between drinks. Tea, breathing, radio and printer maintenance are also available from Breaks and maintenance. Choice hints appear only on Easy.
+Days 4–10 are seven night choice chapters with Shahin, Maryam and Uncle Rahim. Riding and pursuit are narrated choices; there is no free-roaming city or motorcycle driving model.
+Good ending: end Shahin’s deal, never hand hidden data to the network, and erase the sectors with Uncle Rahim. Zeus stays open and you drink tea with Maryam; the old billionaire ending is replaced.
+Data handovers cannot be undone by later refusal or local erasure. Greedy routes lead to the 03:00 raid and system seizure. 100% stress still ends in a keyboard smash.
+Copy and cover: start a simulated HDD copy in File Manager. An inspector arrives at 3 seconds; you have 2.5 seconds to press C or Cover. The vehicle form pauses copying; return to resume. Alt+Tab is usually reserved by the OS. One completed copy per workday pays 15,000 tomans; exposure adds 12 stress and one risk.
+
+Developer mode: press N or د during play. Skip customer asks whether they should leave Satisfied (base pay) or Unhappy (lost visit, no pay). Cancel retains the same customer and active job; the question pauses the clock. The shortcut ignores text fields and Ctrl/Alt/Meta-modified shortcuts.
+
+Controls and saves
+------------------
+1 computer, 2 printer, 3 console shelf, 4 desk documents. These workstations and the tea glass are clickable.
+H reveals hotspots. Escape closes a panel or pauses. Tab, Enter and Space operate buttons.
+F5 is intercepted only in the presale refresh step. Top settings control language, audio, effects and fullscreen.
+Pause, guide, upgrades, daybook, day openings and backgrounding the page freeze time; normal equipment windows do not.
+Autosave belongs to the same browser and address. Older saves retain earned income, upgrades and paid-visit credits without duplicate payouts. An unfinished visit that cannot fit the day order restarts from its first step.
+Use New story from day one to start a new selection and replay 15 visits; this resets that shift's progress and money.

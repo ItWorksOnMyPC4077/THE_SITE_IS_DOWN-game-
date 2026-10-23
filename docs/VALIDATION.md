@@ -1,5 +1,7 @@
 # Validation record
 
+> Historical validation of an earlier prototype. See [README](../README.md) and [current version notes](SHIFT_UPDATE.md) for the current HTML build.
+
 **13 October 2026 — Windows, Python 3.12.**
 
 ## Executed
